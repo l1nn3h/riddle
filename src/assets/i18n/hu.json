@@ -6,7 +6,7 @@
   "solution": {
     "inputLabel": "Megfejtés: ",
     "error": "A megfejtés legalább 3 betű vagy szám hosszúságú és tartalmazhat speciális karaktereket.",
-    "success": "Helyes megfejtés! Jöhet a következő?"
-
+    "success": "Helyes megfejtés! Jöhet a következő?",
+    "history": "Megoldási kísérletek: "
   }
 }

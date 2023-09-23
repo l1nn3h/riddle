@@ -6,6 +6,7 @@
   "solution": {
     "inputLabel": "Solution: ",
     "error": "The solution must contain at least three alphanumeric characters and may include special characters.",
-    "success": "Correct. Are you ready for the next challenge?"
+    "success": "Well done! Are you ready for the next riddle?",
+    "history": "Solution attempts: "
   }
 }

@@ -1,9 +1,8 @@
 <div class="riddle-container">
   <div class="riddle-body">
-    <h1>Welcome to the first riddle</h1>
-    <app-help [helpOptions]="helpOptions"></app-help>
-    <app-picture-screen [pictureSource]="pictureSource"></app-picture-screen>
-    <app-solution-input (newSolutionEvent)="getCheckedSolutionInput($event)" [solutionOptions]="solutionOptions"></app-solution-input>
-    <app-solution-history [submittedSolutions]="submittedSolutions"></app-solution-history>
+    <app-help class="box help" [helpOptions]="helpOptions"></app-help>
+    <app-picture-screen class="box content" [pictureSource]="pictureSource"></app-picture-screen>
+    <app-solution-input class="box solution" (newSolutionEvent)="getCheckedSolutionInput($event)" [solutionOptions]="solutionOptions"></app-solution-input>
+    <app-solution-history class="box history" [submittedSolutions]="submittedSolutions"></app-solution-history>
   </div>
 </div>

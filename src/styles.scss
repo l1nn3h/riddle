@@ -10,25 +10,60 @@ body {
   text-align: center;
 
   .riddle-body {
-    background-color: #f69a9a;
+    height: 100vh;
+    display: grid;
+    grid-gap: 0.5vw;
+    background-color: #858181;
+    color: #444;
 
-    h1 {
-      margin: 0;
+    .box {
+      background-color: #444;
+      color: #fff;
+      border-radius: 5px;
+      padding: 20px;
+      font-size: 150%;
     }
 
-    //TODO
-    .picture-screen-container {
-      margin: 0 auto;
-      max-height: 50vh;
-      background-color: #adea75;
-      padding: 10px;
-      max-width: 800px;
+    .content {
+      .picture-screen-container {
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
 
-      .riddle-image {
-        width: 50%;
-        height: 50%;
-        object-fit: fill;
+        .picture-content {
+          background-size: cover;
+          background-repeat: no-repeat;
+          min-height: 200px;
+          min-width: 200px;
+          height: 100%;
+          width: 100%;
+          border-radius: 5px;
+          margin: auto;
+        }
 
+      }
+    }
+
+    .history {
+      .solution-history-container {
+        max-height: 95vh;
+        overflow-y: auto;
+        overflow-x: hidden;
+        text-align: justify;
+        font-weight: bold;
+
+        .correct {
+          color: green;
+        }
+
+        .incorrect {
+          color: red;
+        }
+      }
+
+      .solution-history-container::-webkit-scrollbar {
+        display: none;
+        width: 0 !important
       }
     }
 
@@ -37,6 +72,29 @@ body {
         color: #ab1f1f;
         font-weight: bold;
       }
+    }
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .riddle-body {
+    grid-template-columns: 10vw 64vw 25vw;
+
+    .help {
+      grid-column: 1;
+      grid-row: 1 / span 6;
+    }
+    .content {
+      grid-column: 2 / span 1;
+      grid-row: 1 / span 5;
+    }
+    .solution {
+      grid-column: 2 / span 1;
+      grid-row: 6 / span 1;
+    }
+    .history {
+      grid-column: 3 / span 1;
+      grid-row: 1 / span 6;
     }
   }
 }

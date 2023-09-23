@@ -9,7 +9,7 @@ import {CheckedSolutionInputModel} from '../../../../models/checked-solution-inp
 })
 export class RiddleOneComponent {
 
-  pictureSource:string = "/assets/images/riddles/cat.png";
+  pictureSource:string = "/assets/images/riddles/cat.jpg";
   submittedSolutions:CheckedSolutionInputModel[] = [];
   solutionOptions:string[] = ["correct", "right"];
   helpOptions:HelpOptionModel[] = [
@@ -35,7 +35,7 @@ export class RiddleOneComponent {
 
   getCheckedSolutionInput(newCheckedInput: CheckedSolutionInputModel) {
     console.log("Newly submitted: " + newCheckedInput.solution + ", " + newCheckedInput.correct);
-    this.submittedSolutions.push(newCheckedInput);
+    this.submittedSolutions.unshift(newCheckedInput);
     console.log(this.submittedSolutions);
   }
 
