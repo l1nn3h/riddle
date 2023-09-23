@@ -2,5 +2,10 @@
   "title": "Riddle game",
   "welcomePage": {
     "welcome": "Welcome to Riddle"
+  },
+  "solution": {
+    "inputLabel": "Solution: ",
+    "error": "The solution must contain at least three alphanumeric characters and may include special characters.",
+    "success": "Correct. Are you ready for the next challenge?"
   }
 }

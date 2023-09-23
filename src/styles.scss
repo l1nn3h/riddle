@@ -3,3 +3,40 @@
 body {
   margin: 0 !important;
 }
+
+.riddle-container {
+  margin: 0 auto;
+  background-color: #8d8888;
+  text-align: center;
+
+  .riddle-body {
+    background-color: #f69a9a;
+
+    h1 {
+      margin: 0;
+    }
+
+    //TODO
+    .picture-screen-container {
+      margin: 0 auto;
+      max-height: 50vh;
+      background-color: #adea75;
+      padding: 10px;
+      max-width: 800px;
+
+      .riddle-image {
+        width: 50%;
+        height: 50%;
+        object-fit: fill;
+
+      }
+    }
+
+    .solution-input-container {
+      .input-error {
+        color: #ab1f1f;
+        font-weight: bold;
+      }
+    }
+  }
+}

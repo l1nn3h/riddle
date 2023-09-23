@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
+import {HelpOptionModel} from '../../models/help-option-model';
 
 @Component({
   selector: 'app-help',
@@ -7,5 +8,6 @@ import { Component } from '@angular/core';
 })
 export class HelpComponent {
 
+  @Input() public helpOptions: HelpOptionModel[];
 
 }

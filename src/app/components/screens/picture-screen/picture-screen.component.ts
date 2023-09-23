@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
   selector: 'app-picture-screen',
@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class PictureScreenComponent {
 
-
+@Input() pictureSource:string;
 }

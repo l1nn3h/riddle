@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
+import {CheckedSolutionInputModel} from '../../models/checked-solution-input-model';
 
 @Component({
   selector: 'app-solution-history',
@@ -6,6 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./solution-history.component.scss']
 })
 export class SolutionHistoryComponent  {
+  @Input() submittedSolutions:CheckedSolutionInputModel[] = [];
 
 
 

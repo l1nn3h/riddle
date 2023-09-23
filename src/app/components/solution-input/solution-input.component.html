@@ -1,3 +1,24 @@
-<p>
-  solution-input works!
-</p>
+<div class="solution-container">
+  <div class="solution-input-container" *ngIf="!solutionFound">
+    <form [formGroup]="myForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="textInput" *transloco="let t, read:'solution'">{{t("inputLabel")}}</label>
+        <input
+          type="text"
+          id="textInput"
+          name="textInput"
+          class="form-control"
+          formControlName="textInput"
+        />
+        <div class="input-error" *ngIf="myForm.get('textInput').hasError('pattern')">
+          <p *transloco="let t, read:'solution'">
+            {{t("error")}}
+          </p>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="solution-feedback-container" *ngIf="solutionFound">
+    <p *transloco="let t, read:'solution'">{{t("success")}}</p>
+  </div>
+</div>

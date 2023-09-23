@@ -2,5 +2,11 @@
   "title": "Riddle játék",
   "welcomePage": {
     "welcome": "Üdv a Riddle játékban!"
+  },
+  "solution": {
+    "inputLabel": "Megfejtés: ",
+    "error": "A megfejtés legalább 3 betű vagy szám hosszúságú és tartalmazhat speciális karaktereket.",
+    "success": "Helyes megfejtés! Jöhet a következő?"
+
   }
 }

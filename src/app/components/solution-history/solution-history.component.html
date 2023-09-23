@@ -1,3 +1,5 @@
-<p>
-  solution-history works!
-</p>
+<div class="solution-history-container">
+  <div *ngFor="let sol of submittedSolutions">
+    <p [ngClass]="sol.correct ? 'correct' : 'incorrect'">{{sol.solution}}</p>
+  </div>
+</div>

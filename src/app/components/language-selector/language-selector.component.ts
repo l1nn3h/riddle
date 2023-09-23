@@ -16,7 +16,6 @@ export class LanguageSelectorComponent {
   changeLanguage(language: string) {
     this.currentLanguage = language;
     this.translateService.setActiveLang(language);
-    console.log("Language changed to " + language);
   }
 
 }

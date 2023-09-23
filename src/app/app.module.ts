@@ -14,6 +14,8 @@ import { RiddleOneComponent } from './components/pages/riddles/riddle-one/riddle
 import { LanguageSelectorComponent } from './components/language-selector/language-selector.component';
 import { HttpClientModule } from '@angular/common/http';
 import { TranslocoRootModule } from './transloco-root.module';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {NgOptimizedImage} from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -28,12 +30,15 @@ import { TranslocoRootModule } from './transloco-root.module';
     RiddleOneComponent,
     LanguageSelectorComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    HttpClientModule,
-    TranslocoRootModule,
-  ],
+            imports: [
+              BrowserModule,
+              AppRoutingModule,
+              HttpClientModule,
+              TranslocoRootModule,
+              FormsModule,
+              ReactiveFormsModule,
+              NgOptimizedImage,
+            ],
   providers: [],
   bootstrap: [AppComponent]
 })
