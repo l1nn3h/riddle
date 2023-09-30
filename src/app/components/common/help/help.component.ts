@@ -1,4 +1,4 @@
-import {Component, Input, OnChanges, OnInit, SimpleChanges} from '@angular/core';
+import {Component, Input, OnChanges, SimpleChanges} from '@angular/core';
 import {HelpOptionModel} from '../../../models/help-option-model';
 import {HelpTypeEnum} from '../../../enums/help-type-enum';
 

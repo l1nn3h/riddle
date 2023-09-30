@@ -1,6 +1,4 @@
-import { Component } from '@angular/core';
-import {CheckedSolutionInputModel} from '../../../models/checked-solution-input-model';
-import {HelpOptionModel} from '../../../models/help-option-model';
+import {Component} from '@angular/core';
 import {RiddleModel} from '../../../models/riddle.model';
 import {RiddleService} from '../../../services/riddle.service';
 import {SolvedRiddleModel} from '../../../models/solved-riddle.model';
