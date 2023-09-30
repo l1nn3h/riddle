@@ -1,0 +1,7 @@
+<div class="help-container">
+  <div class="help-item" *ngFor="let help of helpOptions; index as i">
+    <div class="help-item">
+      <span *transloco="let t, read:'help'">{{t(help.content)}}</span>
+    </div>
+  </div>
+</div>

@@ -1,5 +1,5 @@
 import {Component, Input} from '@angular/core';
-import {CheckedSolutionInputModel} from '../../models/checked-solution-input-model';
+import {CheckedSolutionInputModel} from '../../../models/checked-solution-input-model';
 
 @Component({
   selector: 'app-solution-history',

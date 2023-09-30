@@ -1,0 +1,9 @@
+<div class="riddle-container">
+  <div class="riddle-body">
+    <app-topic class="box topic" [topic]="riddle.topic"></app-topic>
+    <app-help class="box help" [helpOptions]="riddle.help"></app-help>
+    <app-picture-screen class="box content" [pictureSource]="riddle.image"></app-picture-screen>
+    <app-solution-input class="box solution" (newSolutionEvent)="getCheckedSolutionInput($event)" [solutionOptions]="riddle.solutions"></app-solution-input>
+    <app-solution-history class="box history" [submittedSolutions]="submittedSolutions"></app-solution-history>
+  </div>
+</div>

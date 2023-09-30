@@ -1,5 +1,5 @@
 <div class="solution-history-container">
-  <h3 *transloco="let t, read:'solution'">{{t('history')}} {{submittedSolutions.length}}</h3>
+  <p *transloco="let t, read:'solution'">{{t('history')}}</p>
   <div *ngFor="let sol of submittedSolutions">
     <p [ngClass]="sol.correct ? 'correct' : 'incorrect'">{{sol.solution}}</p>
   </div>

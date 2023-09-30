@@ -1,6 +1,6 @@
 import {Component, EventEmitter, Input, Output} from '@angular/core';
 import {FormBuilder, FormGroup, Validators} from '@angular/forms';
-import {CheckedSolutionInputModel} from '../../models/checked-solution-input-model';
+import {CheckedSolutionInputModel} from '../../../models/checked-solution-input-model';
 
 @Component({
              selector: 'app-solution-input',

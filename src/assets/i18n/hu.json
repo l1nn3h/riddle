@@ -7,6 +7,20 @@
     "inputLabel": "Megfejtés: ",
     "error": "A megfejtés legalább 3 betű vagy szám hosszúságú és tartalmazhat speciális karaktereket.",
     "success": "Helyes megfejtés! Jöhet a következő?",
-    "history": "Megoldási kísérletek: "
+    "history": "Megoldás előzmények"
+  },
+  "poorKitty": "szegény cica",
+  "riddleTitle": {
+    "science": "Tudomány",
+    "celebration": "Congratulations!",
+    "infamous": "(In)famous"
+  },
+  "help": {
+    "catSmall": "Kis cica segítség",
+    "catLarge": "Nagy cica segítség",
+    "catSolution": "Cica megoldás",
+    "peopleSmall": "Kis emberek segítség",
+    "peopleLarge": "Nagy emberek segítség",
+    "peopleSolution": "Embrek megoldás"
   }
 }

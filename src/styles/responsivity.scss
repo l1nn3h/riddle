@@ -1,0 +1,142 @@
+@import "./mixins";
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  .riddle-body {
+    overflow-x: scroll;
+    grid-template-columns: 90vw;
+    grid-template-rows: 8vh 10vh 60vw 10vh auto;
+    grid-gap: 1vh;
+    margin: 0 5vw;
+
+    .topic {
+      grid-column: 1;
+      grid-row: 1 / span 1;
+    }
+
+    .help {
+      grid-column: 1;
+      grid-row: 2 / span 1;
+      @include help-in-columns;
+    }
+
+    .content {
+      grid-column: 1;
+      grid-row: 3;
+    }
+
+    .solution {
+      grid-column: 1;
+      grid-row: 4;
+    }
+
+    .history {
+      grid-column: 1;
+      grid-row: 5;
+      max-height: inherit;
+    }
+  }
+  .riddle-body::-webkit-scrollbar {
+    @include hide-scrollbar;
+  }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .riddle-body {
+    grid-template-rows: 2fr 1fr 1fr 6fr 2fr 2fr;
+    grid-template-columns: 6fr 2fr;
+    grid-gap: 10px;
+    margin: 0 1vw;
+
+    .topic {
+      grid-column: 1;
+      grid-row: 2;
+    }
+
+    .help {
+      grid-column: 1;
+      grid-row: 3;
+      @include help-in-columns;
+    }
+
+    .content {
+      grid-column: 1;
+      grid-row: 4;
+    }
+
+    .solution {
+      grid-column: 1;
+      grid-row: 5;
+    }
+
+    .history {
+      overflow: scroll;
+      grid-column: 2;
+      grid-row: 2 / span 4;
+    }
+
+    .history::-webkit-scrollbar {
+      @include hide-scrollbar;
+    }
+  }
+}
+
+//Large devices (desktops, less than 1200px) to X-Large devices (large desktops, less than 1400px)
+@media (min-width: 992px)  {
+  .riddle-body {
+    overflow-x: hidden;
+    grid-template-rows: 1fr 1fr 10fr 2fr 1fr;
+    grid-template-columns: 1fr 7fr 2fr;
+    grid-gap: 15px;
+    margin: 0 auto;
+    max-width: 1200px;
+
+    .topic {
+      grid-column: 1 / span 2;
+      grid-row: 2;
+    }
+
+    .help {
+      grid-column: 1;
+      grid-row: 3 / span 2;
+      @include help-in-rows;
+    }
+
+    .content {
+      grid-column: 2;
+      grid-row: 3;
+    }
+
+    .solution {
+      grid-column: 2;
+      grid-row: 4;
+    }
+
+    .history {
+      overflow: scroll;
+      grid-column: 3;
+      grid-row: 2 / span 3;
+    }
+
+    .history::-webkit-scrollbar {
+      @include hide-scrollbar;
+    }
+  }
+}
+
+// XX-Large devices (large desktops, less than 1400px)
+@media (min-width: 1400px) {
+  .riddle-body {
+    .topic {
+      grid-column: 1 / span 3;
+      grid-row: 2;
+    }
+
+    .history {
+      overflow: scroll;
+      grid-column: 3;
+      grid-row: 3 / span 2;
+    }
+  }
+}

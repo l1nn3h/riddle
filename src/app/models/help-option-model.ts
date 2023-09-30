@@ -1,6 +1,9 @@
+import {HelpTypeEnum} from '../enums/help-type-enum';
+
 export interface HelpOptionModel {
-  order: number;
-  textEng: string;
-  textHun: string;
+  index: number;
+  content: string;
   used: boolean;
+  typeText: string;
+  type: HelpTypeEnum;
 }

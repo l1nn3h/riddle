@@ -1,5 +1,5 @@
 <div class="solution-container">
-  <div class="solution-input-container" *ngIf="!solutionFound">
+  <div class="solution-input-container">
     <form [formGroup]="myForm" (ngSubmit)="onSubmit()">
       <div class="form-group">
         <label for="textInput" *transloco="let t, read:'solution'">{{t("inputLabel")}}</label>
@@ -17,8 +17,5 @@
         </div>
       </div>
     </form>
-  </div>
-  <div class="solution-feedback-container" *ngIf="solutionFound">
-    <p *transloco="let t, read:'solution'">{{t("success")}}</p>
   </div>
 </div>

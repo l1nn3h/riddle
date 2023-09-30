@@ -7,6 +7,20 @@
     "inputLabel": "Solution: ",
     "error": "The solution must contain at least three alphanumeric characters and may include special characters.",
     "success": "Well done! Are you ready for the next riddle?",
-    "history": "Solution attempts: "
+    "history": "Solution history"
+  },
+  "poorKitty": "poor kitty",
+  "riddleTitle": {
+    "science": "Science",
+    "celebration": "Congratulations!",
+    "infamous": "(In)famous"
+  },
+  "help": {
+    "catSmall": "Small help for cat",
+    "catLarge": "Large help for cat",
+    "catSolution": "Cat solution",
+    "peopleSmall": "Small help for people",
+    "peopleLarge": "Large help for people",
+    "peopleSolution": "People solution"
   }
 }
