@@ -4,7 +4,7 @@
     "topic": "science",
     "image": "/assets/images/riddles/cat.jpg",
     "code": "poorKitty",
-    "solutions": ["schrödinger", "schrodinger", "schrödinger's cat", "schrodinger's cat", "schrödinger cat", "schrodinger cat", "erwin schrödinger", "erwin schrodinger"],
+    "solutions": ["schrödinger", "schrodinger", "schrödinger's cat", "schrodinger's cat", "schrödinger cat", "schrödinger macskája","schrödinger macska", "schrodinger cat", "erwin schrödinger", "erwin schrodinger"],
     "help": [
       {
         "index": 0,
@@ -17,7 +17,7 @@
         "index": 1,
         "content": "catLarge",
         "used": false,
-        "typeText": "link",
+        "typeText": "text",
         "type": null
       },
       {
@@ -34,7 +34,7 @@
     "topic": "infamous",
     "image": "/assets/images/riddles/people.jpg",
     "code": "skip",
-    "solutions": ["hello"],
+    "solutions": ["charles manson"],
     "help": [
       {
         "index": 0,
@@ -47,7 +47,7 @@
         "index": 1,
         "content": "peopleLarge",
         "used": false,
-        "typeText": "image",
+        "typeText": "text",
         "type": null
       },
       {

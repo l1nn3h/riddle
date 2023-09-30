@@ -16,11 +16,11 @@
     "infamous": "(In)famous"
   },
   "help": {
-    "catSmall": "Small help for cat",
-    "catLarge": "Large help for cat",
-    "catSolution": "Cat solution",
-    "peopleSmall": "Small help for people",
-    "peopleLarge": "Large help for people",
-    "peopleSolution": "People solution"
+    "catSmall": "Superposition",
+    "catLarge": "Alive and dead",
+    "catSolution": "Schrödinger's cat",
+    "peopleSmall": "1 + 2 - 1 = 2",
+    "peopleLarge": "Charles: 1, Marilyn: 2",
+    "peopleSolution": "Charles Manson"
   }
 }

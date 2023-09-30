@@ -30,11 +30,36 @@ body {
     }
 
     .topic-container {
-
       h3 {
         margin: 0;
       }
+    }
 
+    .help-container {
+      .help-item {
+        i {
+          font-size: 40px;
+          cursor: pointer;
+        }
+        i:hover {
+          font-size: 50px;
+        }
+
+        .fa-lightbulb {
+          color: #e8e823;
+          @include icon-shadow(#7e7e0f);
+        }
+
+        .fa-magnifying-glass {
+          color: #d37c28;
+          @include icon-shadow(#8d4904);
+        }
+
+        .fa-folder-open {
+          color: #ec1919;
+          @include icon-shadow(#7a0e0e);
+        }
+      }
     }
 
     .content {

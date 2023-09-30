@@ -1,7 +1,21 @@
 <div class="help-container">
-  <div class="help-item" *ngFor="let help of helpOptions; index as i">
-    <div class="help-item">
-      <span *transloco="let t, read:'help'">{{t(help.content)}}</span>
-    </div>
+    <div class="help-item" *ngFor="let help of helpOptions; index as i">
+      <div *ngIf="!help.used">
+        <span><i (click)="revealClue(i)" class="{{icons[i]}}"></i></span>
+      </div>
+      <div *ngIf="help.used">
+        <div *ngIf="help.type === HelpTypeEnum.text">
+          <span *transloco="let t, read:'help'">{{t(help.content)}}</span>
+        </div>
+        <div *ngIf="help.type === HelpTypeEnum.link">
+          <span>There will be a link here</span>
+        </div>
+        <div *ngIf="help.type === HelpTypeEnum.image">
+          <span>There will be an image here</span>
+        </div>
+        <div *ngIf="help.type === HelpTypeEnum.sound">
+        <span>There will be sound here</span>
+        </div>
+      </div>
   </div>
 </div>

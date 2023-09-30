@@ -30,3 +30,7 @@
     grid-gap: 5px;
   }
 }
+
+@mixin icon-shadow($color) {
+  text-shadow: 4px 5px 8px $color;
+}

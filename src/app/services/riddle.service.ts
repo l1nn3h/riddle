@@ -14,7 +14,6 @@ export class RiddleService {
 
   constructor() {
     this.currentRiddleIndex = 0;
-    console.log(this.riddles);
   }
 
   startNewGame(): RiddleModel {
@@ -26,7 +25,6 @@ export class RiddleService {
   }
 
   getCurrentRiddle(): RiddleModel {
-    console.log('currentIndex: ' + this.currentRiddleIndex);
     return this.riddles[this.currentRiddleIndex];
   }
 

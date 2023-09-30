@@ -1,5 +1,5 @@
 <div class="solution-container">
-  <div class="solution-input-container">
+  <div class="solution-input-container" *ngIf="solutionOptions.length">
     <form [formGroup]="myForm" (ngSubmit)="onSubmit()">
       <div class="form-group">
         <label for="textInput" *transloco="let t, read:'solution'">{{t("inputLabel")}}</label>
