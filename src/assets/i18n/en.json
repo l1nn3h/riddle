@@ -42,13 +42,13 @@
     "infamous": "(In)famous"
   },
   "help": {
-    "catSmall": "Superposition",
-    "catLarge": "Alive and dead",
+    "catOne": "Superposition",
+    "catTwo": "Alive and dead",
     "catSolution": "Schrödinger's cat",
-    "peopleSmall": "1 + 2 - 1 = 2",
-    "peopleLarge": "Charles: 1, Marilyn: 2",
+    "peopleOne": "One plus Two minus One",
+    "peopleTwo": "Charles: 1, Marilyn: 2",
     "peopleSolution": "Charles Manson",
-    "flagsSmall": "Poland + France",
+    "flagsOne": "Poland + France",
     "flagsSolution": "Marie Curie"
   }
 }

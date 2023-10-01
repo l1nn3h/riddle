@@ -8,7 +8,7 @@
     "help": [
       {
         "index": 0,
-        "content": "flagsSmall",
+        "content": "flagsOne",
         "used": false,
         "typeText": "text",
         "type": null
@@ -38,14 +38,14 @@
     "help": [
       {
         "index": 0,
-        "content": "catSmall",
+        "content": "catOne",
         "used": false,
         "typeText": "text",
         "type": null
       },
       {
         "index": 1,
-        "content": "catLarge",
+        "content": "catTwo",
         "used": false,
         "typeText": "text",
         "type": null
@@ -68,14 +68,14 @@
     "help": [
       {
         "index": 0,
-        "content": "peopleSmall",
+        "content": "peopleOne",
         "used": false,
         "typeText": "text",
         "type": null
       },
       {
         "index": 1,
-        "content": "peopleLarge",
+        "content": "peopleTwo",
         "used": false,
         "typeText": "text",
         "type": null

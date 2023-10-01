@@ -42,13 +42,13 @@
     "infamous": "(In)famous"
   },
   "help": {
-    "catSmall": "Szuperpozíció",
-    "catLarge": "Élő és halott",
+    "catOne": "Szuperpozíció",
+    "catTwo": "Élő és halott",
     "catSolution": "Schrödinger macskája",
-    "peopleSmall": "1+2-1=2",
-    "peopleLarge": "Charles: 1, Marilyn: 2",
+    "peopleOne": "Egy meg Kettő mínusz Egy",
+    "peopleTwo": "Charles: 1, Marilyn: 2",
     "peopleSolution": "Charles Manson",
-    "flagsSmall": "Lengyel + Francia",
+    "flagsOne": "Lengyel + Francia",
     "flagsSolution": "Marie Curie"
   }
 }
