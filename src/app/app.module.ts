@@ -18,6 +18,7 @@ import {NgOptimizedImage} from '@angular/common';
 import {GameScreenComponent} from './components/common/game-screen/game-screen.component';
 import {GameComponent} from './components/pages/game/game.component';
 import {TopicComponent} from './components/common/topic/topic.component';
+import { ContactComponent } from './components/pages/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import {TopicComponent} from './components/common/topic/topic.component';
     LanguageSelectorComponent,
     GameScreenComponent,
     GameComponent,
-    TopicComponent
+    TopicComponent,
+    ContactComponent
   ],
             imports: [
               BrowserModule,

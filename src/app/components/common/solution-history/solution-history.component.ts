@@ -9,6 +9,4 @@ import {CheckedSolutionInputModel} from '../../../models/checked-solution-input-
 export class SolutionHistoryComponent  {
   @Input() submittedSolutions:CheckedSolutionInputModel[] = [];
 
-
-
 }

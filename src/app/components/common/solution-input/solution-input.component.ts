@@ -31,7 +31,8 @@ export class SolutionInputComponent {
   private checkSolution(input: string): CheckedSolutionInputModel {
     const checkedSolution: CheckedSolutionInputModel = {
       solution: input,
-      correct: false
+      correct: false,
+      isCode: false
     }
     if (this.solutionOptions.includes(input.toLowerCase())) {
       checkedSolution.correct = true;

@@ -9,9 +9,13 @@ import {HelpTypeEnum} from '../../../enums/help-type-enum';
            })
 export class HelpComponent implements OnChanges {
 
+  protected readonly HelpTypeEnum = HelpTypeEnum;
   @Input() public helpOptions: HelpOptionModel[];
+  protected isAudioPlaying: boolean = false;
+  public audioElement: HTMLAudioElement | null = null;
+
   public icons: string[] = ['fa-solid fa-lightbulb',
-                            'fa-solid fa-magnifying-glass',
+                            'fa-solid fa-lightbulb',
                             'fa-solid fa-folder-open'];
 
   public ngOnChanges(): void {
@@ -24,5 +28,23 @@ export class HelpComponent implements OnChanges {
     this.helpOptions[index].used = true;
   }
 
-  protected readonly HelpTypeEnum = HelpTypeEnum;
+  public play(file: string) :void {
+    let audio = new Audio();
+    audio.src = file;
+    audio.load();
+    audio.play().then(r => {
+      this.audioElement = audio;
+    });
+    audio.addEventListener('ended', () => {
+      this.audioElement = null;
+    });
+  }
+
+  public stop(): void {
+    if (this.audioElement) {
+      this.audioElement.pause();
+      this.audioElement = null;
+      this.isAudioPlaying = false;
+    }
+  }
 }

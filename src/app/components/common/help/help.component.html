@@ -1,6 +1,6 @@
 <div class="help-container">
     <div class="help-item" *ngFor="let help of helpOptions; index as i">
-      <div *ngIf="!help.used">
+      <div class="help-icon" *ngIf="!help.used">
         <span><i (click)="revealClue(i)" class="{{icons[i]}}"></i></span>
       </div>
       <div *ngIf="help.used">
@@ -13,8 +13,9 @@
         <div *ngIf="help.type === HelpTypeEnum.image">
           <span>There will be an image here</span>
         </div>
-        <div *ngIf="help.type === HelpTypeEnum.sound">
-        <span>There will be sound here</span>
+        <div class="audio" *ngIf="help.type === HelpTypeEnum.sound">
+          <span *ngIf="!audioElement" (click)="play(help.content)"><i class="fa-solid fa-play"></i></span>
+          <span *ngIf="audioElement" (click)="stop()"><i class="fa-solid fa-stop"></i></span>
         </div>
       </div>
   </div>

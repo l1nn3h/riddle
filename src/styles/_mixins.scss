@@ -20,6 +20,15 @@
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     align-items: center;
+    .help-item {
+      i {
+        font-size: 50px;
+      }
+
+      i:hover {
+        font-size: 55px;
+      }
+    }
   }
 }
 
@@ -28,6 +37,29 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5px;
+    height: 100%;
+
+    .help-item {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .help-icon, .audio {
+        height: 100%;
+        width: 100%;
+
+        i {
+          position:relative;
+          top: calc(50% - 12px);
+          font-size: 24px;
+        }
+
+        i:hover {
+          font-size: 22px;
+        }
+      }
+    }
   }
 }
 

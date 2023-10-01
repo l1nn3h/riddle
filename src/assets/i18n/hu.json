@@ -1,7 +1,28 @@
 {
   "title": "Riddle játék",
   "welcomePage": {
-    "welcome": "Üdv a Riddle játékban!"
+    "welcome": "Üdv a Riddle játékban!",
+    "intro": "A böngészőben játszható riddle játékok nagy népszerűségnek örvendtek pár évvel ezelőtt (és persze pár év alatt kb 20-at értek). Közülök az egyik legismertebb, a Notpron, a mai napig elérhető. Én annyira megkedveltem őket, hogy készítettem én is párat az elmúlt években.",
+    "about": "A játék végtelenül egyszerű: minden feladvány egyetlen képrejtvényből áll, ennek a megoldását kell megtalálnod. A helyes válasz megadása után a játék következő oldalán találod magad, ahol egy új feladvány vár, amíg a végére nem érsz. Hogy ez a játék tényleg egyszerű legyen, nincsenek sunyin elrejtett nyomok, nem kell a böngészősávban nyomozni vagy a fejlesztői eszközöket böngészni, csak a képrejtvényt megfejteni.",
+    "explore": "Nézzük meg a játék felületét egy próbarejtvénnyel!",
+    "dummyImage": "TODO: itt majd egy magyar nyelvű kép lesz.",
+    "titleBar": "Minden oldal tetején van egy cím, amely a rejtvény témáját jeleníti meg. A legtöbb esetben nem lesz rá szükség, de hasznos lehet az elinduláshoz.",
+    "image": "Az oldal kellős közepén van maga a rejtvény, a kép, amit meg kell fejtened, hogy továbbjuss a játékban.",
+    "helpBarStart": "Van egy súgó sáv is, hiszen senki sem jártas minden témában. A két sárga izzó egy-egy segítséget rejt, amit kattintásra felfednek. Ezek a segítségek többfélék is lehetnek:",
+    "helpText": "egyszerű szöveg",
+    "helpImage": "apró kép, ami kattintásra megnő",
+    "helpSound": "kattintható lejátszás ikon hangfájllal",
+    "helpLink": "vagy egy külső forrásra mutató link további infóval az adott témában",
+    "helpBarEnd": "A súgó sáv harmadik eleme egy piros mappa, ami felfedi a rejtvény megoldását. A segítségeket és a megoldást is bármikor megnézheted, de azt javasolnám, hogy hagyj előtte magadnak egy kis időt átgondolni a feladványt. A játék nem tartja számon a felhasznált segítségek számát, ahogyan a játékban töltött időt sem, így csak rajtad múlik, hogy hogyan szeretnél játszani!",
+    "solution": "Ha úgy gondolod, hogy megvan a megfejtés, írd be megoldás mezőbe és küldd el - az enter gomb megnyomásával, vagy a küldés gombra kattintva. Ha a megoldásod helytelen volt, a megoldás előzményekben piros színnel jelenik meg. Ha helyes volt a válaszod, azt zöld színben látod újra ugyanitt, és természetesen továbbjutsz a következő feladványra.",
+    "code": "Amennyiben nem érnél el a játék végére az első alkalommal vagy frissíted az oldalt, elveszik a jelenlegi helyed és az elejéről kell kezdened a játékot. Ez azért nem teljesen igaz. A helyes megoldás beküldésekor még egy sor jelenik meg kék színnel, ami egy kódot tartalmaz. Ezzel a kóddal bármikor visszatérhetsz az aktuális feladványhoz, átugorva a már megoldottakat. A kódnak köze lesz az imént megoldott rejtvényhez, hogy azt könnyebben meg tudd jegyezni, de érdemes lehet őket feljegyezni.",
+    "callToAction": "Meg is vagyunk, most már készen állsz a riddle kaland megkezdésére! Kezdj új játékot a Játék indítása gombra kattintva vagy add meg a legutolsó kódod a folytatáshoz!",
+    "newGame": "Játék indítása",
+    "writeCode": "Feladványra ugrás: ",
+    "codeButton": "Küldés",
+    "wrongCode": "Helytelen kód, kérlek próbáld újra!",
+    "correctCode": "Helyes kód, a játék folytatásához nyomd meg a gombot!",
+    "skipButton": "Játék folytatása"
   },
   "solution": {
     "inputLabel": "Megfejtés: ",
@@ -9,7 +30,12 @@
     "success": "Helyes megfejtés! Jöhet a következő?",
     "history": "Megoldás előzmények"
   },
-  "poorKitty": "szegény cica",
+  "code": {
+    "description": "Kód: ",
+    "poorKitty": "szegény cica",
+    "polonium": "polónium",
+    "cult": "szekta"
+  },
   "riddleTitle": {
     "science": "Tudomány",
     "celebration": "Congratulations!",
@@ -21,6 +47,8 @@
     "catSolution": "Schrödinger macskája",
     "peopleSmall": "1+2-1=2",
     "peopleLarge": "Charles: 1, Marilyn: 2",
-    "peopleSolution": "Charles Manson"
+    "peopleSolution": "Charles Manson",
+    "flagsSmall": "Lengyel + Francia",
+    "flagsSolution": "Marie Curie"
   }
 }

@@ -2,6 +2,36 @@
   {
     "index": 0,
     "topic": "science",
+    "image": "/assets/images/riddles/flags.jpg",
+    "code": "polonium",
+    "solutions": ["marie curie", "madame curie", "marie skłodowska","marie sklodowska"],
+    "help": [
+      {
+        "index": 0,
+        "content": "flagsSmall",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      },
+      {
+        "index": 1,
+        "content": "/assets/audio/imagine_dragons.mp3",
+        "used": false,
+        "typeText": "sound",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "flagsSolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "index": 1,
+    "topic": "science",
     "image": "/assets/images/riddles/cat.jpg",
     "code": "poorKitty",
     "solutions": ["schrödinger", "schrodinger", "schrödinger's cat", "schrodinger's cat", "schrödinger cat", "schrödinger macskája","schrödinger macska", "schrodinger cat", "erwin schrödinger", "erwin schrodinger"],
@@ -30,10 +60,10 @@
     ]
   },
   {
-    "index": 1,
+    "index": 2,
     "topic": "infamous",
     "image": "/assets/images/riddles/people.jpg",
-    "code": "skip",
+    "code": "cult",
     "solutions": ["charles manson"],
     "help": [
       {
