@@ -32,7 +32,7 @@ export class HelpComponent implements OnChanges {
     let audio = new Audio();
     audio.src = file;
     audio.load();
-    audio.play().then(r => {
+    audio.play().then(() => {
       this.audioElement = audio;
     });
     audio.addEventListener('ended', () => {
