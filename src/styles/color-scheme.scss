@@ -1,0 +1,30 @@
+@import "./mixins";
+@import "./colors";
+
+.light-theme {
+  @include theme-colors($light-background, $light-text, $light-shadow, $light-line);
+}
+
+.gray-theme {
+  @include theme-colors($gray-background, $gray-text, $gray-shadow, $gray-line);
+}
+
+.dark-theme {
+  @include theme-colors($dark-background, $dark-text, $dark-shadow, $dark-line);
+}
+
+.blue-theme {
+  @include theme-colors($blue-background, $blue-text, $blue-shadow, $blue-line);
+}
+
+.purple-theme {
+  @include theme-colors($purple-background, $purple-text, $purple-shadow, $purple-line);
+}
+
+.sand-theme {
+  @include theme-colors($sand-background, $sand-text, $sand-shadow, $sand-line);
+}
+
+.pink-theme {
+  @include theme-colors($pink-background, $pink-text, $pink-shadow, $pink-line);
+}

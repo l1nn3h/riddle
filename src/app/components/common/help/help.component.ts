@@ -31,6 +31,7 @@ export class HelpComponent implements OnChanges {
   public play(file: string) :void {
     let audio = new Audio();
     audio.src = file;
+    audio.volume = 0.1;
     audio.load();
     audio.play().then(() => {
       this.audioElement = audio;

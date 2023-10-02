@@ -1,18 +1,92 @@
 @import "styles/mixins";
 @import "styles/responsivity";
+@import "styles/color-scheme";
+@import "styles/colors";
 
 body {
   margin: 0 !important;
 }
 
+.menu-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+
+  .vertical-line {
+    margin: 5px 5px;
+    height: 30px;
+    width: 0;
+    float: left;
+  }
+
+  .flag-container, .theme-container {
+    img {
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+      border-radius: 50%;
+      transition: all 0.3s;
+      margin: 5px;
+    }
+
+    img:hover {
+      @include slant-hover-effect;
+    }
+  }
+
+  .theme-container {
+    .theme-options {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+      transition: all 0.3s;
+
+      .theme-option {
+        height: 30px;
+        width: 30px;
+        font-size: 25px;
+        border-radius: 50%;
+        text-align: center;
+        vertical-align: middle;
+        display: table-cell;
+        cursor: pointer;
+
+        &-light {
+          @include theme-picker-colors($light-background, $light-text, $light-border);
+        }
+        &-gray {
+          @include theme-picker-colors($gray-background, $gray-text, $gray-border);
+        }
+        &-dark {
+          @include theme-picker-colors($dark-background, $dark-text, $dark-border);
+        }
+        &-blue {
+          @include theme-picker-colors($blue-background, $blue-text, $blue-border);
+        }
+        &-purple {
+          @include theme-picker-colors($purple-background, $purple-text, $purple-border);
+        }
+        &-sand {
+          @include theme-picker-colors($sand-background, $sand-text, $sand-border);
+        }
+        &-pink {
+          @include theme-picker-colors($pink-background, $pink-text, $pink-border);
+        }
+      }
+
+      .theme-option:hover {
+        @include slant-hover-effect;
+      }
+    }
+  }
+}
+
 .riddle-container {
   text-align: center;
   font-weight: bold;
-
-  background-image: url("/assets/images/welcomebg.jpg");
-  background-repeat: no-repeat;
-  background-position: center/contain;
-  background-size: cover;
   width: 100vw;
   height: 100vh;
 
@@ -21,10 +95,7 @@ body {
     height: 100vh;
     display: grid;
 
-
     .box {
-      background-color: rgba(0, 0, 0, 0.5);
-      color: #fff;
       padding: 20px;
       font-size: 150%;
     }

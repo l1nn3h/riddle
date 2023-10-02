@@ -10,7 +10,7 @@ import {PictureScreenComponent} from './components/common/picture-screen/picture
 import {WelcomeComponent} from './components/pages/welcome/welcome.component';
 import {ErrorComponent} from './components/pages/error/error.component';
 import {EndComponent} from './components/pages/end/end.component';
-import {LanguageSelectorComponent} from './components/common/language-selector/language-selector.component';
+import {LanguageSelectorComponent} from './components/settings/language-selector/language-selector.component';
 import {HttpClientModule} from '@angular/common/http';
 import {TranslocoRootModule} from './transloco-root.module';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
@@ -19,6 +19,8 @@ import {GameScreenComponent} from './components/common/game-screen/game-screen.c
 import {GameComponent} from './components/pages/game/game.component';
 import {TopicComponent} from './components/common/topic/topic.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
+import { ThemeComponent } from './components/settings/theme/theme.component';
+import { MenuComponent } from './components/settings/menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { ContactComponent } from './components/pages/contact/contact.component';
     GameScreenComponent,
     GameComponent,
     TopicComponent,
-    ContactComponent
+    ContactComponent,
+    ThemeComponent,
+    MenuComponent
   ],
             imports: [
               BrowserModule,
