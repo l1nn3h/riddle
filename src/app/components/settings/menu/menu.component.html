@@ -1,5 +1,15 @@
 <div class="menu-container">
+  <div class="alert alert-one" *ngIf="firstTimeVisitor && !firstStepShown">
+    <span class="alert-text">Language menu / Nyelvválasztás</span>
+    <span class="alert-icon"><i class="fa-solid fa-arrow-right"></i></span>
+    <span class="alert-button" (click)="continueTutorial()"><i class="fa-solid fa-circle-check"></i></span>
+  </div>
   <app-language-selector></app-language-selector>
   <div class="vertical-line"></div>
   <app-theme></app-theme>
+  <div class="alert alert-two" *ngIf="firstTimeVisitor && firstStepShown">
+    <span class="alert-text">Theme&nbsp;menu&nbsp;/&nbsp;Témaválasztás</span>
+    <span class="alert-icon"><i class="fa-solid fa-arrow-up"></i></span>
+    <span class="alert-button" (click)="finishTutorial()"><i class="fa-solid fa-circle-check"></i></span>
+  </div>
 </div>

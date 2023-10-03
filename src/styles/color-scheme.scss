@@ -2,29 +2,29 @@
 @import "./colors";
 
 .light-theme {
-  @include theme-colors($light-background, $light-text, $light-shadow, $light-line);
+  @include theme-colors($light-background, $light-text, $light-shadow, $light-line, $light-alert);
 }
 
 .gray-theme {
-  @include theme-colors($gray-background, $gray-text, $gray-shadow, $gray-line);
+  @include theme-colors($gray-background, $gray-text, $gray-shadow, $gray-line, $gray-alert);
 }
 
 .dark-theme {
-  @include theme-colors($dark-background, $dark-text, $dark-shadow, $dark-line);
+  @include theme-colors($dark-background, $dark-text, $dark-shadow, $dark-line, $dark-alert);
 }
 
 .blue-theme {
-  @include theme-colors($blue-background, $blue-text, $blue-shadow, $blue-line);
+  @include theme-colors($blue-background, $blue-text, $blue-shadow, $blue-line, $blue-alert);
 }
 
 .purple-theme {
-  @include theme-colors($purple-background, $purple-text, $purple-shadow, $purple-line);
+  @include theme-colors($purple-background, $purple-text, $purple-shadow, $purple-line, $purple-alert);
 }
 
 .sand-theme {
-  @include theme-colors($sand-background, $sand-text, $sand-shadow, $sand-line);
+  @include theme-colors($sand-background, $sand-text, $sand-shadow, $sand-line, $sand-alert);
 }
 
 .pink-theme {
-  @include theme-colors($pink-background, $pink-text, $pink-shadow, $pink-line);
+  @include theme-colors($pink-background, $pink-text, $pink-shadow, $pink-line, $pink-alert);
 }

@@ -10,16 +10,19 @@
   border: 1px solid $border;
 }
 
-@mixin theme-colors($background, $font, $box, $line) {
-  .vertical-line{
-    border: 1px solid $line;
-  }
+@mixin theme-colors($background, $font, $box, $line, $alert) {
   .riddle-container,.welcome-container {
     background-color: $background;
     color: $font;
     .box, .welcome-content {
       background-color: $box;
     }
+  }
+  .vertical-line{
+    border: 1px solid $line;
+  }
+  .alert {
+    background-color: $alert;
   }
 }
 
