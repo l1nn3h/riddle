@@ -1,9 +1,41 @@
 [
   {
     "index": 0,
+    "topic": "film",
+    "image": "/assets/images/riddles/red.jpg",
+    "displayCode": "rabbit",
+    "codes": ["rabbit", "nyúl"],
+    "solutions": ["matrix",  "the matrix", "mátrix"],
+    "help": [
+      {
+        "index": 0,
+        "content": "/assets/clues/image/rabbit.jpg",
+        "used": false,
+        "typeText": "image",
+        "type": null
+      },
+      {
+        "index": 1,
+        "content": "/assets/clues/image/pill.jpg",
+        "used": false,
+        "typeText": "image",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "redSolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "index": 1,
     "topic": "science",
     "image": "/assets/images/riddles/flags.jpg",
-    "code": "polonium",
+    "displayCode": "polonium",
+    "codes": ["polonium", "polónium"],
     "solutions": ["marie curie", "madame curie", "marie skłodowska","marie sklodowska"],
     "help": [
       {
@@ -15,7 +47,7 @@
       },
       {
         "index": 1,
-        "content": "/assets/audio/imagine_dragons.mp3",
+        "content": "/assets/clues/audio/imagine_dragons.mp3",
         "used": false,
         "typeText": "sound",
         "type": null
@@ -30,10 +62,11 @@
     ]
   },
   {
-    "index": 1,
+    "index": 2,
     "topic": "science",
     "image": "/assets/images/riddles/cat.jpg",
-    "code": "poorKitty",
+    "displayCode": "poorKitty",
+    "codes": ["kitty", "kiscica"],
     "solutions": ["schrödinger", "schrodinger", "schrödinger's cat", "schrodinger's cat", "schrödinger cat", "schrödinger macskája","schrödinger macska", "schrodinger cat", "erwin schrödinger", "erwin schrodinger"],
     "help": [
       {
@@ -60,10 +93,11 @@
     ]
   },
   {
-    "index": 2,
+    "index": 3,
     "topic": "infamous",
     "image": "/assets/images/riddles/people.jpg",
-    "code": "cult",
+    "displayCode": "cult",
+    "codes": ["cult", "szekta"],
     "solutions": ["charles manson"],
     "help": [
       {

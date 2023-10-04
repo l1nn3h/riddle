@@ -1,6 +1,6 @@
 <div class="solution-container">
   <div class="solution-input-container" *ngIf="solutionOptions.length">
-    <form [formGroup]="myForm" (ngSubmit)="onSubmit()">
+    <form [formGroup]="solutionForm" (ngSubmit)="onSubmit()">
       <div class="form-group">
         <label for="textInput" *transloco="let t, read:'solution'">{{t("inputLabel")}}</label>
         <input
@@ -10,11 +10,7 @@
           class="form-control"
           formControlName="textInput"
         />
-        <div class="input-error" *ngIf="myForm.get('textInput').hasError('pattern')">
-          <p *transloco="let t, read:'solution'">
-            {{t("error")}}
-          </p>
-        </div>
+        <button class="button solution-button">Submit</button>
       </div>
     </form>
   </div>

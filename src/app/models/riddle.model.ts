@@ -4,7 +4,8 @@ export interface RiddleModel {
   index: number;
   topic: string;
   image: string;
-  code: string;
+  displayCode: string;
+  codes: string[];
   solutions: string[];
   help: HelpOptionModel[];
 }

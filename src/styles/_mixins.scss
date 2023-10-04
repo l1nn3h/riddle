@@ -24,6 +24,22 @@
   .alert {
     background-color: $alert;
   }
+  .button {
+    background-color: $font;
+    color: $background;
+    border: 2px solid $font;
+  }
+  .button:hover {
+    background-color: $background;
+    color: $font;
+    border: 2px solid $font;
+  }
+  .form-control {
+    background-color: $background;
+    color: $font;
+    caret-color: $font;
+    border: 2px solid $font;
+  }
 }
 
 @mixin max-size {

@@ -33,7 +33,7 @@ export class GameScreenComponent {
 
   private giveLevelCode(): void {
     const codeDesc: string = this.translocoService.translate("code.description")
-    const levelCode: string = this.translocoService.translate("code."+this.riddle.code);
+    const levelCode: string = this.translocoService.translate("code."+this.riddle.displayCode);
     const levelCodeMessage: CheckedSolutionInputModel = {
       correct: false, isCode: true, solution: codeDesc + levelCode
     };

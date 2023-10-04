@@ -16,11 +16,7 @@ export class RiddleService {
     this.currentRiddleIndex = 0;
   }
 
-  startNewGame(): RiddleModel {
-    return this.riddles[0];
-  }
-
-  resetGame() {
+  startNewGame(): void {
     this.currentRiddleIndex = 0;
   }
 
@@ -41,16 +37,16 @@ export class RiddleService {
     return this.finalRiddle;
   }
 
-  continueGame(code: string): number {
-    let foundOrder = 0;
+  continueGame(code: string): boolean {
+    let riddleFound = false;
     for (const riddle of this.riddles) {
-      if (riddle.code === code) {
-        foundOrder = riddle.index;
-        this.currentRiddleIndex = foundOrder;
+      if (riddle.codes.includes(code) && riddle.index < this.riddles.length) {
+        this.currentRiddleIndex = riddle.index + 1;
+        riddleFound = true;
         break;
       }
     }
-    return foundOrder;
+    return riddleFound;
   }
 
 }

@@ -1,6 +1,6 @@
 <div class="welcome-container">
-  <div class="welcome-content">
-    <div class="welcome-text-container" *transloco="let t, read:'welcomePage'">
+  <div class="welcome-content" *transloco="let t, read:'welcomePage'">
+    <div class="welcome-text-container">
       <h1>{{t("welcome")}}</h1>
       <p>{{t("intro")}}</p>
       <p>{{t("about")}}</p>
@@ -19,7 +19,25 @@
       <p>{{t("solution")}}</p>
       <p>{{t("code")}}</p>
       <p>{{t("callToAction")}}</p>
-      <button routerLink="game">{{t("newGame")}}</button>
+    </div>
+    <div class="start-game-container">
+      <button class="button start-button" (click)="startGame()">{{t("newGame")}}</button>
+      <form [formGroup]="codeForm" (ngSubmit)="submitCode()">
+        <div class="form-group">
+          <label for="textInput">{{t("writeCode")}}</label>
+          <input
+            type="text"
+            id="textInput"
+            name="textInput"
+            class="form-control"
+            formControlName="textInput"
+          />
+          <div *ngIf="errorMessageVisible">
+            <small class="code-error">{{t("wrongCode")}}</small>
+          </div>
+          <button class="button submit-button">{{t("codeButton")}}</button>
+        </div>
+      </form>
     </div>
   </div>
 </div>

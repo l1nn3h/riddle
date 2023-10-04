@@ -8,10 +8,25 @@
           <span *transloco="let t, read:'help'">{{t(help.content)}}</span>
         </div>
         <div *ngIf="help.type === HelpTypeEnum.link">
-          <span>There will be a link here</span>
+          <a href="{{help.content}}" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
         </div>
         <div *ngIf="help.type === HelpTypeEnum.image">
-          <span>There will be an image here</span>
+          <img
+            (click)="showImage(help.content)"
+            class="thumbnail"
+            src="{{help.content}}"
+            alt="image clue"
+          >
+          <div class="clue-image-container" *ngIf="isImageShown">
+            <div class="clue-image-background">
+              <img
+                class="clue-image"
+                src="{{imageUrl}}"
+                alt="image clue"
+              >
+              <span class="close-image-button" (click)="closeImage()">X</span>
+            </div>
+          </div>
         </div>
         <div class="audio" *ngIf="help.type === HelpTypeEnum.sound">
           <span *ngIf="!audioElement" (click)="play(help.content)"><i class="fa-solid fa-play"></i></span>

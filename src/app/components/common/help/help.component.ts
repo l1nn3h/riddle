@@ -13,6 +13,8 @@ export class HelpComponent implements OnChanges {
   @Input() public helpOptions: HelpOptionModel[];
   protected isAudioPlaying: boolean = false;
   public audioElement: HTMLAudioElement | null = null;
+  protected isImageShown: boolean = false;
+  protected imageUrl: string;
 
   public icons: string[] = ['fa-solid fa-lightbulb',
                             'fa-solid fa-lightbulb',
@@ -47,5 +49,14 @@ export class HelpComponent implements OnChanges {
       this.audioElement = null;
       this.isAudioPlaying = false;
     }
+  }
+
+  public showImage(imgUrl: string): void {
+    this.imageUrl = imgUrl;
+    this.isImageShown = true;
+  }
+
+  public closeImage(): void {
+    this.isImageShown = false;
   }
 }

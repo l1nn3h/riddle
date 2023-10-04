@@ -10,19 +10,20 @@ import {CheckedSolutionInputModel} from '../../../models/checked-solution-input-
 export class SolutionInputComponent {
   @Output() public newSolutionEvent = new EventEmitter<CheckedSolutionInputModel>();
   @Input() public solutionOptions: string[];
-  myForm: FormGroup;
+  solutionForm: FormGroup;
   solutionFound: boolean = false;
 
   constructor(private formBuilder: FormBuilder) {
-    this.myForm = this.formBuilder.group({
-                                           textInput: ['', [Validators.required, Validators.pattern('^[áéíóöőúüűÁÉÍÓÖŐÚÜŰa-zA-Z0-9 ]*.{3,}$')]],
+    this.solutionForm = this.formBuilder.group({
+                                           // textInput: ['', [Validators.required, Validators.pattern('^[áéíóöőúüűÁÉÍÓÖŐÚÜŰa-zA-Z0-9 ]*.{3,}$')]],
+                                           textInput: ['', [Validators.required]],
                                          });
   }
 
   onSubmit() {
-    if (this.myForm.valid) {
-      const inputValue = this.myForm.get('textInput').value;
-      this.myForm.reset();
+    if (this.solutionForm.valid) {
+      const inputValue = this.solutionForm.get('textInput').value;
+      this.solutionForm.reset();
       let checkedSolutionInput: CheckedSolutionInputModel = this.checkSolution(inputValue);
       this.newSolutionEvent.emit(checkedSolutionInput);
     }
