@@ -24,7 +24,7 @@
                 src="{{imageUrl}}"
                 alt="image clue"
               >
-              <span class="close-image-button" (click)="closeImage()">X</span>
+              <span class="close-image-button" [ngStyle]="{'color': help.xColor}" (click)="closeImage()">X</span>
             </div>
           </div>
         </div>

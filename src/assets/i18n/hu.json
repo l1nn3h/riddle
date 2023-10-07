@@ -31,27 +31,34 @@
     "history": "Megoldás előzmények"
   },
   "code": {
-    "description": "Kód: ",
+    "description": "kód: ",
     "poorKitty": "kiscica",
     "polonium": "polónium",
     "cult": "szekta",
-    "rabbit": "nyúl"
+    "rabbit": "nyúl",
+    "phone": "telefon",
+    "fire": "tűz"
   },
   "riddleTitle": {
     "science": "Tudomány",
     "celebration": "Congratulations!",
     "infamous": "Híres/hírhedt",
-    "film": "Film"
+    "film": "Film",
+    "series": "Sorozat",
+    "bookFilm": "Könyv / Film"
   },
   "help": {
     "catOne": "fizika",
     "catTwo": "élő ÉS halott",
     "catSolution": "Schrödinger macskája",
-    "peopleOne": "Egy meg Kettő mínusz Egy",
-    "peopleTwo": "Charles: 1, Marilyn: 2",
+    "peopleOne": "1+2−1",
+    "peopleTwo": "Charles, Marilyn, Marilyn",
     "peopleSolution": "Charles Manson",
     "flagsOne": "lengyel + francia",
     "flagsSolution": "Marie Curie",
-    "redSolution": "Mátrix"
+    "redSolution": "Mátrix",
+    "facesSolution": "Doctor Who",
+    "hotOne": "Pokoli divat",
+    "hotSolution": "Az ördög Pradát visel"
   }
 }

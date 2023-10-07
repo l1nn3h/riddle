@@ -31,17 +31,21 @@
     "history": "Solution history"
   },
   "code": {
-    "description": "Code: ",
+    "description": "code: ",
     "poorKitty": "kitty",
     "polonium": "polonium",
     "cult": "cult",
-    "rabbit": "rabbit"
+    "rabbit": "rabbit",
+    "phone": "phone",
+    "fire": "fire"
   },
   "riddleTitle": {
     "science": "Science",
     "celebration": "Congratulations!",
     "infamous": "(In)famous",
-    "film": "Movie"
+    "film": "Movie",
+    "series": "Series",
+    "bookFilm": "Book / Movie"
   },
   "help": {
     "catOne": "Physics",
@@ -52,6 +56,9 @@
     "peopleSolution": "Charles Manson",
     "flagsOne": "Poland + France",
     "flagsSolution": "Marie Curie",
-    "redSolution": "The Matrix"
+    "redSolution": "The Matrix",
+    "facesSolution": "Doctor Who",
+    "hotOne": "Hellish fashion",
+    "hotSolution": "The Devil Wears Prada"
   }
 }

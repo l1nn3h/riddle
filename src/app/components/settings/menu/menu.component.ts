@@ -14,7 +14,6 @@ export class MenuComponent implements OnInit {
     if (localStorage && localStorage.getItem('tutorial')) {
       this.firstTimeVisitor = false;
     }
-    console.log("First time visitor: " + this.firstTimeVisitor);
   }
 
   continueTutorial(): void {

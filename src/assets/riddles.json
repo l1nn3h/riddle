@@ -1,6 +1,70 @@
 [
   {
     "index": 0,
+    "topic": "series",
+    "image": "/assets/images/riddles/faces.jpg",
+    "displayCode": "phone",
+    "codes": ["phone", "telefon"],
+    "solutions": ["doctor who", "ki vagy, doki?", "ki vagy, doki", "ki vagy doki"],
+    "help": [
+      {
+        "index": 0,
+        "content": "/assets/clues/audio/noise.mp3",
+        "used": false,
+        "typeText": "sound",
+        "type": null
+      },
+      {
+        "index": 1,
+        "content": "/assets/clues/image/doctor.jpg",
+        "used": false,
+        "typeText": "image",
+        "xColor": "white",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "facesSolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "index": 1,
+    "topic": "bookFilm",
+    "image": "/assets/images/riddles/hot.jpg",
+    "displayCode": "fire",
+    "codes": ["fire", "tűz"],
+    "solutions": ["the devil wears prada",  "devil wears prada", "az ördög pradát visel", "ördög pradát visel", "az ördög pradat visel", "ördög pradat visel"],
+    "help": [
+      {
+        "index": 0,
+        "content": "hotOne",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      },
+      {
+        "index": 1,
+        "content": "/assets/clues/image/shoe.jpg",
+        "used": false,
+        "typeText": "image",
+        "xColor": "black",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "hotSolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "index": 2,
     "topic": "film",
     "image": "/assets/images/riddles/red.jpg",
     "displayCode": "rabbit",
@@ -12,6 +76,7 @@
         "content": "/assets/clues/image/rabbit.jpg",
         "used": false,
         "typeText": "image",
+        "xColor": "white",
         "type": null
       },
       {
@@ -31,7 +96,7 @@
     ]
   },
   {
-    "index": 1,
+    "index": 3,
     "topic": "science",
     "image": "/assets/images/riddles/flags.jpg",
     "displayCode": "polonium",
@@ -62,7 +127,7 @@
     ]
   },
   {
-    "index": 2,
+    "index": 4,
     "topic": "science",
     "image": "/assets/images/riddles/cat.jpg",
     "displayCode": "poorKitty",
@@ -93,7 +158,7 @@
     ]
   },
   {
-    "index": 3,
+    "index": 5,
     "topic": "infamous",
     "image": "/assets/images/riddles/people.jpg",
     "displayCode": "cult",

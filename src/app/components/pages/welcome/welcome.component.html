@@ -9,12 +9,12 @@
       <p>{{t("titleBar")}}</p>
       <p>{{t("image")}}</p>
       <p>{{t("helpBarStart")}}</p>
-      <ul>
-        <li>{{t("helpText")}}</li>
-        <li>{{t("helpImage")}}</li>
-        <li>{{t("helpSound")}}</li>
-        <li>{{t("helpLink")}}</li>
-      </ul>
+        <ul>
+          <li>{{t("helpText")}}</li>
+          <li>{{t("helpImage")}}</li>
+          <li>{{t("helpSound")}}</li>
+          <li>{{t("helpLink")}}</li>
+        </ul>
       <p>{{t("helpBarEnd")}}</p>
       <p>{{t("solution")}}</p>
       <p>{{t("code")}}</p>
@@ -26,6 +26,7 @@
         <div class="form-group">
           <label for="textInput">{{t("writeCode")}}</label>
           <input
+            autocomplete="off"
             type="text"
             id="textInput"
             name="textInput"

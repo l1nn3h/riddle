@@ -6,4 +6,5 @@ export interface HelpOptionModel {
   used: boolean;
   typeText: string;
   type: HelpTypeEnum;
+  xColor?: string;
 }
