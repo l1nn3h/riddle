@@ -40,6 +40,10 @@
     caret-color: $font;
     border: 2px solid $font;
   }
+  .dummy-image{
+    border: 3px solid $alert;
+  }
+
 }
 
 @mixin max-size {
@@ -60,11 +64,11 @@
     align-items: center;
     .help-item {
       i {
-        font-size: 50px;
+        font-size: 60px;
       }
-
-      i:hover {
-        font-size: 55px;
+      .thumbnail {
+        width: 60px;
+        height: 60px;
       }
     }
   }
@@ -89,12 +93,8 @@
 
         i {
           position:relative;
-          top: calc(50% - 12px);
-          font-size: 24px;
-        }
-
-        i:hover {
-          font-size: 22px;
+          font-size: 50px;
+          top: calc(50% - 25px);
         }
       }
     }
@@ -102,7 +102,7 @@
 }
 
 @mixin icon-shadow($color) {
-  text-shadow: 4px 5px 8px $color;
+  filter: drop-shadow(3px 1px 3px $color);
 }
 
 @mixin slant-hover-effect() {

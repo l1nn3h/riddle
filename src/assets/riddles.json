@@ -1,6 +1,38 @@
 [
   {
     "index": 0,
+    "topic": "music",
+    "image": "/assets/images/riddles/river.jpg",
+    "displayCode": "dance",
+    "codes": ["dance", "tánc"],
+    "solutions": ["the blue danube waltz", "blue danube waltz", "kék duna keringő"],
+    "help": [
+      {
+        "index": 0,
+        "content": "/assets/clues/image/steps.jpg",
+        "used": false,
+        "typeText": "image",
+        "xColor": "black",
+        "type": null
+      },
+      {
+        "index": 1,
+        "content": "riverTwo",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "riverSolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "index": 1,
     "topic": "series",
     "image": "/assets/images/riddles/faces.jpg",
     "displayCode": "phone",
@@ -32,7 +64,7 @@
     ]
   },
   {
-    "index": 1,
+    "index": 2,
     "topic": "bookFilm",
     "image": "/assets/images/riddles/hot.jpg",
     "displayCode": "fire",
@@ -64,7 +96,7 @@
     ]
   },
   {
-    "index": 2,
+    "index": 3,
     "topic": "film",
     "image": "/assets/images/riddles/red.jpg",
     "displayCode": "rabbit",
@@ -96,7 +128,7 @@
     ]
   },
   {
-    "index": 3,
+    "index": 4,
     "topic": "science",
     "image": "/assets/images/riddles/flags.jpg",
     "displayCode": "polonium",
@@ -127,7 +159,7 @@
     ]
   },
   {
-    "index": 4,
+    "index": 5,
     "topic": "science",
     "image": "/assets/images/riddles/cat.jpg",
     "displayCode": "poorKitty",
@@ -158,9 +190,71 @@
     ]
   },
   {
-    "index": 5,
+    "index": 6,
     "topic": "infamous",
     "image": "/assets/images/riddles/people.jpg",
+    "displayCode": "cult",
+    "codes": ["cult", "szekta"],
+    "solutions": ["charles manson"],
+    "help": [
+      {
+        "index": 0,
+        "content": "peopleOne",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      },
+      {
+        "index": 1,
+        "content": "peopleTwo",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "peopleSolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "topic": "mythological",
+    "image": "/assets/images/riddles/night.jpg",
+    "displayCode": "coffin",
+    "codes": ["coffin", "koporsó"],
+    "solutions": ["vampire", "vámpír"],
+    "help": [
+      {
+        "index": 0,
+        "content": "peopleOne",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      },
+      {
+        "index": 1,
+        "content": "peopleTwo",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "nightSolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "topic": "mythological",
+    "image": "/assets/images/riddles/night.jpg",
     "displayCode": "cult",
     "codes": ["cult", "szekta"],
     "solutions": ["charles manson"],

@@ -5,7 +5,18 @@
       <p>{{t("intro")}}</p>
       <p>{{t("about")}}</p>
       <p>{{t("explore")}}</p>
-      <p class="todo">{{t("dummyImage")}}</p>
+      <div class="dummy-image-container" *transloco="let t, read:'dummyImage'">
+        <img
+          class="dummy-image dummy-image-small"
+          [src]="setImageSource('Small')"
+          alt=""
+        >
+        <img
+          class="dummy-image dummy-image-large"
+          [src]="setImageSource('Large')"
+          alt=""
+        >
+      </div>
       <p>{{t("titleBar")}}</p>
       <p>{{t("image")}}</p>
       <p>{{t("helpBarStart")}}</p>

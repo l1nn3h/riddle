@@ -32,8 +32,14 @@ body {
       margin: 50px auto;
       padding: 2em;
 
-      .todo {
-        color: red;
+      .dummy-image-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .dummy-image {
+          border-radius: 20px;
+        }
       }
 
       h1 {
@@ -267,24 +273,39 @@ body {
         text-align: center;
       }
 
+      i:hover {
+        @include slant-hover-effect;
+      }
+
       .fa-lightbulb {
-        color: #e8e823;
+        color: #ecfd04;
         @include icon-shadow(#7e7e0f);
+      }
+
+      .fa-question {
+        color: #10b610;
+        @include icon-shadow(rgba(0, 0, 0, 0.41));
       }
 
       .fa-folder-open {
         color: #ec1919;
-        @include icon-shadow(#7a0e0e);
+        @include icon-shadow(rgba(63, 2, 2, 0.41));
+
+        //@include icon-shadow(#7a0e0e);
       }
 
       .fa-up-right-from-square {
         color: #20b6b6;
-        @include icon-shadow(#035959);
+        //@include icon-shadow(#035959);
       }
 
       .audio {
         .fa-play {
           color: #44ea15;
+        }
+
+        .fa-play:hover, .fa-stop:hover {
+          transform: scale(1.3);
         }
 
         .fa-stop {
@@ -293,10 +314,15 @@ body {
       }
 
       .thumbnail {
-        width: 45px;
-        height: 45px;
+        width: 40px;
+        height: 40px;
         cursor: pointer;
         border-radius: 50%;
+        border: 1px solid black;
+      }
+
+      .thumbnail:hover {
+        @include slant-hover-effect;
       }
 
       .clue-image-container {

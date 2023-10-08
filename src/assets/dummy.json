@@ -1,0 +1,32 @@
+{
+  "index": 0,
+  "topic": "music",
+  "image": "/assets/images/riddles/faces.jpg",
+  "displayCode": "phone",
+  "codes": ["phone", "telefon"],
+  "solutions": ["doctor who", "ki vagy, doki?", "ki vagy, doki", "ki vagy doki"],
+  "help": [
+    {
+      "index": 0,
+      "content": "/assets/clues/audio/noise.mp3",
+      "used": false,
+      "typeText": "sound",
+      "type": null
+    },
+    {
+      "index": 1,
+      "content": "/assets/clues/image/doctor.jpg",
+      "used": false,
+      "typeText": "image",
+      "xColor": "white",
+      "type": null
+    },
+    {
+      "index": 2,
+      "content": "dummySolution",
+      "used": false,
+      "typeText": "text",
+      "type": null
+    }
+  ]
+}

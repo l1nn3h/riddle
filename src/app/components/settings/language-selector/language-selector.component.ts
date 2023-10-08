@@ -18,6 +18,7 @@ export class LanguageSelectorComponent implements OnInit {
       const lang = localStorage.getItem('lang');
       this.translateService.setActiveLang(lang);
       this.currentLanguage = lang;
+      this.setHTMLLanguage(lang)
     }
   }
 
@@ -25,6 +26,11 @@ export class LanguageSelectorComponent implements OnInit {
     this.currentLanguage = language;
     this.translateService.setActiveLang(language);
     localStorage.setItem('lang', language);
+    this.setHTMLLanguage(language);
   }
 
+  setHTMLLanguage(language: string) {
+    const html = document.getElementsByTagName('html')[0];
+    html.setAttribute('lang', language.toUpperCase());
+  }
 }

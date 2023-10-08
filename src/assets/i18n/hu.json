@@ -2,7 +2,7 @@
   "title": "Riddle játék",
   "welcomePage": {
     "welcome": "Üdv a Riddle játékban!",
-    "intro": "A böngészőben játszható riddle játékok nagy népszerűségnek örvendtek pár évvel ezelőtt (és persze pár év alatt kb 20-at értek). Közülök az egyik legismertebb, a Notpron, a mai napig elérhető. Én annyira megkedveltem őket, hogy magam is készítettem néhányat az elmúlt években. Ez a játék a legújabb és legambíciózusabb próbálkozásom a műfaj fenntartására.",
+    "intro": "A böngészőben játszható riddle játékok nagy népszerűségnek örvendtek pár évvel ezelőtt (és persze pár év alatt kb 20-at értek). Közülük az egyik legismertebb, a Notpron, a mai napig elérhető. Én annyira megkedveltem őket, hogy magam is készítettem néhányat az elmúlt években. Ez a játék a legújabb és legambíciózusabb próbálkozásom a műfaj fenntartására.",
     "about": "A játék végtelenül egyszerű: minden feladvány egyetlen képrejtvényből áll, ennek a megoldását kell megtalálnod. A helyes válasz megadása után a játék következő oldalán találod magad, ahol egy új feladvány vár, amíg a végére nem érsz. Hogy ez a játék tényleg egyszerű legyen, nincsenek sunyin elrejtett nyomok, nem kell a böngészősávban nyomozni vagy a fejlesztői eszközöket böngészni, csak a képrejtvényt megfejteni.",
     "explore": "Nézzük meg a játék felületét egy próbarejtvénnyel!",
     "dummyImage": "TODO: itt majd egy magyar nyelvű kép lesz.",
@@ -26,6 +26,7 @@
   },
   "solution": {
     "inputLabel": "Megfejtés: ",
+    "submitButton": "Küldés",
     "error": "A megfejtés legalább 3 betű vagy szám hosszúságú és tartalmazhat speciális karaktereket.",
     "success": "Helyes megfejtés! Jöhet a következő?",
     "history": "Megoldás előzmények"
@@ -37,17 +38,22 @@
     "cult": "szekta",
     "rabbit": "nyúl",
     "phone": "telefon",
-    "fire": "tűz"
+    "fire": "tűz",
+    "dance": "tánc",
+    "coffin": "koporsó"
   },
   "riddleTitle": {
+    "music": "Zene",
     "science": "Tudomány",
     "celebration": "Congratulations!",
     "infamous": "Híres/hírhedt",
     "film": "Film",
     "series": "Sorozat",
-    "bookFilm": "Könyv / Film"
+    "bookFilm": "Könyv / Film",
+    "mythological": "Legendás lény"
   },
   "help": {
+    "dummySolution": "dummySolution",
     "catOne": "fizika",
     "catTwo": "élő ÉS halott",
     "catSolution": "Schrödinger macskája",
@@ -59,6 +65,8 @@
     "redSolution": "Mátrix",
     "facesSolution": "Doctor Who",
     "hotOne": "Pokoli divat",
-    "hotSolution": "Az ördög Pradát visel"
+    "hotSolution": "Az ördög Pradát visel",
+    "riverTwo": "ifj. Johann Strauss",
+    "riverSolution": "Kék Duna keringő"
   }
 }

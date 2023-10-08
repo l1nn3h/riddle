@@ -1,8 +1,8 @@
 <div class="solution-container">
   <div class="solution-input-container" *ngIf="solutionOptions.length">
     <form [formGroup]="solutionForm" (ngSubmit)="onSubmit()">
-      <div class="form-group">
-        <label for="textInput" *transloco="let t, read:'solution'">{{t("inputLabel")}}</label>
+      <div class="form-group" *transloco="let t, read:'solution'">
+        <label for="textInput" >{{t("inputLabel")}}</label>
         <input
           autocomplete="off"
           type="text"
@@ -11,7 +11,7 @@
           class="form-control"
           formControlName="textInput"
         />
-        <button class="button solution-button">Submit</button>
+        <button class="button solution-button">{{t("submitButton")}}</button>
       </div>
     </form>
   </div>

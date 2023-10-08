@@ -7,7 +7,7 @@
   <div class="theme-options" *ngIf="optionsVisible">
     <div *ngFor="let option of themeOptions">
       <div
-        class="theme-option theme-option-{{option}}"
+        class="theme-option theme-option-{{option.name}}"
         (click)="changeThemeIfNeeded(option)">
         <span>T</span>
       </div>

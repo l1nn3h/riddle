@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import {ThemeOptionModel} from '../../../models/theme-option-model';
 
 @Component({
              selector: 'app-theme',
@@ -7,35 +8,40 @@ import {Component, OnInit} from '@angular/core';
            })
 export class ThemeComponent implements OnInit {
 
-  currentTheme: string;
+  currentTheme: ThemeOptionModel;
   optionsVisible: boolean = false;
-  themeOptions: string[] = ['light', 'gray', 'dark', 'blue', 'purple', 'sand', 'pink'];
+  themeOptions: ThemeOptionModel[] = [{name: 'light', type: 'light', value: 'light-theme'},
+    {name: 'gray', type: 'dark', value: 'gray-theme'},
+    {name: 'dark', type: 'dark', value: 'dark-theme'},
+    {name: 'blue', type: 'dark', value: 'blue-theme'},
+    {name: 'purple', type: 'dark', value: 'purple-theme'},
+    {name: 'sand', type: 'light', value: 'sand-theme'},
+    {name: 'pink', type: 'light', value: 'pink-theme'},
+  ];
 
   public ngOnInit(): void {
     if (localStorage && localStorage.getItem('theme')) {
-      this.currentTheme = localStorage.getItem('theme');
+      const theme = localStorage.getItem('theme')
+      this.currentTheme = this.themeOptions.find(o => o.value === theme);
     } else {
-      this.currentTheme = 'light';
+      this.currentTheme = this.themeOptions[0];
     }
     this.setTheme(this.currentTheme);
   }
 
-  public changeThemeIfNeeded(theme: string): void {
+  public changeThemeIfNeeded(theme: ThemeOptionModel): void {
     if (this.currentTheme != theme) {
       this.currentTheme = theme;
       this.setTheme(theme);
     }
   }
 
-  public setTheme(theme: string) {
+  public setTheme(theme: ThemeOptionModel) {
     const body = document.getElementsByTagName('body')[0];
-    this.themeOptions.forEach((themeOption) => {
-      if (body.classList.contains(themeOption + '-theme')) {
-        body.classList.remove(themeOption + '-theme');
-      }
-    });
-    body.classList.add(theme + '-theme');
-    localStorage.setItem('theme', theme);
+    body.removeAttribute('class')
+    body.classList.add(theme.type);
+    body.classList.add(theme.value);
+    localStorage.setItem('theme', theme.value);
   }
 
   toggleOptions() {

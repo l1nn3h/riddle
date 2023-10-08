@@ -16,8 +16,8 @@ export class HelpComponent implements OnChanges {
   protected isImageShown: boolean = false;
   protected imageUrl: string;
 
-  public icons: string[] = ['fa-solid fa-lightbulb',
-                            'fa-solid fa-lightbulb',
+  public icons: string[] = ['fa-solid fa-question',
+                            'fa-solid fa-question',
                             'fa-solid fa-folder-open'];
 
   public ngOnChanges(): void {
