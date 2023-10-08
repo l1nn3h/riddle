@@ -40,7 +40,8 @@
     "phone": "telefon",
     "fire": "tűz",
     "dance": "tánc",
-    "coffin": "koporsó"
+    "coffin": "koporsó",
+    "swamp": "mocsár"
   },
   "riddleTitle": {
     "music": "Zene",
@@ -67,6 +68,7 @@
     "hotOne": "Pokoli divat",
     "hotSolution": "Az ördög Pradát visel",
     "riverTwo": "ifj. Johann Strauss",
-    "riverSolution": "Kék Duna keringő"
+    "riverSolution": "Kék Duna keringő",
+    "cartoonSolution": "Shrek"
   }
 }

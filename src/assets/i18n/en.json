@@ -40,7 +40,8 @@
     "phone": "phone",
     "fire": "fire",
     "dance": "dance",
-    "coffin": "coffin"
+    "coffin": "coffin",
+    "swamp": "swamp"
   },
   "riddleTitle": {
     "music": "Music",
@@ -67,6 +68,7 @@
     "hotOne": "Hellish fashion",
     "hotSolution": "The Devil Wears Prada",
     "riverTwo": "Johann Strauss II",
-    "riverSolution": "The Blue Danube Waltz"
+    "riverSolution": "The Blue Danube Waltz",
+    "cartoonSolution": "Shrek"
   }
 }

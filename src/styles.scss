@@ -293,10 +293,13 @@ body {
       .audio {
         .fa-play {
           color: #44ea15;
+          @include icon-shadow(rgba(0, 0, 0, 0.41));
         }
 
         .fa-stop {
-          color: red;
+          color: #ec1919;
+          @include icon-shadow(rgba(63, 2, 2, 0.41));
+
         }
 
         .fa-play:hover, .fa-stop:hover {
@@ -379,15 +382,15 @@ body {
         font-weight: bold;
 
         .correct {
-          color: #39e839;
+          color: #109a10;
         }
 
         .incorrect {
-          color: #e14141;
+          color: #ec0e0e;
         }
 
         .level-code {
-          color: #0e94e8;
+          color: #0d77b9;
         }
       }
 

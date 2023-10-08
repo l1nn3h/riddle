@@ -1,6 +1,38 @@
 [
   {
     "index": 0,
+    "topic": "film",
+    "image": "/assets/images/riddles/cartoon.jpg",
+    "displayCode": "swamp",
+    "codes": ["swamp", "mocsár"],
+    "solutions": ["shrek"],
+    "help": [
+      {
+        "index": 0,
+        "content": "/assets/clues/image/ladies.jpg",
+        "used": false,
+        "typeText": "image",
+        "xColor": "black",
+        "type": null
+      },
+      {
+        "index": 1,
+        "content": "/assets/clues/audio/allstar.mp3",
+        "used": false,
+        "typeText": "sound",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "cartoonSolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "index": 1,
     "topic": "music",
     "image": "/assets/images/riddles/river.jpg",
     "displayCode": "dance",
@@ -32,7 +64,7 @@
     ]
   },
   {
-    "index": 1,
+    "index": 2,
     "topic": "series",
     "image": "/assets/images/riddles/faces.jpg",
     "displayCode": "phone",
@@ -64,7 +96,7 @@
     ]
   },
   {
-    "index": 2,
+    "index": 3,
     "topic": "bookFilm",
     "image": "/assets/images/riddles/hot.jpg",
     "displayCode": "fire",
@@ -96,7 +128,7 @@
     ]
   },
   {
-    "index": 3,
+    "index": 4,
     "topic": "film",
     "image": "/assets/images/riddles/red.jpg",
     "displayCode": "rabbit",
@@ -128,7 +160,7 @@
     ]
   },
   {
-    "index": 4,
+    "index": 5,
     "topic": "science",
     "image": "/assets/images/riddles/flags.jpg",
     "displayCode": "polonium",
@@ -159,7 +191,7 @@
     ]
   },
   {
-    "index": 5,
+    "index": 6,
     "topic": "science",
     "image": "/assets/images/riddles/cat.jpg",
     "displayCode": "poorKitty",
@@ -190,7 +222,7 @@
     ]
   },
   {
-    "index": 6,
+    "index": 7,
     "topic": "infamous",
     "image": "/assets/images/riddles/people.jpg",
     "displayCode": "cult",
@@ -221,7 +253,7 @@
     ]
   },
   {
-    "index": 7,
+    "index": 8,
     "topic": "mythological",
     "image": "/assets/images/riddles/night.jpg",
     "displayCode": "coffin",
@@ -252,7 +284,7 @@
     ]
   },
   {
-    "index": 8,
+    "index": 9,
     "topic": "mythological",
     "image": "/assets/images/riddles/night.jpg",
     "displayCode": "cult",
