@@ -2,7 +2,6 @@ import {Component} from '@angular/core';
 import {FormBuilder, FormGroup, Validators} from '@angular/forms';
 import {RiddleService} from '../../../services/riddle.service';
 import {Router} from '@angular/router';
-import {TranslocoService} from '@ngneat/transloco';
 
 @Component({
              selector: 'app-welcome',
@@ -13,7 +12,7 @@ export class WelcomeComponent {
   codeForm: FormGroup;
   errorMessageVisible: boolean = false;
 
-  constructor(private formBuilder: FormBuilder, private riddleService: RiddleService, private router: Router, private translocoService: TranslocoService) {
+  constructor(private formBuilder: FormBuilder, private riddleService: RiddleService, private router: Router) {
     this.codeForm = this.formBuilder.group({textInput: ['', [Validators.required]]});
   }
 
