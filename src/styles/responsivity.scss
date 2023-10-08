@@ -2,14 +2,13 @@
 
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
-  //TODO: style
   .dummy-image-container {
-    width: 85vw;
-    //border: 1px solid red;
+    margin: 20px auto;
+
     .dummy-image-small {
-      //border: 1px solid blue;
-      width: 80vw;
+      width: 93%;
     }
+
     .dummy-image-large {
       display: none;
     }
@@ -59,14 +58,16 @@
 
 // Medium devices (tablets, less than 992px)
 @media (min-width: 768px) and (max-width: 991.98px) {
-  //TODO: style
   .dummy-image-container {
-    width: 700px;
+    width: 680px;
+    margin: 20px auto;
+
     .dummy-image-small {
       display: none;
     }
+
     .dummy-image-large {
-      width: 680px;
+      width: 650px;
     }
   }
   .riddle-body {
@@ -113,13 +114,14 @@
 }
 
 //Large devices (desktops, less than 1200px) to X-Large devices (large desktops, less than 1400px)
-@media (min-width: 992px)  {
-  //TODO: style
+@media (min-width: 992px) {
   .dummy-image-container {
     width: 700px;
+
     .dummy-image-small {
       display: none;
     }
+
     .dummy-image-large {
       width: 680px;
     }

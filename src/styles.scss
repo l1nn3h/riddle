@@ -358,11 +358,8 @@ body {
             cursor: pointer;
           }
         }
-
-
       }
     }
-
 
     .content {
       .picture-screen-container {
@@ -400,7 +397,6 @@ body {
     }
 
     .solution-container {
-      //background-color: #0e94e8;
       @include center-content;
       text-align: center;
 
@@ -411,10 +407,6 @@ body {
         .form-control {
           font-weight: bold;
           font-size: 20px;
-          //background-color: pink;
-          //color: white;
-          //caret-color: black;
-          //border: 2px solid black;
           border-radius: 10px;
           padding: 5px;
           max-width: 60%;
@@ -425,6 +417,5 @@ body {
         }
       }
     }
-
   }
 }
