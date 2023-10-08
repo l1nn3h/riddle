@@ -10,7 +10,7 @@
         <div *ngIf="help.type === HelpTypeEnum.link">
           <a href="{{help.content}}" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
         </div>
-        <div *ngIf="help.type === HelpTypeEnum.image">
+        <div class="thumbnail-container" *ngIf="help.type === HelpTypeEnum.image">
           <img
             (click)="showImage(help.content)"
             class="thumbnail"

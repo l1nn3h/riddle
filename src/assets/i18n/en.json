@@ -8,7 +8,7 @@
     "dummyImage": "TODO: There will be an English dummy riddle image here.",
     "titleBar": "Each page has a title on top, displaying the topic of the puzzle. Most cases it will not be needed, but might give you a nudge in the right direction.",
     "image": "Right in the middle is the puzzle itself, the image you have to figure out to advance in the game.",
-    "helpBarStart": "There is also a help bar, because no one is an expert in every single topic. The two light bulbs conceal a hint each, if you click on one, a clue will be revealed. These clues come in different shapes and sizes:",
+    "helpBarStart": "There is also a help bar, because no one is an expert in every single topic. The two question marks conceal a hint each, if you click on one, a clue will be revealed. These clues come in different shapes and sizes:",
     "helpText": "a simple text",
     "helpImage": "a tiny image that grows to a reasonable size when clicked",
     "helpSound": "a play icon that can be clicked to play an audio file",

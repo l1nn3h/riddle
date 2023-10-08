@@ -8,7 +8,7 @@
     "dummyImage": "TODO: itt majd egy magyar nyelvű kép lesz.",
     "titleBar": "Minden oldal tetején van egy cím, amely a rejtvény témáját jeleníti meg. A téma a legtöbb esetben már a képből egyértelművé válik, de ha mégsem, akkor ez hasznos lehet az elinduláshoz.",
     "image": "Az oldal kellős közepén van maga a rejtvény, a kép, amit meg kell fejtened, hogy továbbjuss a játékban.",
-    "helpBarStart": "Van egy súgó sáv is, hiszen senki sem jártas minden témában. A két sárga izzó egy-egy segítséget rejt, amit kattintásra felfednek. Ezek a segítségek többfélék is lehetnek:",
+    "helpBarStart": "Van egy súgó sáv is, hiszen senki sem jártas minden témában. A két kérdőjel egy-egy segítséget rejt, amit kattintásra felfednek. Ezek a segítségek többfélék is lehetnek:",
     "helpText": "egyszerű szöveg",
     "helpImage": "apró kép, ami kattintásra megnő",
     "helpSound": "kattintható lejátszás ikon hangfájllal",
