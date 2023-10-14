@@ -17,12 +17,8 @@
     "solution": "Once you think you know the solution, type it in the solution input field and submit it - either by hitting enter or clicking the send button. If he submitted solution was incorrect, it will show up at the top of your solution history in red. However when the correct answer is submitted, it will appear in green. And, of course, you will be presented with the next riddle.",
     "code": "If you cannot finish the game in one sitting or refresh the page, your progress will be lost and you have to start over from scratch. Well, that's mostly true. The game won't remember your progress, but you can! When you submit the correct solution, an additional line will appear in blue, containing a code. With this code you can get back to your current puzzle at any time, skipping all the puzzles you have already solved. The code will have something to do with the puzzle you've just solved to make it easy to remember, but you might want to jot it down, just in case.",
     "callToAction": "And that's it, you now are ready to start your riddle journey! Please press Start game if it's your first time or provide your latest code to bypass previously solved riddles.",
-    "newGame": "Start Game",
-    "writeCode": "Skip to riddle: ",
-    "codeButton": "Send",
-    "wrongCode": "Incorrect code, please try again.",
-    "correctCode": "Code accepted, press the button to continue.",
-    "skipButton": "Continue game"
+    "newGame": "Start New Game",
+    "continueGame": "Continue game"
   },
   "solution": {
     "inputLabel": "Solution: ",
@@ -31,27 +27,16 @@
     "success": "Well done! Are you ready for the next riddle?",
     "history": "Solution history"
   },
-  "code": {
-    "description": "code: ",
-    "poorKitty": "kitty",
-    "polonium": "polonium",
-    "cult": "cult",
-    "rabbit": "rabbit",
-    "phone": "phone",
-    "fire": "fire",
-    "dance": "dance",
-    "coffin": "coffin",
-    "swamp": "swamp"
-  },
   "riddleTitle": {
     "music": "Music",
     "science": "Science",
     "celebration": "Congratulations!",
-    "infamous": "(In)famous",
+    "villain": "Villain",
     "film": "Movie",
     "series": "Series",
     "bookFilm": "Book / Movie",
-    "mythological": "Mythological creature"
+    "mythological": "Mythological creature",
+    "foodDrink": "Food / Drink"
   },
   "help": {
     "dummySolution": "dummySolution",
@@ -69,6 +54,20 @@
     "hotSolution": "The Devil Wears Prada",
     "riverTwo": "Johann Strauss II",
     "riverSolution": "The Blue Danube Waltz",
-    "cartoonSolution": "Shrek"
+    "cartoonSolution": "Shrek",
+    "chaosSolution": "The Big Bang Theory",
+    "gardenOne": "the King of horror",
+    "gardenSolution": "The Shining",
+    "courtTwo": "advocatus diaboli",
+    "courtSolution": "The Devil's Advocate",
+    "menSolution": "Slipknot",
+    "endOne": "becoming extinguished",
+    "endSolution": "Nirvana",
+    "snackOne": "Knight Industries Two Thousand",
+    "snackTwo": "Have a Break",
+    "snackSolution": "KitKat",
+    "sevenTwo": "Tom Marvolo Riddle",
+    "sevenSolution": "Voldemort",
+    "royaltySolution": "Queen"
   }
 }

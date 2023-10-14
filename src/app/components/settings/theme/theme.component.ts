@@ -20,8 +20,8 @@ export class ThemeComponent implements OnInit {
   ];
 
   public ngOnInit(): void {
-    if (localStorage && localStorage.getItem('theme')) {
-      const theme = localStorage.getItem('theme')
+    if (localStorage?.getItem('theme')) {
+      const theme: string = localStorage.getItem('theme')
       this.currentTheme = this.themeOptions.find(o => o.value === theme);
     } else {
       this.currentTheme = this.themeOptions[0];

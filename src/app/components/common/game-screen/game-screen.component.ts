@@ -2,7 +2,6 @@ import {Component, EventEmitter, Input, Output} from '@angular/core';
 import {CheckedSolutionInputModel} from '../../../models/checked-solution-input-model';
 import {RiddleModel} from '../../../models/riddle.model';
 import {SolvedRiddleModel} from '../../../models/solved-riddle.model';
-import {TranslocoService} from '@ngneat/transloco';
 
 @Component({
              selector: 'app-game-screen',
@@ -16,13 +15,9 @@ export class GameScreenComponent {
 
   submittedSolutions: CheckedSolutionInputModel[] = [];
 
-  constructor(private translocoService: TranslocoService) {
-  }
-
   getCheckedSolutionInput(newCheckedInput: CheckedSolutionInputModel) {
     this.submittedSolutions.unshift(newCheckedInput);
     if (newCheckedInput.correct) {
-      this.giveLevelCode();
       const solvedRiddle: SolvedRiddleModel = {
         index: this.riddle.index,
         solution: newCheckedInput.solution,
@@ -31,12 +26,4 @@ export class GameScreenComponent {
     }
   }
 
-  private giveLevelCode(): void {
-    const codeDesc: string = this.translocoService.translate("code.description")
-    const levelCode: string = this.translocoService.translate("code."+this.riddle.displayCode);
-    const levelCodeMessage: CheckedSolutionInputModel = {
-      correct: false, isCode: true, solution: codeDesc + levelCode
-    };
-    this.submittedSolutions.unshift(levelCodeMessage);
-  }
 }

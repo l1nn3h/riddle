@@ -1,10 +1,247 @@
 [
   {
     "index": 0,
+    "topic": "music",
+    "image": "/assets/images/riddles/royalty.jpg",
+    "solutions": ["queen"],
+    "help": [
+      {
+        "index": 0,
+        "content": "/assets/clues/image/dark.jpg",
+        "used": false,
+        "typeText": "image",
+        "xColor": "white",
+        "type": null
+      },
+      {
+        "index": 0,
+        "content": "/assets/clues/image/crown.png",
+        "used": false,
+        "typeText": "image",
+        "xColor": "black",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "royaltySolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "index": 1,
+    "topic": "foodDrink",
+    "image": "/assets/images/riddles/snack.jpg",
+    "solutions": ["kitkat", "kit kat"],
+    "help": [
+      {
+        "index": 1,
+        "content": "snackOne",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      },
+      {
+        "index": 1,
+        "content": "snackTwo",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "snackSolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "topic": "villain",
+    "image": "/assets/images/riddles/seven.jpg",
+    "solutions": ["voldemort"],
+    "help": [
+      {
+        "index": 1,
+        "content": "/assets/clues/image/nose.jpg",
+        "used": false,
+        "typeText": "image",
+        "xColor": "black",
+        "type": null
+      },
+      {
+        "index": 1,
+        "content": "sevenTwo",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "sevenSolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "topic": "film",
+    "image": "/assets/images/riddles/court.jpg",
+    "solutions": ["the devil's adovcate", "devil's adovcate", "az ördög ügyvédje", "ördög ügyvédje"],
+    "help": [
+      {
+        "index": 1,
+        "content": "/assets/clues/image/neo.jpg",
+        "used": false,
+        "typeText": "image",
+        "xColor": "black",
+        "type": null
+      },
+      {
+        "index": 1,
+        "content": "courtTwo",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "courtSolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "topic": "music",
+    "image": "/assets/images/riddles/men.jpg",
+    "solutions": ["slipknot"],
+    "help": [
+      {
+        "index": 0,
+        "content": "/assets/clues/image/s.jpg",
+        "used": false,
+        "typeText": "image",
+        "xColor": "black",
+        "type": null
+      },
+      {
+        "index": 1,
+        "content": "/assets/clues/audio/eyes.mp3",
+        "used": false,
+        "typeText": "sound",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "menSolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "topic": "music",
+    "image": "/assets/images/riddles/end.jpg",
+    "solutions": ["nirvana"],
+    "help": [
+      {
+        "index": 0,
+        "content": "endOne",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      },
+      {
+        "index": 1,
+        "content": "/assets/clues/audio/smells.mp3",
+        "used": false,
+        "typeText": "sound",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "endSolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "topic": "series",
+    "image": "/assets/images/riddles/chaos.jpg",
+    "solutions": ["the big bang theory", "big bang theory", "agymenők"],
+    "help": [
+      {
+        "index": 0,
+        "content": "/assets/clues/audio/intro.mp3",
+        "used": false,
+        "typeText": "sound",
+        "type": null
+      },
+      {
+        "index": 1,
+        "content": "/assets/clues/image/bazinga.jpg",
+        "used": false,
+        "typeText": "image",
+        "xColor": "white",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "chaosSolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "topic": "bookFilm",
+    "image": "/assets/images/riddles/garden.jpg",
+    "solutions": ["the shining", "shining", "ragyogás"],
+    "help": [
+      {
+        "index": 0,
+        "content": "gardenOne",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      },
+      {
+        "index": 1,
+        "content": "/assets/clues/image/face.jpg",
+        "used": false,
+        "typeText": "image",
+        "xColor": "black",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "gardenSolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "index": 8,
     "topic": "film",
     "image": "/assets/images/riddles/cartoon.jpg",
-    "displayCode": "swamp",
-    "codes": ["swamp", "mocsár"],
     "solutions": ["shrek"],
     "help": [
       {
@@ -32,11 +269,9 @@
     ]
   },
   {
-    "index": 1,
+    "index": 9,
     "topic": "music",
     "image": "/assets/images/riddles/river.jpg",
-    "displayCode": "dance",
-    "codes": ["dance", "tánc"],
     "solutions": ["the blue danube waltz", "blue danube waltz", "kék duna keringő"],
     "help": [
       {
@@ -64,11 +299,9 @@
     ]
   },
   {
-    "index": 2,
+    "index": 10,
     "topic": "series",
     "image": "/assets/images/riddles/faces.jpg",
-    "displayCode": "phone",
-    "codes": ["phone", "telefon"],
     "solutions": ["doctor who", "ki vagy, doki?", "ki vagy, doki", "ki vagy doki"],
     "help": [
       {
@@ -96,11 +329,9 @@
     ]
   },
   {
-    "index": 3,
+    "index": 11,
     "topic": "bookFilm",
     "image": "/assets/images/riddles/hot.jpg",
-    "displayCode": "fire",
-    "codes": ["fire", "tűz"],
     "solutions": ["the devil wears prada",  "devil wears prada", "az ördög pradát visel", "ördög pradát visel", "az ördög pradat visel", "ördög pradat visel"],
     "help": [
       {
@@ -128,11 +359,9 @@
     ]
   },
   {
-    "index": 4,
+    "index": 11,
     "topic": "film",
     "image": "/assets/images/riddles/red.jpg",
-    "displayCode": "rabbit",
-    "codes": ["rabbit", "nyúl"],
     "solutions": ["matrix",  "the matrix", "mátrix"],
     "help": [
       {
@@ -160,11 +389,9 @@
     ]
   },
   {
-    "index": 5,
+    "index": 12,
     "topic": "science",
     "image": "/assets/images/riddles/flags.jpg",
-    "displayCode": "polonium",
-    "codes": ["polonium", "polónium"],
     "solutions": ["marie curie", "madame curie", "marie skłodowska","marie sklodowska"],
     "help": [
       {
@@ -191,11 +418,9 @@
     ]
   },
   {
-    "index": 6,
+    "index": 13,
     "topic": "science",
     "image": "/assets/images/riddles/cat.jpg",
-    "displayCode": "poorKitty",
-    "codes": ["kitty", "kiscica"],
     "solutions": ["schrödinger", "schrodinger", "schrödinger's cat", "schrodinger's cat", "schrödinger cat", "schrödinger macskája","schrödinger macska", "schrodinger cat", "erwin schrödinger", "erwin schrodinger"],
     "help": [
       {
@@ -222,11 +447,9 @@
     ]
   },
   {
-    "index": 7,
-    "topic": "infamous",
+    "index": 14,
+    "topic": "villain",
     "image": "/assets/images/riddles/people.jpg",
-    "displayCode": "cult",
-    "codes": ["cult", "szekta"],
     "solutions": ["charles manson"],
     "help": [
       {
@@ -253,11 +476,9 @@
     ]
   },
   {
-    "index": 8,
+    "index": 15,
     "topic": "mythological",
     "image": "/assets/images/riddles/night.jpg",
-    "displayCode": "coffin",
-    "codes": ["coffin", "koporsó"],
     "solutions": ["vampire", "vámpír"],
     "help": [
       {
@@ -277,37 +498,6 @@
       {
         "index": 2,
         "content": "nightSolution",
-        "used": false,
-        "typeText": "text",
-        "type": null
-      }
-    ]
-  },
-  {
-    "index": 9,
-    "topic": "mythological",
-    "image": "/assets/images/riddles/night.jpg",
-    "displayCode": "cult",
-    "codes": ["cult", "szekta"],
-    "solutions": ["charles manson"],
-    "help": [
-      {
-        "index": 0,
-        "content": "peopleOne",
-        "used": false,
-        "typeText": "text",
-        "type": null
-      },
-      {
-        "index": 1,
-        "content": "peopleTwo",
-        "used": false,
-        "typeText": "text",
-        "type": null
-      },
-      {
-        "index": 2,
-        "content": "peopleSolution",
         "used": false,
         "typeText": "text",
         "type": null

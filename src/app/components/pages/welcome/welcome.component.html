@@ -32,24 +32,8 @@
       <p>{{t("callToAction")}}</p>
     </div>
     <div class="start-game-container">
-      <button class="button start-button" (click)="startGame()">{{t("newGame")}}</button>
-      <form [formGroup]="codeForm" (ngSubmit)="submitCode()">
-        <div class="form-group">
-          <label for="textInput">{{t("writeCode")}}</label>
-          <input
-            autocomplete="off"
-            type="text"
-            id="textInput"
-            name="textInput"
-            class="form-control"
-            formControlName="textInput"
-          />
-          <div *ngIf="errorMessageVisible">
-            <small class="code-error">{{t("wrongCode")}}</small>
-          </div>
-          <button class="button submit-button">{{t("codeButton")}}</button>
-        </div>
-      </form>
+      <button class="button start-button" (click)="startNewGame()">{{t("newGame")}}</button>
+      <button class="button start-button" (click)="continueGame()" *ngIf="checkForSavedGame()">{{t("continueGame")}}</button>
     </div>
   </div>
 </div>

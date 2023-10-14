@@ -24,7 +24,7 @@ export class GameComponent {
 
   getRiddle(currentIndex: number) {
     console.log("In game ts, requesting new riddle. Current index: " + currentIndex);
-    const riddle = this.riddleService.getNextRiddle(currentIndex);
+    const riddle = this.riddleService.getNextRiddle();
     console.log("Received riddle: ");
     console.log(riddle);
     if (!riddle) {
@@ -35,9 +35,9 @@ export class GameComponent {
   }
 
   getNextRiddle(solvedRiddle: SolvedRiddleModel) {
-    const isNextRiddleAvailable = this.riddleService.checkIfNextRiddleIsAvailable(solvedRiddle.index);
+    const isNextRiddleAvailable = this.riddleService.checkIfNextRiddleIsAvailable();
     if (isNextRiddleAvailable) {
-      this.riddle = this.riddleService.getNextRiddle(solvedRiddle.index);
+      this.riddle = this.riddleService.getNextRiddle();
     } else {
       this.getFinalRiddle();
     }

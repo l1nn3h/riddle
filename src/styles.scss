@@ -29,7 +29,7 @@ body {
     text-align: justify;
 
     .welcome-text-container {
-      margin: 50px auto;
+      margin: 50px auto 0 auto;
       padding: 2em;
 
       .dummy-image-container {
@@ -51,29 +51,13 @@ body {
 
       @include center-content;
       flex-wrap: wrap;
-      //justify-content: space-around;
+      justify-content: space-around;
       //margin-bottom: 100px;
       font-size: 20px;
       //margin: 20px auto 20px 100px;
-      margin: 0 auto;
+      margin: 0 auto 100px auto;
       //background-color: #ea9f9f;
-
-      button, form {
-        margin: 20px;
-      }
-
-      form {
-        //background-color: #7ebde5;
-        border: 1px solid white;
-      }
-
-      .submit-button {
-        //margin: 0 auto;
-      }
-
-      .code-error {
-        color: #ee4040;
-      }
+      //margin-bottom: 50px;
     }
 
   }
@@ -387,10 +371,6 @@ body {
 
         .incorrect {
           color: #ec0e0e;
-        }
-
-        .level-code {
-          color: #0d77b9;
         }
       }
 

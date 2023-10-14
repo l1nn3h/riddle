@@ -17,12 +17,8 @@
     "solution": "Ha úgy gondolod, hogy megvan a megfejtés, írd be megoldás mezőbe és küldd el - az enter gomb megnyomásával, vagy a küldés gombra kattintva. Ha a megoldásod helytelen volt, a megoldás előzményekben piros színnel jelenik meg. Ha helyes volt a válaszod, azt zöld színben látod újra ugyanitt, és természetesen továbbjutsz a következő feladványra.",
     "code": "Amennyiben nem érnél el a játék végére az első alkalommal vagy frissíted az oldalt, elveszik a jelenlegi helyed és az elejéről kell kezdened a játékot. De attól, hogy a játék nem jegyzi meg, hogy hol tartottál, te még megteheted! A helyes megoldás beküldésekor még egy sor jelenik meg kék színnel, ami egy kódot tartalmaz. Ezzel a kóddal bármikor visszatérhetsz az aktuális feladványhoz, átugorva a már megoldottakat. A kódnak köze lesz az imént megoldott rejtvényhez, hogy azt könnyebben meg tudd jegyezni, de érdemes lehet őket feljegyezni.",
     "callToAction": "Meg is vagyunk, most már készen állsz a riddle kaland megkezdésére! Kezdj új játékot a Játék indítása gombra kattintva vagy add meg a legutolsó kódod a folytatáshoz!",
-    "newGame": "Játék indítása",
-    "writeCode": "Feladványra ugrás: ",
-    "codeButton": "Küldés",
-    "wrongCode": "Helytelen kód, kérlek próbáld újra!",
-    "correctCode": "Helyes kód, a játék folytatásához nyomd meg a gombot!",
-    "skipButton": "Játék folytatása"
+    "newGame": "Új játék",
+    "continueGame": "Játék folytatása"
   },
   "solution": {
     "inputLabel": "Megfejtés: ",
@@ -31,27 +27,16 @@
     "success": "Helyes megfejtés! Jöhet a következő?",
     "history": "Megoldás előzmények"
   },
-  "code": {
-    "description": "kód: ",
-    "poorKitty": "kiscica",
-    "polonium": "polónium",
-    "cult": "szekta",
-    "rabbit": "nyúl",
-    "phone": "telefon",
-    "fire": "tűz",
-    "dance": "tánc",
-    "coffin": "koporsó",
-    "swamp": "mocsár"
-  },
   "riddleTitle": {
     "music": "Zene",
     "science": "Tudomány",
     "celebration": "Congratulations!",
-    "infamous": "Híres/hírhedt",
+    "villain": "Gonosz",
     "film": "Film",
     "series": "Sorozat",
     "bookFilm": "Könyv / Film",
-    "mythological": "Legendás lény"
+    "mythological": "Legendás lény",
+    "foodDrink": "Étel / Ital"
   },
   "help": {
     "dummySolution": "dummySolution",
@@ -69,6 +54,20 @@
     "hotSolution": "Az ördög Pradát visel",
     "riverTwo": "ifj. Johann Strauss",
     "riverSolution": "Kék Duna keringő",
-    "cartoonSolution": "Shrek"
+    "cartoonSolution": "Shrek",
+    "chaosSolution": "Agymenők",
+    "gardenOne": "a horror Királya",
+    "gardenSolution": "Ragyogás",
+    "courtTwo": "advocatus diaboli",
+    "courtSolution": "Az ördög ügyvédje",
+    "menSolution": "Slipknot",
+    "endOne": "a tűz kialvása",
+    "endSolution": "Nirvana",
+    "snackOne": "Knight Industries Two Thousand",
+    "snackTwo": "Tarts szünetet",
+    "snackSolution": "KitKat",
+    "sevenTwo": "Tom Rowle Denem",
+    "sevenSolution": "Voldemort",
+    "royaltySolution": "Queen"
   }
 }
