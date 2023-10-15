@@ -36,7 +36,8 @@
     "series": "Series",
     "bookFilm": "Book / Movie",
     "mythological": "Mythological creature",
-    "foodDrink": "Food / Drink"
+    "foodDrink": "Food / Drink",
+    "character": "Character"
   },
   "help": {
     "dummySolution": "dummySolution",
@@ -68,6 +69,8 @@
     "snackSolution": "KitKat",
     "sevenTwo": "Tom Marvolo Riddle",
     "sevenSolution": "Voldemort",
-    "royaltySolution": "Queen"
+    "royaltySolution": "Queen",
+    "handyOne": "Italian made in Japan",
+    "handySolution": "Mario"
   }
 }

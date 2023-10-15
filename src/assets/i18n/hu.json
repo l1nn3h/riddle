@@ -36,7 +36,8 @@
     "series": "Sorozat",
     "bookFilm": "Könyv / Film",
     "mythological": "Legendás lény",
-    "foodDrink": "Étel / Ital"
+    "foodDrink": "Étel / Ital",
+    "character": "Karakter"
   },
   "help": {
     "dummySolution": "dummySolution",
@@ -68,6 +69,8 @@
     "snackSolution": "KitKat",
     "sevenTwo": "Tom Rowle Denem",
     "sevenSolution": "Voldemort",
-    "royaltySolution": "Queen"
+    "royaltySolution": "Queen",
+    "handyOne": "Japánból származó olasz",
+    "handySolution": "Mario"
   }
 }
