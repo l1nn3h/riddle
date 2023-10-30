@@ -24,16 +24,27 @@
           <li>{{t("helpText")}}</li>
           <li>{{t("helpImage")}}</li>
           <li>{{t("helpSound")}}</li>
-          <li>{{t("helpLink")}}</li>
         </ul>
       <p>{{t("helpBarEnd")}}</p>
       <p>{{t("solution")}}</p>
       <p>{{t("code")}}</p>
       <p>{{t("callToAction")}}</p>
     </div>
-    <div class="start-game-container">
-      <button class="button start-button" (click)="startNewGame()">{{t("newGame")}}</button>
-      <button class="button start-button" (click)="continueGame()" *ngIf="checkForSavedGame()">{{t("continueGame")}}</button>
+    <div class="saved-game" *ngIf="savedGameStats">
+      <h5>You have a saved game!</h5>
+      <p>Solved Riddles: {{savedGameStats.solvedRiddles}} / {{savedGameStats.allRiddles}}</p>
+      <p>Clues used: {{savedGameStats.cluesUsed}}</p>
+      <p>Solutions used: {{savedGameStats.solutionsUsed}}</p>
+      <p>Points: {{savedGameStats.points}} / {{savedGameStats.allRiddles * 3}}</p>
+      <div class="start-game-container">
+        <button class="button start-button" (click)="continueGame()" *ngIf="savedGameStats.solvedRiddles != savedGameStats.allRiddles">{{t("continueGame")}}</button>
+        <button class="button start-button" (click)="startNewGame()">{{t("newGame")}}</button>
+      </div>
+    </div>
+    <div *ngIf="!savedGameStats">
+      <div class="start-game-container">
+        <button class="button start-button" (click)="startNewGame()">{{t("newGame")}}</button>
+      </div>
     </div>
   </div>
 </div>

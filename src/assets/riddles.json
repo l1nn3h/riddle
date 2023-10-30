@@ -1,6 +1,6 @@
 [
   {
-    "index": 0,
+    "id": 0,
     "topic": "character",
     "image": "/assets/images/riddles/handy.jpg",
     "solutions": ["mario", "super mario"],
@@ -30,7 +30,37 @@
     ]
   },
   {
-    "index": 1,
+    "id": 1,
+    "topic": "science",
+    "image": "/assets/images/riddles/characters.jpg",
+    "solutions": ["impostor syndrome", "imposztor szindróma"],
+    "help": [
+      {
+        "index": 0,
+        "content": "/assets/clues/image/amongus.jpg",
+        "used": false,
+        "typeText": "image",
+        "xColor": "white",
+        "type": null
+      },
+      {
+        "index": 1,
+        "content": "doubtfulTwo",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "doubtfulSolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "id": 2,
     "topic": "music",
     "image": "/assets/images/riddles/royalty.jpg",
     "solutions": ["queen"],
@@ -61,7 +91,7 @@
     ]
   },
   {
-    "index": 2,
+    "id": 3,
     "topic": "foodDrink",
     "image": "/assets/images/riddles/snack.jpg",
     "solutions": ["kitkat", "kit kat"],
@@ -90,7 +120,7 @@
     ]
   },
   {
-    "index": 3,
+    "id": 4,
     "topic": "villain",
     "image": "/assets/images/riddles/seven.jpg",
     "solutions": ["voldemort"],
@@ -120,10 +150,10 @@
     ]
   },
   {
-    "index": 4,
+    "id": 5,
     "topic": "film",
     "image": "/assets/images/riddles/court.jpg",
-    "solutions": ["the devil's adovcate", "devil's adovcate", "az ördög ügyvédje", "ördög ügyvédje"],
+    "solutions": ["the devil's advocate", "devil's advocate", "az ördög ügyvédje", "ördög ügyvédje"],
     "help": [
       {
         "index": 1,
@@ -150,7 +180,7 @@
     ]
   },
   {
-    "index": 5,
+    "id": 6,
     "topic": "music",
     "image": "/assets/images/riddles/men.jpg",
     "solutions": ["slipknot"],
@@ -180,7 +210,7 @@
     ]
   },
   {
-    "index": 6,
+    "id": 7,
     "topic": "music",
     "image": "/assets/images/riddles/end.jpg",
     "solutions": ["nirvana"],
@@ -209,7 +239,7 @@
     ]
   },
   {
-    "index": 7,
+    "id": 8,
     "topic": "series",
     "image": "/assets/images/riddles/chaos.jpg",
     "solutions": ["the big bang theory", "big bang theory", "agymenők"],
@@ -239,7 +269,7 @@
     ]
   },
   {
-    "index": 8,
+    "id": 9,
     "topic": "bookFilm",
     "image": "/assets/images/riddles/garden.jpg",
     "solutions": ["the shining", "shining", "ragyogás"],
@@ -269,7 +299,7 @@
     ]
   },
   {
-    "index": 9,
+    "id": 10,
     "topic": "film",
     "image": "/assets/images/riddles/cartoon.jpg",
     "solutions": ["shrek"],
@@ -299,7 +329,7 @@
     ]
   },
   {
-    "index": 10,
+    "id": 11,
     "topic": "music",
     "image": "/assets/images/riddles/river.jpg",
     "solutions": ["the blue danube waltz", "blue danube waltz", "kék duna keringő"],
@@ -329,7 +359,7 @@
     ]
   },
   {
-    "index": 11,
+    "id": 12,
     "topic": "series",
     "image": "/assets/images/riddles/faces.jpg",
     "solutions": ["doctor who", "ki vagy, doki?", "ki vagy, doki", "ki vagy doki"],
@@ -359,7 +389,7 @@
     ]
   },
   {
-    "index": 12,
+    "id": 13,
     "topic": "bookFilm",
     "image": "/assets/images/riddles/hot.jpg",
     "solutions": ["the devil wears prada",  "devil wears prada", "az ördög pradát visel", "ördög pradát visel", "az ördög pradat visel", "ördög pradat visel"],
@@ -389,7 +419,7 @@
     ]
   },
   {
-    "index": 13,
+    "id": 14,
     "topic": "film",
     "image": "/assets/images/riddles/red.jpg",
     "solutions": ["matrix",  "the matrix", "mátrix"],
@@ -419,7 +449,7 @@
     ]
   },
   {
-    "index": 14,
+    "id": 15,
     "topic": "science",
     "image": "/assets/images/riddles/flags.jpg",
     "solutions": ["marie curie", "madame curie", "marie skłodowska","marie sklodowska"],
@@ -448,7 +478,7 @@
     ]
   },
   {
-    "index": 15,
+    "id": 16,
     "topic": "science",
     "image": "/assets/images/riddles/cat.jpg",
     "solutions": ["schrödinger", "schrodinger", "schrödinger's cat", "schrodinger's cat", "schrödinger cat", "schrodinger cat", "schrödinger macskája","schrödinger macska", "erwin schrödinger", "erwin schrodinger"],
@@ -477,7 +507,7 @@
     ]
   },
   {
-    "index": 16,
+    "id": 17,
     "topic": "villain",
     "image": "/assets/images/riddles/people.jpg",
     "solutions": ["charles manson"],
@@ -506,21 +536,50 @@
     ]
   },
   {
-    "index": 17,
+    "id": 98,
     "topic": "mythological",
     "image": "/assets/images/riddles/night.jpg",
     "solutions": ["vampire", "vámpír"],
     "help": [
       {
         "index": 0,
-        "content": "peopleOne",
+        "content": "nightOne",
         "used": false,
         "typeText": "text",
         "type": null
       },
       {
         "index": 1,
-        "content": "peopleTwo",
+        "content": "nightTwo",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "nightSolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "topic": "mythological",
+    "image": "/assets/images/riddles/night.jpg",
+    "solutions": ["vampire", "vámpír"],
+    "help": [
+      {
+        "index": 0,
+        "content": "nightOne",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      },
+      {
+        "index": 1,
+        "content": "nightTwo",
         "used": false,
         "typeText": "text",
         "type": null

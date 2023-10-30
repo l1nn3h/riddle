@@ -12,7 +12,6 @@ import {Router} from '@angular/router';
 export class GameComponent {
 
   riddle:RiddleModel;
-  gameSolved = false;
 
   constructor(private riddleService: RiddleService, private router: Router) {
     this.getStarted();
@@ -22,30 +21,13 @@ export class GameComponent {
     this.riddle = this.riddleService.getCurrentRiddle();
   }
 
-  getRiddle(currentIndex: number) {
-    console.log("In game ts, requesting new riddle. Current index: " + currentIndex);
-    const riddle = this.riddleService.getNextRiddle();
-    console.log("Received riddle: ");
-    console.log(riddle);
-    if (!riddle) {
-      this.router.navigate(["/end"]).then();
-    } else {
-      this.riddle = riddle;
-    }
-  }
-
   getNextRiddle(solvedRiddle: SolvedRiddleModel) {
-    const isNextRiddleAvailable = this.riddleService.checkIfNextRiddleIsAvailable();
-    if (isNextRiddleAvailable) {
-      this.riddle = this.riddleService.getNextRiddle();
+    const nextRiddle = this.riddleService.getNextRiddle();
+    if (nextRiddle) {
+      this.riddle = nextRiddle;
     } else {
-      this.getFinalRiddle();
+      this.router.navigate(['end']).then();
     }
-  }
-
-  private getFinalRiddle(): void {
-    this.gameSolved = true;
-    this.riddle = this.riddleService.getFinalRiddle();
   }
 
 }

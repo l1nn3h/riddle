@@ -2,7 +2,7 @@
   "title": "Riddle játék",
   "welcomePage": {
     "welcome": "Üdv a Riddle játékban!",
-    "intro": "A böngészőben játszható riddle játékok nagy népszerűségnek örvendtek pár évvel ezelőtt (és persze pár év alatt kb 20-at értek). Közülük az egyik legismertebb, a Notpron, a mai napig elérhető. Én annyira megkedveltem őket, hogy magam is készítettem néhányat az elmúlt években. Ez a játék a legújabb és legambíciózusabb próbálkozásom a műfaj fenntartására.",
+    "intro": "A böngészőben játszható riddle játékok nagy népszerűségnek örvendtek pár évvel ezelőtt (és persze pár év alatt kb 20-at értek). Közülük az egyik legismertebb, a Notpron, a mai napig elérhető. Én annyira megkedveltem őket, hogy magam is készítettem néhányat az elmúlt években. Ez a játék a legújabb és eddigi legambíciózusabb próbálkozásom a műfaj fenntartására.",
     "about": "A játék végtelenül egyszerű: minden feladvány egyetlen képrejtvényből áll, ennek a megoldását kell megtalálnod. A helyes válasz megadása után a játék következő oldalán találod magad, ahol egy új feladvány vár, amíg a végére nem érsz. Hogy ez a játék tényleg egyszerű legyen, nincsenek sunyin elrejtett nyomok, nem kell a böngészősávban nyomozni vagy a fejlesztői eszközöket böngészni, csak a képrejtvényt megfejteni.",
     "explore": "Nézzük meg a játék felületét egy próbarejtvénnyel!",
     "dummyImage": "TODO: itt majd egy magyar nyelvű kép lesz.",
@@ -50,7 +50,7 @@
     "flagsOne": "lengyel + francia",
     "flagsSolution": "Marie Curie",
     "redSolution": "Mátrix",
-    "facesSolution": "Doctor Who",
+    "facesSolution": "Ki vagy, doki?",
     "hotOne": "Pokoli divat",
     "hotSolution": "Az ördög Pradát visel",
     "riverTwo": "ifj. Johann Strauss",
@@ -71,6 +71,11 @@
     "sevenSolution": "Voldemort",
     "royaltySolution": "Queen",
     "handyOne": "Japánból származó olasz",
-    "handySolution": "Mario"
+    "handySolution": "Mario",
+    "doubtfulTwo": "magyarul Disney Szilánk lett",
+    "doubtfulSolution": "Imposztor szindróma",
+    "nightOne": "koporsó",
+    "nightTwo": "vér",
+    "nightSolution": "vámpír"
   }
 }

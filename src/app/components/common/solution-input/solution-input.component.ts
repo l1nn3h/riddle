@@ -15,7 +15,6 @@ export class SolutionInputComponent {
 
   constructor(private formBuilder: FormBuilder) {
     this.solutionForm = this.formBuilder.group({
-                                           // textInput: ['', [Validators.required, Validators.pattern('^[áéíóöőúüűÁÉÍÓÖŐÚÜŰa-zA-Z0-9 ]*.{3,}$')]],
                                            textInput: ['', [Validators.required]],
                                          });
   }
@@ -32,8 +31,7 @@ export class SolutionInputComponent {
   private checkSolution(input: string): CheckedSolutionInputModel {
     const checkedSolution: CheckedSolutionInputModel = {
       solution: input,
-      correct: false,
-      isCode: false
+      correct: false
     }
     if (this.solutionOptions.includes(input.toLowerCase())) {
       checkedSolution.correct = true;

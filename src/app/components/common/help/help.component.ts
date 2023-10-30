@@ -1,4 +1,4 @@
-import {Component, Input, OnChanges} from '@angular/core';
+import {Component, EventEmitter, Input, OnChanges, Output} from '@angular/core';
 import {HelpOptionModel} from '../../../models/help-option-model';
 import {HelpTypeEnum} from '../../../enums/help-type-enum';
 
@@ -11,6 +11,7 @@ export class HelpComponent implements OnChanges {
 
   protected readonly HelpTypeEnum = HelpTypeEnum;
   @Input() public helpOptions: HelpOptionModel[];
+  @Output() public clueUsedEvent = new EventEmitter<number>();
   protected isAudioPlaying: boolean = false;
   public audioElement: HTMLAudioElement | null = null;
   protected isImageShown: boolean = false;
@@ -28,6 +29,7 @@ export class HelpComponent implements OnChanges {
 
   public revealClue(index: number): void {
     this.helpOptions[index].used = true;
+    this.saveUsedClue(index);
   }
 
   public play(file: string) :void {
@@ -58,5 +60,9 @@ export class HelpComponent implements OnChanges {
 
   public closeImage(): void {
     this.isImageShown = false;
+  }
+
+  private saveUsedClue(index: number): void {
+    this.clueUsedEvent.emit(index);
   }
 }

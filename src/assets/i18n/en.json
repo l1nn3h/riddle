@@ -2,7 +2,7 @@
   "title": "Riddle game",
   "welcomePage": {
     "welcome": "Welcome to Riddle!",
-    "intro": "Browser riddle games were quite popular a while back (and by a while I mean about 20 years). One of the most popular sites, Notpron, is still available today. I enjoyed these games so much that over the years I've created a number of them myself. This game is yet another love letter to the genre.",
+    "intro": "Browser riddle games were quite popular a while back (and by a while I mean about 20 years). One of the most popular sites, Notpron, is still available today. I enjoyed these games so much that over the years I've created a number of them myself. This one is yet another love letter to the genre.",
     "about": "This game is quite straightforward, you will have an image - the puzzle itself, and have to figure out its solution. Once the correct solution is entered, you find yourself on the next page of the game with a new puzzle, until you reach the end. To keep this game simple, there are no hidden clues anywhere, you don't need to investigate outside the page, check the url or the developer tools, just figure out the image and you're done.",
     "explore": "Let's explore the game's interface through a dummy puzzle!",
     "dummyImage": "TODO: There will be an English dummy riddle image here.",
@@ -11,7 +11,7 @@
     "helpBarStart": "There is also a help bar, because no one is an expert in every single topic. The two question marks conceal a hint each, if you click on one, a clue will be revealed. These clues come in different shapes and sizes:",
     "helpText": "a simple text",
     "helpImage": "a tiny image that grows to a reasonable size when clicked",
-    "helpSound": "a play icon that can be clicked to play an audio file",
+    "helpSound": "or a play icon that can be clicked to play an audio file",
     "helpLink": "or an external link for more information on a certain topic",
     "helpBarEnd": "The third item in the help bar is the red folder, which reveals the solution to the puzzle. You may uncover the clues and the solution at any time, however I would recommend considering the puzzle for a while before using any of them. However the use of these clues is not tracked, neither is the time spent in the game, so it is ultimately up to you how you wish to play.",
     "solution": "Once you think you know the solution, type it in the solution input field and submit it - either by hitting enter or clicking the send button. If he submitted solution was incorrect, it will show up at the top of your solution history in red. However when the correct answer is submitted, it will appear in green. And, of course, you will be presented with the next riddle.",
@@ -71,6 +71,11 @@
     "sevenSolution": "Voldemort",
     "royaltySolution": "Queen",
     "handyOne": "Italian made in Japan",
-    "handySolution": "Mario"
+    "handySolution": "Mario",
+    "doubtfulTwo": "The Incredibles",
+    "doubtfulSolution": "Impostor syndrome",
+    "nightOne": "coffin",
+    "nightTwo": "blood",
+    "nightSolution": "vampire"
   }
 }

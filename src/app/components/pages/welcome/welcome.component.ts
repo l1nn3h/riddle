@@ -1,6 +1,7 @@
 import {Component} from '@angular/core';
 import {RiddleService} from '../../../services/riddle.service';
 import {Router} from '@angular/router';
+import {SavedGameStatsModel} from '../../../models/saved-game-stats-model';
 
 @Component({
              selector: 'app-welcome',
@@ -9,7 +10,13 @@ import {Router} from '@angular/router';
            })
 export class WelcomeComponent {
 
+  savedGameStats: SavedGameStatsModel;
+
   constructor(private riddleService: RiddleService, private router: Router) {
+    if (this.checkForSavedGame()) {
+      this.savedGameStats = this.riddleService.getSavedGameStats();
+      console.log(this.savedGameStats);
+    }
   }
 
   public continueGame(): void {

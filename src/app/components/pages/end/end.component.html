@@ -1,3 +1,11 @@
-<p>
-  end works!
-</p>
+<div class="end-error" *ngIf="!savedGameStats">
+  <h1>Oh no, something went wrong</h1>
+</div>
+
+<div class="end-stats" *ngIf="savedGameStats">
+  <h1>Congrats, you beat the game!</h1>
+  <p>Solved Riddles: {{savedGameStats.solvedRiddles}} / {{savedGameStats.allRiddles}}</p>
+  <p>Clues used: {{savedGameStats.cluesUsed}}</p>
+  <p>Solutions used: {{savedGameStats.solutionsUsed}}</p>
+  <p>Points: {{savedGameStats.points}} / {{savedGameStats.allRiddles * 3}}</p>
+</div>
