@@ -1,1 +1,59 @@
-<p>contact works!</p>
+<div class="contact-container">
+  <div class="contact-content">
+    <div class="contact-text-container">
+      <h1>Contact form</h1>
+      <p>should you bla ba</p>
+    </div>
+    <div class="contact-form-container" *ngIf="!messageSent">
+      <form class="contact-form" [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+        <div>
+          <div class="name styled-input wide" [class.error]="contactForm.controls.name.errors && contactForm.controls.name.touched">
+            <input type="text" formControlName="name">
+            <label>Name</label>
+            <small class="error" *ngIf="contactForm.controls.name.errors && contactForm.controls.name.touched">
+              Name is too short!
+            </small>
+          </div>
+        </div>
+        <div>
+          <div class="email styled-input wide" [class.error]="contactForm.controls.email.errors && (contactForm.controls.email.touched  || contactForm.controls.email.dirty)">
+            <input type="email" formControlName="email">
+            <label>Email</label>
+            <small class="error" *ngIf="contactForm.controls.email.errors && contactForm.controls.email.touched">
+              Email is invalid!
+            </small>
+          </div>
+        </div>
+        <div class="message styled-input wide">
+          <textarea formControlName="message"></textarea>
+          <label>Message</label>
+          <small class="error" *ngIf="contactForm.controls.message.errors && contactForm.controls.message.touched">
+            Message is invalid!
+          </small>
+        </div>
+        <div>
+          <div class="image styled-input wide" [class.error]="contactForm.controls.image.errors && contactForm.controls.image.touched">
+            <input type="text" formControlName="image">
+            <label>Image (Optional)</label>
+            <small class="error" *ngIf="contactForm.controls.image.errors && contactForm.controls.image.touched">
+              Image is invalid!
+            </small>
+          </div>
+        </div>
+        <button class="button send-email-button" [disabled]="contactForm.invalid">Submit</button>
+      </form>
+    </div>
+
+    <div class="message-sent-container" *ngIf="messageSent && message">
+      <p>Your message has been sent.</p>
+      <p>Name: {{message.name}}</p>
+      <p>Email: {{message.email}}</p>
+      <p>Message: {{message.message}}</p>
+      <img
+        *ngIf="message.imageUrl"
+        src="{{message.imageUrl}}"
+        alt="sent image"
+      >
+    </div>
+  </div>
+</div>

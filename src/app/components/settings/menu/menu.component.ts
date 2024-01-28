@@ -8,7 +8,7 @@ import {Component, OnInit} from '@angular/core';
 export class MenuComponent implements OnInit {
 
   firstTimeVisitor: boolean = true;
-  firstStepShown: boolean = false;
+  currentStep: string = 'language';
 
   public ngOnInit(): void {
     if (localStorage && localStorage.getItem('tutorial')) {
@@ -16,11 +16,12 @@ export class MenuComponent implements OnInit {
     }
   }
 
-  continueTutorial(): void {
-    this.firstStepShown = true;
+  continueTutorial(nextStep: string): void {
+    this.currentStep = nextStep;
   }
 
   finishTutorial(): void {
+    this.currentStep = 'language';
     localStorage.setItem('tutorial', 'done');
     this.firstTimeVisitor = false;
   }

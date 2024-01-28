@@ -11,12 +11,15 @@
 }
 
 @mixin theme-colors($background, $font, $box, $line, $alert) {
-  .riddle-container,.welcome-container {
+  .riddle-container,.welcome-container, .end-container, .contact-container {
     background-color: $background;
     color: $font;
-    .box, .welcome-content {
+    .box, .welcome-content, .end-content, .contact-content {
       background-color: $box;
     }
+  }
+  .contact-menu-container {
+    color: $alert;
   }
   .vertical-line{
     border: 1px solid $line;
@@ -43,7 +46,6 @@
   .dummy-image{
     border: 3px solid $alert;
   }
-
 }
 
 @mixin max-size {
