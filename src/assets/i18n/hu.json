@@ -14,11 +14,24 @@
     "helpSound": "kattintható lejátszás ikon hangfájllal",
     "helpLink": "vagy egy külső forrásra mutató link további infóval az adott témában",
     "helpBarEnd": "A súgó sáv harmadik eleme egy piros mappa, ami felfedi a rejtvény megoldását. A segítségeket és a megoldást is bármikor megnézheted, de azt javasolnám, hogy hagyj előtte magadnak egy kis időt átgondolni a feladványt. A játék nem tartja számon a felhasznált segítségek számát, ahogyan a játékban töltött időt sem, így csak rajtad múlik, hogy hogyan szeretnél játszani!",
+    "points": "For the competitive players there's a point system, you can keep track of how you are doing or even compare results with friends. Each riddle is worth 3 points, if you solve a riddle without any help, you are awarded the 3 points for it. Each help has a penalty, a clue is worth 1, the solution is 3. So if you solve a riddle with both clues revealed, you will be awarded only 1 point for the riddle, and if you reveal the solution, no points will be added for that riddle.",
     "solution": "Ha úgy gondolod, hogy megvan a megfejtés, írd be megoldás mezőbe és küldd el - az enter gomb megnyomásával, vagy a küldés gombra kattintva. Ha a megoldásod helytelen volt, a megoldás előzményekben piros színnel jelenik meg. Ha helyes volt a válaszod, azt zöld színben látod újra ugyanitt, és természetesen továbbjutsz a következő feladványra.",
-    "code": "Amennyiben nem érnél el a játék végére az első alkalommal vagy frissíted az oldalt, elveszik a jelenlegi helyed és az elejéről kell kezdened a játékot. De attól, hogy a játék nem jegyzi meg, hogy hol tartottál, te még megteheted! A helyes megoldás beküldésekor még egy sor jelenik meg kék színnel, ami egy kódot tartalmaz. Ezzel a kóddal bármikor visszatérhetsz az aktuális feladványhoz, átugorva a már megoldottakat. A kódnak köze lesz az imént megoldott rejtvényhez, hogy azt könnyebben meg tudd jegyezni, de érdemes lehet őket feljegyezni.",
+    "save": "Amennyiben nem érnél el a játék végére az első alkalommal vagy frissíted az oldalt, elveszik a jelenlegi helyed és az elejéről kell kezdened a játékot. De attól, hogy a játék nem jegyzi meg, hogy hol tartottál, te még megteheted! A helyes megoldás beküldésekor még egy sor jelenik meg kék színnel, ami egy kódot tartalmaz. Ezzel a kóddal bármikor visszatérhetsz az aktuális feladványhoz, átugorva a már megoldottakat. A kódnak köze lesz az imént megoldott rejtvényhez, hogy azt könnyebben meg tudd jegyezni, de érdemes lehet őket feljegyezni.",
     "callToAction": "Meg is vagyunk, most már készen állsz a riddle kaland megkezdésére! Kezdj új játékot a Játék indítása gombra kattintva vagy add meg a legutolsó kódod a folytatáshoz!",
+    "saveGame": "You have a saved game!",
+    "solved": "Solved Riddles:",
+    "clues": "Clues used:",
+    "solutions": "Solutions revealed:",
+    "pointsCollected": "Points: ",
     "newGame": "Új játék",
     "continueGame": "Játék folytatása"
+  },
+  "endPage": {
+    "congrats": "Congrats, you beat the game!",
+    "solved": "Solved Riddles:",
+    "clues": "Felhasznált segítség:",
+    "solutions": "Solutions revealed:",
+    "points": "Points: "
   },
   "solution": {
     "inputLabel": "Megfejtés: ",
@@ -37,7 +50,8 @@
     "bookFilm": "Könyv / Film",
     "mythological": "Legendás lény",
     "foodDrink": "Étel / Ital",
-    "character": "Karakter"
+    "character": "Karakter",
+    "game": "Játék"
   },
   "help": {
     "dummySolution": "dummySolution",
@@ -76,6 +90,13 @@
     "doubtfulSolution": "Imposztor szindróma",
     "nightOne": "koporsó",
     "nightTwo": "vér",
-    "nightSolution": "vámpír"
+    "nightSolution": "vámpír",
+    "fruitSolution": "Narancs az új fekete",
+    "clownSolution": "Pennywise",
+    "butterflyOne": "Tudomány / Film",
+    "butterflySolution": "Pillangóhatás",
+    "filmsSolution": "Angry birds",
+    "jungleSolution": "Jumanji",
+    "travelSolution": "Végső állomás"
   }
 }

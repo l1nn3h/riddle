@@ -1,20 +1,20 @@
 [
   {
-    "id": 0,
-    "topic": "character",
-    "image": "/assets/images/riddles/handy.jpg",
-    "solutions": ["mario", "super mario"],
+    "id": 1,
+    "topic": "bookFilm",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350082/riddles/hot_ckufmn.jpg",
+    "solutions": ["the devil wears prada",  "devil wears prada", "az ördög pradát visel", "ördög pradát visel", "az ördög pradat visel", "ördög pradat visel"],
     "help": [
       {
-        "index": 1,
-        "content": "handyOne",
+        "index": 0,
+        "content": "hotOne",
         "used": false,
         "typeText": "text",
         "type": null
       },
       {
-        "index": 0,
-        "content": "/assets/clues/image/cap.jpg",
+        "index": 1,
+        "content": "/assets/clues/image/shoe.jpg",
         "used": false,
         "typeText": "image",
         "xColor": "black",
@@ -22,7 +22,7 @@
       },
       {
         "index": 2,
-        "content": "handySolution",
+        "content": "hotSolution",
         "used": false,
         "typeText": "text",
         "type": null
@@ -30,9 +30,156 @@
     ]
   },
   {
-    "id": 1,
+    "id": 2,
     "topic": "science",
-    "image": "/assets/images/riddles/characters.jpg",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350081/riddles/cat_be8iwd.jpg",
+    "solutions": ["schrödinger", "schrodinger", "schrödinger's cat", "schrodinger's cat", "schrödinger cat", "schrodinger cat", "schrödinger macskája","schrödinger macska", "erwin schrödinger", "erwin schrodinger"],
+    "help": [
+      {
+        "index": 0,
+        "content": "catOne",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      },
+      {
+        "index": 1,
+        "content": "catTwo",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "catSolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "film",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350082/riddles/court_rvpbeg.jpg",
+    "solutions": ["the devil's advocate", "devil's advocate", "az ördög ügyvédje", "ördög ügyvédje"],
+    "help": [
+      {
+        "index": 1,
+        "content": "/assets/clues/image/neo.jpg",
+        "used": false,
+        "typeText": "image",
+        "xColor": "black",
+        "type": null
+      },
+      {
+        "index": 1,
+        "content": "courtTwo",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "courtSolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "music",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350082/riddles/men_paxcz1.jpg",
+    "solutions": ["slipknot"],
+    "help": [
+      {
+        "index": 0,
+        "content": "/assets/clues/image/s.jpg",
+        "used": false,
+        "typeText": "image",
+        "xColor": "black",
+        "type": null
+      },
+      {
+        "index": 1,
+        "content": "/assets/clues/audio/eyes.mp3",
+        "used": false,
+        "typeText": "sound",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "menSolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "foodDrink",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350083/riddles/snack_o9yfm6.jpg",
+    "solutions": ["kitkat", "kit kat"],
+    "help": [
+      {
+        "index": 1,
+        "content": "snackOne",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      },
+      {
+        "index": 1,
+        "content": "snackTwo",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "snackSolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "science",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350081/riddles/flags_ya7lac.jpg",
+    "solutions": ["marie curie", "madame curie", "marie skłodowska","marie sklodowska"],
+    "help": [
+      {
+        "index": 0,
+        "content": "flagsOne",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      },
+      {
+        "index": 1,
+        "content": "/assets/clues/audio/imagine_dragons.mp3",
+        "used": false,
+        "typeText": "sound",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "flagsSolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "science",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350081/riddles/characters_tgp1cr.jpg",
     "solutions": ["impostor syndrome", "imposztor szindróma"],
     "help": [
       {
@@ -60,9 +207,188 @@
     ]
   },
   {
-    "id": 2,
+    "id": 8,
+    "topic": "character",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350082/riddles/handy_eeassq.jpg",
+    "solutions": ["mario", "super mario"],
+    "help": [
+      {
+        "index": 1,
+        "content": "handyOne",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      },
+      {
+        "index": 0,
+        "content": "/assets/clues/image/cap.jpg",
+        "used": false,
+        "typeText": "image",
+        "xColor": "black",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "handySolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "series",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350082/riddles/chaos_j6luir.jpg",
+    "solutions": ["the big bang theory", "big bang theory", "agymenők"],
+    "help": [
+      {
+        "index": 0,
+        "content": "/assets/clues/audio/intro.mp3",
+        "used": false,
+        "typeText": "sound",
+        "type": null
+      },
+      {
+        "index": 1,
+        "content": "/assets/clues/image/bazinga.jpg",
+        "used": false,
+        "typeText": "image",
+        "xColor": "white",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "chaosSolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "villain",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350083/riddles/people_w2t26c.jpg",
+    "solutions": ["charles manson"],
+    "help": [
+      {
+        "index": 0,
+        "content": "peopleOne",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      },
+      {
+        "index": 1,
+        "content": "peopleTwo",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "peopleSolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "topic": "bookFilm",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350081/riddles/garden_mrerpx.jpg",
+    "solutions": ["the shining", "shining", "ragyogás"],
+    "help": [
+      {
+        "index": 0,
+        "content": "gardenOne",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      },
+      {
+        "index": 1,
+        "content": "/assets/clues/image/face.jpg",
+        "used": false,
+        "typeText": "image",
+        "xColor": "black",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "gardenSolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "id": 12,
     "topic": "music",
-    "image": "/assets/images/riddles/royalty.jpg",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350083/riddles/river_mxycd4.jpg",
+    "solutions": ["the blue danube waltz", "blue danube waltz", "kék duna keringő"],
+    "help": [
+      {
+        "index": 0,
+        "content": "/assets/clues/image/steps.jpg",
+        "used": false,
+        "typeText": "image",
+        "xColor": "black",
+        "type": null
+      },
+      {
+        "index": 1,
+        "content": "riverTwo",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "riverSolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "topic": "series",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350082/riddles/faces_epgm10.jpg",
+    "solutions": ["doctor who", "ki vagy, doki?", "ki vagy, doki", "ki vagy doki"],
+    "help": [
+      {
+        "index": 0,
+        "content": "/assets/clues/audio/noise.mp3",
+        "used": false,
+        "typeText": "sound",
+        "type": null
+      },
+      {
+        "index": 1,
+        "content": "/assets/clues/image/doctor.jpg",
+        "used": false,
+        "typeText": "image",
+        "xColor": "white",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "facesSolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "topic": "music",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350083/riddles/royalty_lttism.jpg",
     "solutions": ["queen"],
     "help": [
       {
@@ -91,38 +417,9 @@
     ]
   },
   {
-    "id": 3,
-    "topic": "foodDrink",
-    "image": "/assets/images/riddles/snack.jpg",
-    "solutions": ["kitkat", "kit kat"],
-    "help": [
-      {
-        "index": 1,
-        "content": "snackOne",
-        "used": false,
-        "typeText": "text",
-        "type": null
-      },
-      {
-        "index": 1,
-        "content": "snackTwo",
-        "used": false,
-        "typeText": "text",
-        "type": null
-      },
-      {
-        "index": 2,
-        "content": "snackSolution",
-        "used": false,
-        "typeText": "text",
-        "type": null
-      }
-    ]
-  },
-  {
-    "id": 4,
+    "id": 15,
     "topic": "villain",
-    "image": "/assets/images/riddles/seven.jpg",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350083/riddles/seven_joel8z.jpg",
     "solutions": ["voldemort"],
     "help": [
       {
@@ -150,158 +447,9 @@
     ]
   },
   {
-    "id": 5,
+    "id": 16,
     "topic": "film",
-    "image": "/assets/images/riddles/court.jpg",
-    "solutions": ["the devil's advocate", "devil's advocate", "az ördög ügyvédje", "ördög ügyvédje"],
-    "help": [
-      {
-        "index": 1,
-        "content": "/assets/clues/image/neo.jpg",
-        "used": false,
-        "typeText": "image",
-        "xColor": "black",
-        "type": null
-      },
-      {
-        "index": 1,
-        "content": "courtTwo",
-        "used": false,
-        "typeText": "text",
-        "type": null
-      },
-      {
-        "index": 2,
-        "content": "courtSolution",
-        "used": false,
-        "typeText": "text",
-        "type": null
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "topic": "music",
-    "image": "/assets/images/riddles/men.jpg",
-    "solutions": ["slipknot"],
-    "help": [
-      {
-        "index": 0,
-        "content": "/assets/clues/image/s.jpg",
-        "used": false,
-        "typeText": "image",
-        "xColor": "black",
-        "type": null
-      },
-      {
-        "index": 1,
-        "content": "/assets/clues/audio/eyes.mp3",
-        "used": false,
-        "typeText": "sound",
-        "type": null
-      },
-      {
-        "index": 2,
-        "content": "menSolution",
-        "used": false,
-        "typeText": "text",
-        "type": null
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "topic": "music",
-    "image": "/assets/images/riddles/end.jpg",
-    "solutions": ["nirvana"],
-    "help": [
-      {
-        "index": 0,
-        "content": "endOne",
-        "used": false,
-        "typeText": "text",
-        "type": null
-      },
-      {
-        "index": 1,
-        "content": "/assets/clues/audio/smells.mp3",
-        "used": false,
-        "typeText": "sound",
-        "type": null
-      },
-      {
-        "index": 2,
-        "content": "endSolution",
-        "used": false,
-        "typeText": "text",
-        "type": null
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "topic": "series",
-    "image": "/assets/images/riddles/chaos.jpg",
-    "solutions": ["the big bang theory", "big bang theory", "agymenők"],
-    "help": [
-      {
-        "index": 0,
-        "content": "/assets/clues/audio/intro.mp3",
-        "used": false,
-        "typeText": "sound",
-        "type": null
-      },
-      {
-        "index": 1,
-        "content": "/assets/clues/image/bazinga.jpg",
-        "used": false,
-        "typeText": "image",
-        "xColor": "white",
-        "type": null
-      },
-      {
-        "index": 2,
-        "content": "chaosSolution",
-        "used": false,
-        "typeText": "text",
-        "type": null
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "topic": "bookFilm",
-    "image": "/assets/images/riddles/garden.jpg",
-    "solutions": ["the shining", "shining", "ragyogás"],
-    "help": [
-      {
-        "index": 0,
-        "content": "gardenOne",
-        "used": false,
-        "typeText": "text",
-        "type": null
-      },
-      {
-        "index": 1,
-        "content": "/assets/clues/image/face.jpg",
-        "used": false,
-        "typeText": "image",
-        "xColor": "black",
-        "type": null
-      },
-      {
-        "index": 2,
-        "content": "gardenSolution",
-        "used": false,
-        "typeText": "text",
-        "type": null
-      }
-    ]
-  },
-  {
-    "id": 10,
-    "topic": "film",
-    "image": "/assets/images/riddles/cartoon.jpg",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350081/riddles/cartoon_nk37ld.jpg",
     "solutions": ["shrek"],
     "help": [
       {
@@ -329,99 +477,9 @@
     ]
   },
   {
-    "id": 11,
-    "topic": "music",
-    "image": "/assets/images/riddles/river.jpg",
-    "solutions": ["the blue danube waltz", "blue danube waltz", "kék duna keringő"],
-    "help": [
-      {
-        "index": 0,
-        "content": "/assets/clues/image/steps.jpg",
-        "used": false,
-        "typeText": "image",
-        "xColor": "black",
-        "type": null
-      },
-      {
-        "index": 1,
-        "content": "riverTwo",
-        "used": false,
-        "typeText": "text",
-        "type": null
-      },
-      {
-        "index": 2,
-        "content": "riverSolution",
-        "used": false,
-        "typeText": "text",
-        "type": null
-      }
-    ]
-  },
-  {
-    "id": 12,
-    "topic": "series",
-    "image": "/assets/images/riddles/faces.jpg",
-    "solutions": ["doctor who", "ki vagy, doki?", "ki vagy, doki", "ki vagy doki"],
-    "help": [
-      {
-        "index": 0,
-        "content": "/assets/clues/audio/noise.mp3",
-        "used": false,
-        "typeText": "sound",
-        "type": null
-      },
-      {
-        "index": 1,
-        "content": "/assets/clues/image/doctor.jpg",
-        "used": false,
-        "typeText": "image",
-        "xColor": "white",
-        "type": null
-      },
-      {
-        "index": 2,
-        "content": "facesSolution",
-        "used": false,
-        "typeText": "text",
-        "type": null
-      }
-    ]
-  },
-  {
-    "id": 13,
-    "topic": "bookFilm",
-    "image": "/assets/images/riddles/hot.jpg",
-    "solutions": ["the devil wears prada",  "devil wears prada", "az ördög pradát visel", "ördög pradát visel", "az ördög pradat visel", "ördög pradat visel"],
-    "help": [
-      {
-        "index": 0,
-        "content": "hotOne",
-        "used": false,
-        "typeText": "text",
-        "type": null
-      },
-      {
-        "index": 1,
-        "content": "/assets/clues/image/shoe.jpg",
-        "used": false,
-        "typeText": "image",
-        "xColor": "black",
-        "type": null
-      },
-      {
-        "index": 2,
-        "content": "hotSolution",
-        "used": false,
-        "typeText": "text",
-        "type": null
-      }
-    ]
-  },
-  {
-    "id": 14,
+    "id": 17,
     "topic": "film",
-    "image": "/assets/images/riddles/red.jpg",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350083/riddles/red_v60ma2.jpg",
     "solutions": ["matrix",  "the matrix", "mátrix"],
     "help": [
       {
@@ -437,6 +495,7 @@
         "content": "/assets/clues/image/pill.jpg",
         "used": false,
         "typeText": "image",
+        "xColor": "white",
         "type": null
       },
       {
@@ -449,28 +508,28 @@
     ]
   },
   {
-    "id": 15,
-    "topic": "science",
-    "image": "/assets/images/riddles/flags.jpg",
-    "solutions": ["marie curie", "madame curie", "marie skłodowska","marie sklodowska"],
+    "id": 18,
+    "topic": "music",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350082/riddles/end_y9eaqv.jpg",
+    "solutions": ["nirvana"],
     "help": [
       {
         "index": 0,
-        "content": "flagsOne",
+        "content": "endOne",
         "used": false,
         "typeText": "text",
         "type": null
       },
       {
         "index": 1,
-        "content": "/assets/clues/audio/imagine_dragons.mp3",
+        "content": "/assets/clues/audio/smells.mp3",
         "used": false,
         "typeText": "sound",
         "type": null
       },
       {
         "index": 2,
-        "content": "flagsSolution",
+        "content": "endSolution",
         "used": false,
         "typeText": "text",
         "type": null
@@ -478,28 +537,29 @@
     ]
   },
   {
-    "id": 16,
-    "topic": "science",
-    "image": "/assets/images/riddles/cat.jpg",
-    "solutions": ["schrödinger", "schrodinger", "schrödinger's cat", "schrodinger's cat", "schrödinger cat", "schrodinger cat", "schrödinger macskája","schrödinger macska", "erwin schrödinger", "erwin schrodinger"],
+    "id": 19,
+    "topic": "series",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350081/riddles/fruit_ryulkb.jpg",
+    "solutions": ["orange is the new black", "narancs az új fekete", "a narancs az új fekete"],
     "help": [
       {
         "index": 0,
-        "content": "catOne",
+        "content": "/assets/clues/audio/caged.mp3",
         "used": false,
-        "typeText": "text",
+        "typeText": "sound",
         "type": null
       },
       {
         "index": 1,
-        "content": "catTwo",
+        "content": "/assets/clues/image/jumpsuit.jpg",
         "used": false,
-        "typeText": "text",
+        "typeText": "image",
+        "xColor": "white",
         "type": null
       },
       {
         "index": 2,
-        "content": "catSolution",
+        "content": "fruitSolution",
         "used": false,
         "typeText": "text",
         "type": null
@@ -507,28 +567,30 @@
     ]
   },
   {
-    "id": 17,
+    "id": 20,
     "topic": "villain",
-    "image": "/assets/images/riddles/people.jpg",
-    "solutions": ["charles manson"],
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350082/riddles/happykid_gqjre7.jpg",
+    "solutions": ["pennywise"],
     "help": [
       {
         "index": 0,
-        "content": "peopleOne",
+        "content": "/assets/clues/image/actors.png",
         "used": false,
-        "typeText": "text",
+        "typeText": "image",
+        "xColor": "black",
         "type": null
       },
       {
         "index": 1,
-        "content": "peopleTwo",
+        "content": "/assets/clues/image/colorful.png",
         "used": false,
-        "typeText": "text",
+        "typeText": "image",
+        "xColor": "white",
         "type": null
       },
       {
         "index": 2,
-        "content": "peopleSolution",
+        "content": "clownSolution",
         "used": false,
         "typeText": "text",
         "type": null
@@ -536,28 +598,29 @@
     ]
   },
   {
-    "id": 98,
-    "topic": "mythological",
-    "image": "/assets/images/riddles/night.jpg",
-    "solutions": ["vampire", "vámpír"],
+    "id": 21,
+    "topic": "science",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350081/riddles/butterfly_focwur.jpg",
+    "solutions": ["chaos theory", "butterfly effect", "the butterfly effect", "káoszelmélet", "pillangóhatás", "a pillangóhatás", "pillangó-hatás", "a pillangó-hatás"],
     "help": [
       {
         "index": 0,
-        "content": "nightOne",
+        "content": "butterflyOne",
         "used": false,
         "typeText": "text",
         "type": null
       },
       {
         "index": 1,
-        "content": "nightTwo",
+        "content": "/assets/clues/image/ash.jpg",
         "used": false,
-        "typeText": "text",
+        "typeText": "image",
+        "xColor": "white",
         "type": null
       },
       {
         "index": 2,
-        "content": "nightSolution",
+        "content": "butterflySolution",
         "used": false,
         "typeText": "text",
         "type": null
@@ -565,28 +628,91 @@
     ]
   },
   {
-    "id": 99,
-    "topic": "mythological",
-    "image": "/assets/images/riddles/night.jpg",
-    "solutions": ["vampire", "vámpír"],
+    "id": 22,
+    "topic": "game",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350081/riddles/films_uzfdp6.jpg",
+    "solutions": ["angry birds"],
     "help": [
       {
         "index": 0,
-        "content": "nightOne",
+        "content": "/assets/clues/image/emotions.jpg",
         "used": false,
-        "typeText": "text",
+        "typeText": "image",
+        "xColor": "white",
         "type": null
       },
       {
         "index": 1,
-        "content": "nightTwo",
+        "content": "/assets/clues/image/alfred.jpg",
         "used": false,
-        "typeText": "text",
+        "typeText": "image",
+        "xColor": "black",
         "type": null
       },
       {
         "index": 2,
-        "content": "nightSolution",
+        "content": "filmsSolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "topic": "film",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706382092/riddles/green_ttsagv.jpg",
+    "solutions": ["jumanji"],
+    "help": [
+      {
+        "index": 0,
+        "content": "/assets/clues/audio/welcome.mp3",
+        "used": false,
+        "typeText": "sound",
+        "type": null
+      },
+      {
+        "index": 1,
+        "content": "/assets/clues/image/group.jpg",
+        "used": false,
+        "typeText": "image",
+        "xColor": "black",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "jungleSolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "topic": "film",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706444038/riddles/travel_ioto00.jpg",
+    "solutions": ["final destination", "végső állomás"],
+    "help": [
+      {
+        "index": 0,
+        "content": "/assets/clues/image/log.jpg",
+        "used": false,
+        "typeText": "image",
+        "xColor": "white",
+        "type": null
+      },
+      {
+        "index": 1,
+        "content": "/assets/clues/image/death.jpg",
+        "used": false,
+        "typeText": "image",
+        "xColor": "white",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "travelSolution",
         "used": false,
         "typeText": "text",
         "type": null
@@ -594,5 +720,3 @@
     ]
   }
 ]
-
-

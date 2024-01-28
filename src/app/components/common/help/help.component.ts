@@ -16,6 +16,7 @@ export class HelpComponent implements OnChanges {
   public audioElement: HTMLAudioElement | null = null;
   protected isImageShown: boolean = false;
   protected imageUrl: string;
+  protected imageXColor: string;
 
   public icons: string[] = ['fa-solid fa-question',
                             'fa-solid fa-question',
@@ -53,8 +54,9 @@ export class HelpComponent implements OnChanges {
     }
   }
 
-  public showImage(imgUrl: string): void {
+  public showImage(imgUrl: string, xColor: string): void {
     this.imageUrl = imgUrl;
+    this.imageXColor = xColor;
     this.isImageShown = true;
   }
 

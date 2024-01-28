@@ -7,12 +7,9 @@
         <div *ngIf="help.type === HelpTypeEnum.text">
           <span *transloco="let t, read:'help'">{{t(help.content)}}</span>
         </div>
-        <div *ngIf="help.type === HelpTypeEnum.link">
-          <a href="{{help.content}}" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
-        </div>
         <div class="thumbnail-container" *ngIf="help.type === HelpTypeEnum.image">
           <img
-            (click)="showImage(help.content)"
+            (click)="showImage(help.content, help.xColor)"
             class="thumbnail"
             src="{{help.content}}"
             alt="image clue"
@@ -24,7 +21,7 @@
                 src="{{imageUrl}}"
                 alt="image clue"
               >
-              <span class="close-image-button" [ngStyle]="{'color': help.xColor}" (click)="closeImage()">X</span>
+              <span class="close-image-button" [ngStyle]="{'color': imageXColor}" (click)="closeImage()">X</span>
             </div>
           </div>
         </div>

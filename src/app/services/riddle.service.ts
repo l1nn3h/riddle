@@ -1,22 +1,24 @@
 import {Injectable} from '@angular/core';
 import {RiddleModel} from '../models/riddle.model';
-import riddleList from '../../assets/riddles.json';
-import end from '../../assets/end.json';
 import {StorageModel} from '../models/storage.model';
 import {StorageService} from './storage.service';
 import {CheckedSolutionInputModel} from '../models/checked-solution-input-model';
 import {RevealedClueModel} from '../models/revealed-clue-model';
 import {SavedGameStatsModel} from '../models/saved-game-stats-model';
+import riddleList from '../../assets/riddles.json';
+
+//short list used for testing
+// import riddleList from '../../assets/dummy.json';
 
 @Injectable({
               providedIn: 'root',
             })
 export class RiddleService {
 
+  // TODO set to true for prod
   private isShuffled: boolean = false;
   private riddles: RiddleModel[] = [];
   private shuffledRiddles: RiddleModel[];
-  private finalRiddle: RiddleModel = end;
 
   constructor(private storageService: StorageService) {
     this.manageGameSave();
@@ -55,7 +57,7 @@ export class RiddleService {
       } else {
         //original order
         // this.riddles.forEach((riddle: RiddleModel) => {
-        //   orderList.push(riddle.index);
+        //   orderList.push(riddle.id);
         // });
         //reverse order
         this.riddles.reverse().forEach((riddle: RiddleModel) => {
@@ -83,7 +85,6 @@ export class RiddleService {
 
   getCurrentRiddle(): RiddleModel {
     const riddle: RiddleModel = this.riddles[this.getCurrentIndex()];
-
 
     for (let clue of riddle.help) {
       clue.used = this.isClueUsed(riddle.id, clue.index);
@@ -168,8 +169,10 @@ export class RiddleService {
 
   public addNewRevealedClue(revealedClue: RevealedClueModel): void {
     const game: StorageModel = this.storageService.getEncryptedItem('game');
-    game.cluesUsed.push(revealedClue);
-    this.storageService.setEncryptedItem('game', game);
+    if (!this.isClueUsed(revealedClue.riddleId, revealedClue.clueIndex)) {
+      game.cluesUsed.push(revealedClue);
+      this.storageService.setEncryptedItem('game', game);
+    }
   }
 
   public getSavedGameStats(): SavedGameStatsModel {

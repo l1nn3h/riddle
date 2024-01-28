@@ -1,32 +1,31 @@
-{
-  "index": 0,
-  "topic": "music",
-  "image": "/assets/images/riddles/faces.jpg",
-  "displayCode": "phone",
-  "codes": ["phone", "telefon"],
-  "solutions": ["doctor who", "ki vagy, doki?", "ki vagy, doki", "ki vagy doki"],
-  "help": [
-    {
-      "index": 0,
-      "content": "/assets/clues/audio/noise.mp3",
-      "used": false,
-      "typeText": "sound",
-      "type": null
-    },
-    {
-      "index": 1,
-      "content": "/assets/clues/image/doctor.jpg",
-      "used": false,
-      "typeText": "image",
-      "xColor": "white",
-      "type": null
-    },
-    {
-      "index": 2,
-      "content": "dummySolution",
-      "used": false,
-      "typeText": "text",
-      "type": null
-    }
-  ]
-}
+[
+  {
+    "id": 99,
+    "topic": "mythological",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350082/riddles/night_wxp0lt.jpg",
+    "solutions": ["vampire", "vámpír"],
+    "help": [
+      {
+        "index": 0,
+        "content": "nightOne",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      },
+      {
+        "index": 1,
+        "content": "nightTwo",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "nightSolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  }
+]

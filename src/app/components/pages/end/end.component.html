@@ -1,11 +1,29 @@
-<div class="end-error" *ngIf="!savedGameStats">
-  <h1>Oh no, something went wrong</h1>
+<div class="end-container">
+  <div class="end-content" *ngIf="!savedGameStats">
+    <div class="end-text-container">
+      <div class="end-error">
+        <h1>Oh no, something went wrong</h1>
+        <button class="button" (click)="navigateToWelcome()">Back to the game</button>
+      </div>
+    </div>
+
+  </div>
+<!--  TODO styling-->
+  <div class="end-content" *ngIf="savedGameStats">
+    <div class="end-text-container">
+      <div class="end-stats" *transloco="let t, read:'endPage'">
+        <h1>{{t("congrats")}}</h1>
+        <p>{{t("solved")}} {{savedGameStats.solvedRiddles}} / {{savedGameStats.allRiddles}}</p>
+        <p>{{t("clues")}} {{savedGameStats.cluesUsed}}</p>
+        <p>{{t("solutions")}} {{savedGameStats.solutionsUsed}}</p>
+        <p>{{t("points")}} {{savedGameStats.points}} / {{savedGameStats.allRiddles * 3}}</p>
+        <button class="button" (click)="navigateToWelcome()">Back to the game</button>
+      </div>
+    </div>
+
+  </div>
+
+
+
 </div>
 
-<div class="end-stats" *ngIf="savedGameStats">
-  <h1>Congrats, you beat the game!</h1>
-  <p>Solved Riddles: {{savedGameStats.solvedRiddles}} / {{savedGameStats.allRiddles}}</p>
-  <p>Clues used: {{savedGameStats.cluesUsed}}</p>
-  <p>Solutions used: {{savedGameStats.solutionsUsed}}</p>
-  <p>Points: {{savedGameStats.points}} / {{savedGameStats.allRiddles * 3}}</p>
-</div>

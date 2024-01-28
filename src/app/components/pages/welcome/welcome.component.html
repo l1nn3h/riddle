@@ -5,7 +5,8 @@
       <p>{{t("intro")}}</p>
       <p>{{t("about")}}</p>
       <p>{{t("explore")}}</p>
-      <div class="dummy-image-container" *transloco="let t, read:'dummyImage'">
+      <div class="dummy-image-container">
+<!--        TODO: replace image-->
         <img
           class="dummy-image dummy-image-small"
           [src]="setImageSource('Small')"
@@ -27,15 +28,21 @@
         </ul>
       <p>{{t("helpBarEnd")}}</p>
       <p>{{t("solution")}}</p>
-      <p>{{t("code")}}</p>
+<!--      TODO: translate to Hungarian-->
+      <p>{{t("points")}}</p>
+      <p>{{t("save")}}</p>
+<!--      TODO: fix code bypass text-->
       <p>{{t("callToAction")}}</p>
     </div>
+    <!--      TODO transloco, style-->
     <div class="saved-game" *ngIf="savedGameStats">
-      <h5>You have a saved game!</h5>
-      <p>Solved Riddles: {{savedGameStats.solvedRiddles}} / {{savedGameStats.allRiddles}}</p>
-      <p>Clues used: {{savedGameStats.cluesUsed}}</p>
-      <p>Solutions used: {{savedGameStats.solutionsUsed}}</p>
-      <p>Points: {{savedGameStats.points}} / {{savedGameStats.allRiddles * 3}}</p>
+      <div class="saved-game-text">
+        <h3>{{t("saveGame")}}</h3>
+        <p>{{t("solved")}} {{savedGameStats.solvedRiddles}} / {{savedGameStats.allRiddles}}</p>
+        <p>{{t("clues")}} {{savedGameStats.cluesUsed}} / {{savedGameStats.allRiddles * 2}}</p>
+        <p>{{t("solutions")}} {{savedGameStats.solutionsUsed}} / {{savedGameStats.allRiddles}}</p>
+        <p>{{t("pointsCollected")}} {{savedGameStats.points}} / {{savedGameStats.allRiddles * 3}}</p>
+      </div>
       <div class="start-game-container">
         <button class="button start-button" (click)="continueGame()" *ngIf="savedGameStats.solvedRiddles != savedGameStats.allRiddles">{{t("continueGame")}}</button>
         <button class="button start-button" (click)="startNewGame()">{{t("newGame")}}</button>
