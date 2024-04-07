@@ -21,6 +21,8 @@ import {TopicComponent} from './components/common/topic/topic.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
 import { ThemeComponent } from './components/settings/theme/theme.component';
 import { MenuComponent } from './components/settings/menu/menu.component';
+import {RECAPTCHA_V3_SITE_KEY, RecaptchaV3Module} from 'ng-recaptcha';
+import {environment} from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -48,8 +50,11 @@ import { MenuComponent } from './components/settings/menu/menu.component';
               FormsModule,
               ReactiveFormsModule,
               NgOptimizedImage,
+              RecaptchaV3Module
             ],
-  providers: [],
+  providers: [
+    { provide: RECAPTCHA_V3_SITE_KEY, useValue: environment.recaptchaSiteKey }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

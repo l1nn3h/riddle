@@ -13,6 +13,16 @@
       display: none;
     }
   }
+
+  .contact-container {
+    form {
+      width: 80%;
+    }
+    button {
+      float: left !important;
+    }
+  }
+
   .riddle-body {
     overflow-x: scroll;
     grid-template-columns: 90vw;

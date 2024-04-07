@@ -10,7 +10,7 @@
   border: 1px solid $border;
 }
 
-@mixin theme-colors($background, $font, $box, $line, $alert) {
+@mixin theme-colors($background, $font, $box, $accent, $line, $alert) {
   .riddle-container,.welcome-container, .end-container, .contact-container {
     background-color: $background;
     color: $font;
@@ -18,6 +18,28 @@
       background-color: $box;
     }
   }
+
+  .contact-content {
+    input, textarea {
+      background-color: $background;
+      color: $font;
+    }
+    input:focus, textarea:focus {
+      outline-color: $line;
+    }
+    label {
+      color: $accent;
+    }
+    .error {
+      color: $alert;
+    }
+    button:disabled {
+      background-color: $background;
+      color: $alert;
+      cursor: not-allowed;
+    }
+  }
+
   .contact-menu-container {
     color: $alert;
   }

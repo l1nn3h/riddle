@@ -16,7 +16,7 @@ import riddleList from '../../assets/riddles.json';
 export class RiddleService {
 
   // TODO set to true for prod
-  private isShuffled: boolean = false;
+  private isShuffled: boolean = true;
   private riddles: RiddleModel[] = [];
   private shuffledRiddles: RiddleModel[];
 
@@ -33,7 +33,6 @@ export class RiddleService {
       gameBeaten: false
     }
 
-    console.log(dummyRiddleObject);
     this.storageService.setEncryptedItem("game", dummyRiddleObject)
   }
 
@@ -59,6 +58,7 @@ export class RiddleService {
         // this.riddles.forEach((riddle: RiddleModel) => {
         //   orderList.push(riddle.id);
         // });
+
         //reverse order
         this.riddles.reverse().forEach((riddle: RiddleModel) => {
           orderList.push(riddle.id);
@@ -72,8 +72,9 @@ export class RiddleService {
   private recreateRiddlesFromOrder(orderList: number[]): RiddleModel[] {
     this.recreateRiddlesFromJSON();
     const riddlesFromOrder: RiddleModel[] = [];
-    orderList.forEach((index) => {
-      riddlesFromOrder.push(this.riddles[index]);
+    orderList.forEach((id: number) => {
+      const currentIndex = id - 1;
+        riddlesFromOrder.push(this.riddles[currentIndex]);
     });
     return riddlesFromOrder;
   }
@@ -111,8 +112,6 @@ export class RiddleService {
       currentIndex = gameData.currentRiddleIndex + 1;
       gameData.currentRiddleIndex = currentIndex;
       this.storageService.setEncryptedItem("game", gameData);
-
-      console.log(this.storageService.getEncryptedItem('game'));
     }
 
     if(currentIndex < this.riddles.length) {

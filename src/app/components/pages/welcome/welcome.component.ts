@@ -15,7 +15,6 @@ export class WelcomeComponent {
   constructor(private riddleService: RiddleService, private router: Router) {
     if (this.checkForSavedGame()) {
       this.savedGameStats = this.riddleService.getSavedGameStats();
-      console.log(this.savedGameStats);
     }
   }
 
