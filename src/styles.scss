@@ -4,7 +4,7 @@
 @import "styles/colors";
 
 body {
-  margin: 0 !important;
+  margin: 0;
 }
 
 .button {
@@ -30,7 +30,6 @@ div::-webkit-scrollbar {
 
   .welcome-content, .end-content, .contact-content {
     max-width: 750px;
-    //TODO height
     max-height: 100%;
     margin: 0 auto;
     overflow-y: auto;
@@ -38,22 +37,21 @@ div::-webkit-scrollbar {
     text-align: justify;
 
     .saved-game {
+      max-width: 400px;
+      margin: 0 auto;
 
-
-      .saved-game-text {
-        //text-align: center;
+      .saved-game-container {
+        text-align: center;
         margin: 0 auto;
-        border: 1px solid #ff5555;
-        padding: 0 37%;
+        padding-bottom: 50px;
+        font-size: 1.2rem;
+        line-height: 0.8rem;
       }
     }
   }
 }
 
 .welcome-container {
-  //font-weight: bold;
-  //width: 100vw;
-  //height: 100vh;
   margin: 0;
 
   .welcome-content {
@@ -61,11 +59,13 @@ div::-webkit-scrollbar {
       margin: 50px auto 0 auto;
       padding: 2em;
 
-      .dummy-image-container {
-        @include center-content;
-
-        .dummy-image {
-          border-radius: 20px;
+      .video-container {
+        width: 100%;
+        margin: 20px auto;
+        display: flex;
+        justify-content: center;
+        .tutorial-video {
+          width: 100%;
         }
       }
 
@@ -76,18 +76,12 @@ div::-webkit-scrollbar {
     }
 
     .start-game-container {
-
       @include center-content;
       flex-wrap: wrap;
       justify-content: space-around;
-      //margin-bottom: 100px;
       font-size: 20px;
-      //margin: 20px auto 20px 100px;
       margin: 0 auto 100px auto;
-      //background-color: #ea9f9f;
-      //margin-bottom: 50px;
     }
-
   }
 }
 
@@ -240,6 +234,7 @@ div::-webkit-scrollbar {
         }
       }
 
+      //TODO mobil
       .theme-option:hover {
         @include slant-hover-effect;
       }
@@ -336,7 +331,6 @@ div::-webkit-scrollbar {
   width: 100vw;
   height: 100vh;
 
-
   .riddle-body {
     height: 100vh;
     display: grid;
@@ -349,6 +343,15 @@ div::-webkit-scrollbar {
     .topic-container {
       h3 {
         margin: 0;
+      }
+    }
+
+    .progress-container {
+      p {
+        margin: 0;
+      }
+      .progress-divider {
+        display: none;
       }
     }
 
@@ -467,6 +470,18 @@ div::-webkit-scrollbar {
         text-align: center;
         overflow-wrap: anywhere;
         font-weight: bold;
+
+        .solution-title {
+          margin: 10px auto 30px auto;
+        }
+
+        p {
+          margin: 5px;
+        }
+
+        .separator {
+          margin-top: 50px;
+        }
 
         .correct {
           color: #109a10;

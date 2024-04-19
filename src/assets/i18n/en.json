@@ -4,19 +4,9 @@
     "welcome": "Welcome to Riddle!",
     "intro": "Browser riddle games were quite popular a while back (and by a while I mean about 20 years). One of the most popular sites, Notpron, is still available today. I enjoyed these games so much that over the years I've created a number of them myself. This one is yet another love letter to the genre.",
     "about": "This game is quite straightforward, you will have an image - the puzzle itself, and have to figure out its solution. Once the correct solution is entered, you find yourself on the next page of the game with a new puzzle, until you reach the end. To keep this game simple, there are no hidden clues anywhere, you don't need to investigate outside the page, check the url or the developer tools, just figure out the image and you're done.",
-    "explore": "Let's explore the game's interface through a dummy puzzle!",
-    "titleBar": "Each page has a title on top, displaying the topic of the puzzle. Most cases it will not be needed, but might give you a nudge in the right direction.",
-    "image": "Right in the middle is the puzzle itself, the image you have to figure out to advance in the game.",
-    "helpBarStart": "There is also a help bar, because no one is an expert in every single topic. The two question marks conceal a hint each, if you click on one, a clue will be revealed. These clues come in different shapes and sizes:",
-    "helpText": "a simple text",
-    "helpImage": "a tiny image that grows to a reasonable size when clicked",
-    "helpSound": "or a play icon that can be clicked to play an audio file",
-    "helpLink": "or an external link for more information on a certain topic",
-    "helpBarEnd": "The third item in the help bar is the red folder, which reveals the solution to the puzzle. You may uncover the clues and the solution at any time, however I would recommend considering the puzzle for a while before using any of them.",
-    "points": "For the competitive players there's a point system, you can keep track of how you are doing or even compare results with friends. Each riddle is worth 3 points, if you solve a riddle without any help, you are awarded the 3 points for it. Each help has a penalty, a clue is worth 1, the solution is 3. So if you solve a riddle with both clues revealed, you will be awarded only 1 point for the riddle, and if you reveal the solution, no points will be added for that riddle.",
-    "solution": "Once you think you know the solution, type it in the solution input field and submit it - either by hitting enter or clicking the send button. If he submitted solution was incorrect, it will show up at the top of your solution history in red. However when the correct answer is submitted, it will appear in green. And, of course, you will be presented with the next riddle.",
+    "explore": "Let's play the tutorial video to learn about the game!",
     "save": "Your progress is automatically saved, so as long as you are using the same browser, you may return to the game at any time and continue where you left off.",
-    "callToAction": "And that's it, you now are ready to start your riddle journey! Please press Start game if it's your first time or provide your latest code to bypass previously solved riddles.",
+    "callToAction": "And that's it, you now are ready to start your riddle journey!",
     "saveGame": "You have a saved game!",
     "solved": "Solved Riddles:",
     "clues": "Clues used:",
@@ -39,6 +29,10 @@
     "success": "Well done! Are you ready for the next riddle?",
     "history": "Solution history"
   },
+  "progress": {
+    "solved": "Solved: ",
+    "points": "Points: "
+  },
   "riddleTitle": {
     "music": "Music",
     "science": "Science",
@@ -51,15 +45,14 @@
     "foodDrink": "Food / Drink",
     "character": "Character",
     "game": "Game"
-
   },
   "help": {
     "dummySolution": "dummySolution",
     "catOne": "Physics",
     "catTwo": "alive AND dead",
     "catSolution": "Schrödinger's cat",
-    "peopleOne": "One plus Two minus One",
-    "peopleTwo": "Charles: 1, Marilyn: 2",
+    "peopleOne": "1+2−1",
+    "peopleTwo": "Charles, Marilyn Manson, Marilyn",
     "peopleSolution": "Charles Manson",
     "flagsOne": "Poland + France",
     "flagsSolution": "Marie Curie",

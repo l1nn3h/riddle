@@ -5,47 +5,29 @@
       <p>{{t("intro")}}</p>
       <p>{{t("about")}}</p>
       <p>{{t("explore")}}</p>
-      <div class="dummy-image-container">
-<!--        TODO: replace image-->
-        <img
-          class="dummy-image dummy-image-small"
-          [src]="setImageSource('Small')"
-          alt=""
-        >
-        <img
-          class="dummy-image dummy-image-large"
-          [src]="setImageSource('Large')"
-          alt=""
-        >
+      <div class="video-container">
+        <video class="tutorial-video tutorial-video-small" controls>
+          <source [src]="getVideoSource('small')" type="video/mp4">
+        </video>
+        <video class="tutorial-video tutorial-video-large" controls>
+          <source [src]="getVideoSource('large')" type="video/mp4">
+        </video>
       </div>
-      <p>{{t("titleBar")}}</p>
-      <p>{{t("image")}}</p>
-      <p>{{t("helpBarStart")}}</p>
-        <ul>
-          <li>{{t("helpText")}}</li>
-          <li>{{t("helpImage")}}</li>
-          <li>{{t("helpSound")}}</li>
-        </ul>
-      <p>{{t("helpBarEnd")}}</p>
-      <p>{{t("solution")}}</p>
-<!--      TODO: translate to Hungarian-->
-      <p>{{t("points")}}</p>
       <p>{{t("save")}}</p>
-<!--      TODO: fix code bypass text-->
       <p>{{t("callToAction")}}</p>
     </div>
     <!--      TODO transloco, style-->
     <div class="saved-game" *ngIf="savedGameStats">
-      <div class="saved-game-text">
-        <h3>{{t("saveGame")}}</h3>
+      <div class="saved-game-container">
+        <h3 class="saved-game-text">{{t("saveGame")}}</h3>
         <p>{{t("solved")}} {{savedGameStats.solvedRiddles}} / {{savedGameStats.allRiddles}}</p>
-        <p>{{t("clues")}} {{savedGameStats.cluesUsed}} / {{savedGameStats.allRiddles * 2}}</p>
-        <p>{{t("solutions")}} {{savedGameStats.solutionsUsed}} / {{savedGameStats.allRiddles}}</p>
+        <p>{{t("clues")}} {{savedGameStats.cluesUsed}}</p>
+        <p>{{t("solutions")}} {{savedGameStats.solutionsUsed}}</p>
         <p>{{t("pointsCollected")}} {{savedGameStats.points}} / {{savedGameStats.allRiddles * 3}}</p>
       </div>
       <div class="start-game-container">
-        <button class="button start-button" (click)="continueGame()" *ngIf="savedGameStats.solvedRiddles != savedGameStats.allRiddles">{{t("continueGame")}}</button>
         <button class="button start-button" (click)="startNewGame()">{{t("newGame")}}</button>
+        <button class="button start-button continue-button" (click)="continueGame()" *ngIf="savedGameStats.solvedRiddles != savedGameStats.allRiddles">{{t("continueGame")}}</button>
       </div>
     </div>
     <div *ngIf="!savedGameStats">
