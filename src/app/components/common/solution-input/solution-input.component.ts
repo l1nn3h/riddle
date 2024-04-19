@@ -33,7 +33,7 @@ export class SolutionInputComponent {
       solution: input,
       correct: false
     }
-    if (this.solutionOptions.includes(input.toLowerCase())) {
+    if (this.solutionOptions.includes(input.toLowerCase().trim())) {
       checkedSolution.correct = true;
       this.solutionFound = true;
     }

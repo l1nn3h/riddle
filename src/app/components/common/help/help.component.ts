@@ -26,6 +26,7 @@ export class HelpComponent implements OnChanges {
     for (let help of this.helpOptions) {
       help.type = HelpTypeEnum[help.typeText];
     }
+    this.stop();
   }
 
   public revealClue(index: number): void {

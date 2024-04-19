@@ -14,7 +14,7 @@ export class LanguageSelectorComponent implements OnInit {
   }
 
   public ngOnInit(): void {
-    if (localStorage && localStorage.getItem('lang')) {
+    if (localStorage?.getItem('lang')) {
       const lang = localStorage.getItem('lang');
       this.currentLanguage = lang;
       this.translateService.setActiveLang(lang);

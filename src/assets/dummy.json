@@ -1,22 +1,84 @@
 [
   {
-    "id": 99,
-    "topic": "mythological",
-    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350082/riddles/night_wxp0lt.jpg",
-    "solutions": ["vampire", "vámpír"],
+    "id": 100,
+    "topic": "film",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350083/riddles/red_v60ma2.jpg",
+    "solutions": ["matrix",  "the matrix", "mátrix"],
     "help": [
       {
         "index": 0,
-        "content": "nightOne",
+        "content": "/assets/clues/image/rabbit.jpg",
         "used": false,
-        "typeText": "text",
+        "typeText": "image",
+        "xColor": "white",
         "type": null
       },
       {
         "index": 1,
-        "content": "nightTwo",
+        "content": "/assets/clues/image/pill.jpg",
+        "used": false,
+        "typeText": "image",
+        "xColor": "white",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "redSolution",
         "used": false,
         "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "topic": "mythological",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350082/riddles/night_wxp0lt.jpg",
+    "solutions": ["vampire", "vámpír", "halloween", "final countdown"],
+    "help": [
+      {
+        "index": 0,
+        "content": "/assets/clues/image/coffin.jpg",
+        "used": false,
+        "typeText": "image",
+        "xColor": "black",
+        "type": null
+      },
+      {
+        "index": 1,
+        "content": "/assets/clues/audio/eyes.mp3",
+        "used": false,
+        "typeText": "sound",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "nightSolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "topic": "mythological",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350082/riddles/night_wxp0lt.jpg",
+    "solutions": ["vampire", "vámpír", "halloween", "final countdown", "párterápia"],
+    "help": [
+      {
+        "index": 0,
+        "content": "/assets/clues/image/coffin.jpg",
+        "used": false,
+        "typeText": "image",
+        "xColor": "black",
+        "type": null
+      },
+      {
+        "index": 1,
+        "content": "/assets/clues/audio/eyes.mp3",
+        "used": false,
+        "typeText": "sound",
         "type": null
       },
       {
