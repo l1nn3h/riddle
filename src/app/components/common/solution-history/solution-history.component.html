@@ -1,6 +1,6 @@
 <div class="solution-history-container">
-  <p *transloco="let t, read:'solution'">{{t('history')}}</p>
+  <p class="solution-title" *transloco="let t, read:'solution'">{{t('history')}}</p>
   <div *ngFor="let sol of submittedSolutions">
-    <p [ngClass]="sol.correct ? 'correct' : 'incorrect'">{{sol.solution}}</p>
+    <p [ngClass]="{'correct' : !sol.isSeparator && sol.correct, 'incorrect' : !sol.isSeparator && !sol.correct, 'separator': sol.isSeparator}">{{sol.solution}}</p>
   </div>
 </div>

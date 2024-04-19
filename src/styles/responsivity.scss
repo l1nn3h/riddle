@@ -2,22 +2,49 @@
 
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
-  .dummy-image-container {
-    margin: 20px auto;
-
-    .dummy-image-small {
-      width: 93%;
+  .video-container {
+    .tutorial-video-small {
+      max-width: 400px;
     }
-
-    .dummy-image-large {
+    .tutorial-video-large {
       display: none;
     }
   }
 
+  .menu-container {
+    position: absolute;
+    width: 150px;
+    top: 5px !important;
+    right: 0 !important;
+    margin: 0;
+
+    .vertical-line {
+      display: none;
+    }
+
+    div {
+      margin: 0 2px !important;
+    }
+
+    i, img {
+      margin: 0 !important;
+    }
+
+    .fa-envelope {
+      margin-top: 15px !important;
+    }
+
+    i:hover, img:hover {
+      transform: scale(1) rotate(0deg) !important;
+    }
+
+  }
+
   .contact-container {
     form {
-      width: 80%;
+      width: 95%;
     }
+
     button {
       float: left !important;
     }
@@ -26,19 +53,21 @@
   .riddle-body {
     overflow-x: scroll;
     grid-template-columns: 90vw;
-    grid-template-rows: 8vh 15vh 60vw 10vh auto;
+    grid-template-rows: 10px 8vh auto 30vh 10vh 40px auto;
     grid-gap: 1vh;
     margin: 0 5vw;
 
     .topic {
       grid-column: 1;
-      grid-row: 1 / span 1;
+      grid-row: 2 / span 1;
+      font-size: 1.4rem !important;
     }
 
     .help {
       grid-column: 1;
-      grid-row: 2 / span 1;
+      grid-row: 3 / span 1;
       @include help-in-columns;
+      padding: 5px !important;
 
       .clue-image {
         width: 350px;
@@ -47,18 +76,49 @@
 
     .content {
       grid-column: 1;
-      grid-row: 3;
+      grid-row: 4;
+      padding: 0 !important;
+
+      img {
+        border-radius: 0 !important;
+      }
     }
 
     .solution {
       grid-column: 1;
-      grid-row: 4;
+      grid-row: 5;
+      padding: 5px !important;
+
+      label {
+        display: block;
+        padding: 0;
+      }
+
+      input {
+        width: 100vw;
+      }
     }
 
     .history {
       grid-column: 1;
-      grid-row: 5;
+      grid-row: 7;
       max-height: inherit;
+      min-height: 250px;
+    }
+
+    .progress {
+      grid-column: 1;
+      grid-row: 6;
+      font-size: 1.25rem !important;
+      .progress-container {
+        display: flex;
+        align-content: center;
+        justify-content: space-around;
+        line-height: 0.25;
+        .progress-divider {
+          display: block !important;
+        }
+      }
     }
   }
   .riddle-body::-webkit-scrollbar {
@@ -68,21 +128,14 @@
 
 // Medium devices (tablets, less than 992px)
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .dummy-image-container {
-    width: 680px;
-    margin: 20px auto;
-
-    .dummy-image-small {
+  .video-container {
+    .tutorial-video-small {
       display: none;
-    }
-
-    .dummy-image-large {
-      width: 650px;
     }
   }
   .riddle-body {
-    grid-template-rows: 2fr 1fr 1fr 6fr 2fr 2fr;
-    grid-template-columns: 6fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 7fr 90px 1fr;
+    grid-template-columns: auto 220px;
     grid-gap: 10px;
     margin: 0 1vw;
 
@@ -114,7 +167,16 @@
     .history {
       overflow: scroll;
       grid-column: 2;
-      grid-row: 2 / span 4;
+      grid-row: 2 / span 3;
+    }
+
+    .progress {
+      grid-column: 2;
+      grid-row: 5;
+
+      .progress-container {
+        display: block !important;
+      }
     }
 
     .history::-webkit-scrollbar {
@@ -125,22 +187,15 @@
 
 //Large devices (desktops, less than 1200px) to X-Large devices (large desktops, less than 1400px)
 @media (min-width: 992px) {
-  .dummy-image-container {
-    width: 680px;
-    margin: 0 auto;
-
-    .dummy-image-small {
+  .video-container {
+    .tutorial-video-small {
       display: none;
-    }
-
-    .dummy-image-large {
-      width: 650px;
     }
   }
   .riddle-body {
     overflow-x: hidden;
-    grid-template-rows: 1fr 2fr 10fr 2fr 1fr;
-    grid-template-columns: 1fr 7fr 2fr;
+    grid-template-rows: 1fr 2fr 10fr 90px 1fr;
+    grid-template-columns: 2fr 8fr 3fr;
     grid-gap: 15px;
     margin: 0 auto;
     max-width: 1200px;
@@ -157,7 +212,6 @@
       grid-column: 1;
       grid-row: 3 / span 2;
       @include help-in-rows;
-
 
       .clue-image {
         width: 550px;
@@ -177,7 +231,12 @@
     .history {
       overflow: scroll;
       grid-column: 3;
-      grid-row: 2 / span 3;
+      grid-row: 2 / span 2;
+    }
+
+    .progress {
+      grid-column: 3;
+      grid-row: 4;
     }
 
     .history::-webkit-scrollbar {
@@ -197,7 +256,7 @@
     .history {
       overflow: scroll;
       grid-column: 3;
-      grid-row: 3 / span 2;
+      grid-row: 3;
     }
   }
 }

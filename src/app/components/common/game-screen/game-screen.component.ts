@@ -4,6 +4,7 @@ import {RiddleModel} from '../../../models/riddle.model';
 import {SolvedRiddleModel} from '../../../models/solved-riddle.model';
 import {RiddleService} from '../../../services/riddle.service';
 import {RevealedClueModel} from '../../../models/revealed-clue-model';
+import {SavedGameStatsModel} from '../../../models/saved-game-stats-model';
 
 @Component({
              selector: 'app-game-screen',
@@ -16,9 +17,11 @@ export class GameScreenComponent {
   @Output() public riddleSolvedEvent = new EventEmitter<SolvedRiddleModel>();
 
   submittedSolutions: CheckedSolutionInputModel[] = [];
+  progress: SavedGameStatsModel;
 
   constructor(private riddleService: RiddleService) {
     this.submittedSolutions = this.riddleService.getSolutionHistory();
+    this.progress = this.riddleService.getSavedGameStats();
   }
 
   getCheckedSolutionInput(newCheckedInput: CheckedSolutionInputModel): void {
@@ -30,6 +33,8 @@ export class GameScreenComponent {
         solution: newCheckedInput.solution,
       };
       this.riddleSolvedEvent.emit(solvedRiddle);
+      this.progress = this.riddleService.getSavedGameStats();
+      this.addSeparatorToHistory();
     }
   }
 
@@ -44,8 +49,16 @@ export class GameScreenComponent {
       clueIndex: clueIndex,
       isSolution: clueIndex == 2
     }
-
     this.riddleService.addNewRevealedClue(revealedClue);
   }
 
+  private addSeparatorToHistory(): void {
+    const solutionCount = this.submittedSolutions.filter(s => s.correct).length;
+    const separator: CheckedSolutionInputModel = {
+      solution: '─ Riddle #' + solutionCount + ' ─',
+      isSeparator: true
+    }
+    this.submittedSolutions.unshift(separator);
+    this.addItemToSolutionHistory();
+  }
 }

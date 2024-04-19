@@ -2,6 +2,7 @@
   <div class="riddle-body">
     <app-topic class="box topic" [topic]="riddle.topic"></app-topic>
     <app-help class="box help" (clueUsedEvent)="addNewUsedClue($event)" [helpOptions]="riddle.help"></app-help>
+    <app-progress class="box progress" [progress]="progress"></app-progress>
     <app-picture-screen class="box content" [pictureSource]="riddle.image"></app-picture-screen>
     <app-solution-input class="box solution" (newSolutionEvent)="getCheckedSolutionInput($event)" [solutionOptions]="riddle.solutions"></app-solution-input>
     <app-solution-history class="box history" [submittedSolutions]="submittedSolutions"></app-solution-history>

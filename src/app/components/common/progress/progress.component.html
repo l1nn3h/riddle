@@ -1,0 +1,5 @@
+<div class="progress-container" *transloco="let t, read:'progress'">
+  <p>{{t("solved")}} {{progress.solvedRiddles}} / {{progress.allRiddles}}</p>
+  <p class="progress-divider">-</p>
+  <p>{{t("points")}} {{progress.points}} / {{progress.allRiddles * 3}}</p>
+</div>

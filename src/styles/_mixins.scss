@@ -17,6 +17,11 @@
     .box, .welcome-content, .end-content, .contact-content {
       background-color: $box;
     }
+
+    .saved-game-text {
+      color: $alert;
+    }
+
   }
 
   .contact-content {
@@ -39,7 +44,6 @@
       cursor: not-allowed;
     }
   }
-
   .contact-menu-container {
     color: $alert;
   }
@@ -57,6 +61,16 @@
   .button:hover {
     background-color: $background;
     color: $font;
+    border: 2px solid $font;
+  }
+  .continue-button {
+    background-color: $background;
+    color: $alert;
+    border: 2px solid $alert;
+  }
+  .continue-button:hover {
+    background-color: $font;
+    color: $background;
     border: 2px solid $font;
   }
   .form-control {

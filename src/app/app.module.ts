@@ -23,6 +23,7 @@ import { ThemeComponent } from './components/settings/theme/theme.component';
 import { MenuComponent } from './components/settings/menu/menu.component';
 import {RECAPTCHA_V3_SITE_KEY, RecaptchaV3Module} from 'ng-recaptcha';
 import {environment} from '../environments/environment';
+import {ProgressComponent} from './components/common/progress/progress.component';
 
 @NgModule({
   declarations: [
@@ -42,16 +43,17 @@ import {environment} from '../environments/environment';
     ThemeComponent,
     MenuComponent
   ],
-            imports: [
-              BrowserModule,
-              AppRoutingModule,
-              HttpClientModule,
-              TranslocoRootModule,
-              FormsModule,
-              ReactiveFormsModule,
-              NgOptimizedImage,
-              RecaptchaV3Module
-            ],
+              imports: [
+                  BrowserModule,
+                  AppRoutingModule,
+                  HttpClientModule,
+                  TranslocoRootModule,
+                  FormsModule,
+                  ReactiveFormsModule,
+                  NgOptimizedImage,
+                  RecaptchaV3Module,
+                  ProgressComponent,
+              ],
   providers: [
     { provide: RECAPTCHA_V3_SITE_KEY, useValue: environment.recaptchaSiteKey }
   ],
