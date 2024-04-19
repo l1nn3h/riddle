@@ -7,7 +7,7 @@
     "help": [
       {
         "index": 0,
-        "content": "/assets/clues/image/rabbit.jpg",
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713554346/riddle_clues/rabbit_afjgza.jpg",
         "used": false,
         "typeText": "image",
         "xColor": "white",
@@ -15,7 +15,7 @@
       },
       {
         "index": 1,
-        "content": "/assets/clues/image/pill.jpg",
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713554360/riddle_clues/pill_nvgdim.jpg",
         "used": false,
         "typeText": "image",
         "xColor": "white",
@@ -38,7 +38,7 @@
     "help": [
       {
         "index": 0,
-        "content": "/assets/clues/image/coffin.jpg",
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713554314/riddle_clues/coffin_zuiscu.jpg",
         "used": false,
         "typeText": "image",
         "xColor": "black",
@@ -68,10 +68,10 @@
     "help": [
       {
         "index": 0,
-        "content": "/assets/clues/image/coffin.jpg",
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713554314/riddle_clues/coffin_zuiscu.jpg",
         "used": false,
         "typeText": "image",
-        "xColor": "black",
+        "xColor": "red",
         "type": null
       },
       {

@@ -6,17 +6,26 @@
       <p>{{t("about")}}</p>
       <p>{{t("explore")}}</p>
       <div class="video-container">
-        <video class="tutorial-video tutorial-video-small" controls>
-          <source [src]="getVideoSource('small')" type="video/mp4">
-        </video>
-        <video class="tutorial-video tutorial-video-large" controls>
-          <source [src]="getVideoSource('large')" type="video/mp4">
-        </video>
+        <div *ngIf="getActiveLanguage('en')">
+          <video class="tutorial-video tutorial-video-small" controls>
+            <source src="https://res.cloudinary.com/l1nn3h/video/upload/v1713536392/riddle_video/tutorial_sm_ENG_ym5iqb.mp4" type="video/mp4">
+          </video>
+          <video class="tutorial-video tutorial-video-large" controls>
+            <source src="https://res.cloudinary.com/l1nn3h/video/upload/v1713512764/riddle_video/tutorial_lg_ENG_fyw3gi.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div *ngIf="getActiveLanguage('hu')">
+          <video class="tutorial-video tutorial-video-small" controls>
+            <source src="https://res.cloudinary.com/l1nn3h/video/upload/v1713548476/riddle_video/Riddle_tutorial_sm_HUN_ft0sif.mp4" type="video/mp4">
+          </video>
+          <video class="tutorial-video tutorial-video-large" controls>
+            <source src="https://res.cloudinary.com/l1nn3h/video/upload/v1713559335/riddle_video/Riddle_tutorial_LG_HUN_bq1xd6.mp4" type="video/mp4">
+          </video>
+        </div>
       </div>
       <p>{{t("save")}}</p>
       <p>{{t("callToAction")}}</p>
     </div>
-    <!--      TODO transloco, style-->
     <div class="saved-game" *ngIf="savedGameStats">
       <div class="saved-game-container">
         <h3 class="saved-game-text">{{t("saveGame")}}</h3>

@@ -14,7 +14,7 @@
       },
       {
         "index": 1,
-        "content": "/assets/clues/image/shoe.jpg",
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713554351/riddle_clues/shoe_yd5x6l.jpg",
         "used": false,
         "typeText": "image",
         "xColor": "black",
@@ -66,7 +66,7 @@
     "help": [
       {
         "index": 1,
-        "content": "/assets/clues/image/neo.jpg",
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713554341/riddle_clues/neo_xrrzeb.jpg",
         "used": false,
         "typeText": "image",
         "xColor": "black",
@@ -96,7 +96,7 @@
     "help": [
       {
         "index": 0,
-        "content": "/assets/clues/image/s.jpg",
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713554349/riddle_clues/s_elgsdd.jpg",
         "used": false,
         "typeText": "image",
         "xColor": "black",
@@ -184,7 +184,7 @@
     "help": [
       {
         "index": 0,
-        "content": "/assets/clues/image/amongus.jpg",
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713554306/riddle_clues/amongus_alj1vg.jpg",
         "used": false,
         "typeText": "image",
         "xColor": "white",
@@ -221,7 +221,7 @@
       },
       {
         "index": 0,
-        "content": "/assets/clues/image/cap.jpg",
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713554312/riddle_clues/cap_lndalc.jpg",
         "used": false,
         "typeText": "image",
         "xColor": "black",
@@ -251,7 +251,7 @@
       },
       {
         "index": 1,
-        "content": "/assets/clues/image/bazinga.jpg",
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713554310/riddle_clues/bazinga_cq22bk.jpg",
         "used": false,
         "typeText": "image",
         "xColor": "white",
@@ -310,7 +310,7 @@
       },
       {
         "index": 1,
-        "content": "/assets/clues/image/face.jpg",
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713554328/riddle_clues/face_qmjlug.jpg",
         "used": false,
         "typeText": "image",
         "xColor": "black",
@@ -333,7 +333,7 @@
     "help": [
       {
         "index": 0,
-        "content": "/assets/clues/image/steps.jpg",
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713554354/riddle_clues/steps_wgaivr.jpg",
         "used": false,
         "typeText": "image",
         "xColor": "black",
@@ -370,7 +370,7 @@
       },
       {
         "index": 1,
-        "content": "/assets/clues/image/doctor.jpg",
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713554323/riddle_clues/doctor_u5fqus.jpg",
         "used": false,
         "typeText": "image",
         "xColor": "white",
@@ -393,7 +393,7 @@
     "help": [
       {
         "index": 0,
-        "content": "/assets/clues/image/dark.jpg",
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713554319/riddle_clues/dark_zm9b86.jpg",
         "used": false,
         "typeText": "image",
         "xColor": "white",
@@ -401,7 +401,7 @@
       },
       {
         "index": 0,
-        "content": "/assets/clues/image/crown.png",
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713554317/riddle_clues/crown_hhh1cx.png",
         "used": false,
         "typeText": "image",
         "xColor": "black",
@@ -424,7 +424,7 @@
     "help": [
       {
         "index": 1,
-        "content": "/assets/clues/image/nose.jpg",
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713554344/riddle_clues/nose_gxsze6.jpg",
         "used": false,
         "typeText": "image",
         "xColor": "black",
@@ -454,7 +454,7 @@
     "help": [
       {
         "index": 0,
-        "content": "/assets/clues/image/ladies.jpg",
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713554336/riddle_clues/ladies_khlrav.jpg",
         "used": false,
         "typeText": "image",
         "xColor": "black",
@@ -484,7 +484,7 @@
     "help": [
       {
         "index": 0,
-        "content": "/assets/clues/image/rabbit.jpg",
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713554346/riddle_clues/rabbit_afjgza.jpg",
         "used": false,
         "typeText": "image",
         "xColor": "white",
@@ -492,7 +492,7 @@
       },
       {
         "index": 1,
-        "content": "/assets/clues/image/pill.jpg",
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713554360/riddle_clues/pill_nvgdim.jpg",
         "used": false,
         "typeText": "image",
         "xColor": "white",
@@ -551,7 +551,7 @@
       },
       {
         "index": 1,
-        "content": "/assets/clues/image/jumpsuit.jpg",
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713554330/riddle_clues/jumpsuit_qhuubo.jpg",
         "used": false,
         "typeText": "image",
         "xColor": "white",
@@ -574,7 +574,7 @@
     "help": [
       {
         "index": 0,
-        "content": "/assets/clues/image/actors.png",
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713554303/riddle_clues/actors_f82uhf.jpg",
         "used": false,
         "typeText": "image",
         "xColor": "black",
@@ -582,7 +582,7 @@
       },
       {
         "index": 1,
-        "content": "/assets/clues/image/colorful.png",
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713554357/riddle_clues/colorful_pxwxsl.png",
         "used": false,
         "typeText": "image",
         "xColor": "white",
@@ -612,7 +612,7 @@
       },
       {
         "index": 1,
-        "content": "/assets/clues/image/ash.jpg",
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713554308/riddle_clues/ash_zj1tcx.jpg",
         "used": false,
         "typeText": "image",
         "xColor": "white",
@@ -635,7 +635,7 @@
     "help": [
       {
         "index": 0,
-        "content": "/assets/clues/image/emotions.jpg",
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713554326/riddle_clues/emotions_a9qx4i.jpg",
         "used": false,
         "typeText": "image",
         "xColor": "white",
@@ -643,7 +643,7 @@
       },
       {
         "index": 1,
-        "content": "/assets/clues/image/alfred.jpg",
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713554304/riddle_clues/alfred_cf17l1.jpg",
         "used": false,
         "typeText": "image",
         "xColor": "black",
@@ -673,7 +673,7 @@
       },
       {
         "index": 1,
-        "content": "/assets/clues/image/group.jpg",
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713554333/riddle_clues/group_yrpi2a.jpg",
         "used": false,
         "typeText": "image",
         "xColor": "black",
@@ -696,7 +696,7 @@
     "help": [
       {
         "index": 0,
-        "content": "/assets/clues/image/log.jpg",
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713554338/riddle_clues/log_mtwlql.jpg",
         "used": false,
         "typeText": "image",
         "xColor": "white",
@@ -704,7 +704,7 @@
       },
       {
         "index": 1,
-        "content": "/assets/clues/image/death.jpg",
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713554321/riddle_clues/death_ufruwb.jpg",
         "used": false,
         "typeText": "image",
         "xColor": "white",
