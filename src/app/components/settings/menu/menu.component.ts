@@ -7,23 +7,13 @@ import {Component, OnInit} from '@angular/core';
            })
 export class MenuComponent implements OnInit {
 
-  firstTimeVisitor: boolean = true;
-  currentStep: string = 'language';
+  menuVisible: boolean = false;
 
   public ngOnInit(): void {
-    if (localStorage && localStorage.getItem('tutorial')) {
-      this.firstTimeVisitor = false;
-    }
   }
 
-  continueTutorial(nextStep: string): void {
-    this.currentStep = nextStep;
-  }
-
-  finishTutorial(): void {
-    this.currentStep = 'language';
-    localStorage.setItem('tutorial', 'done');
-    this.firstTimeVisitor = false;
+  toggleMenu() {
+    this.menuVisible = !this.menuVisible;
   }
 
 }

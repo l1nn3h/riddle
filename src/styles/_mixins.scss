@@ -44,7 +44,7 @@
       cursor: not-allowed;
     }
   }
-  .contact-menu-container {
+  .contact-menu-container, #hamburger-menu {
     color: $alert;
   }
   .vertical-line{
@@ -79,7 +79,7 @@
     caret-color: $font;
     border: 2px solid $font;
   }
-  .dummy-image{
+  video {
     border: 3px solid $alert;
   }
 }

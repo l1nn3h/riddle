@@ -1,24 +1,14 @@
 <div class="menu-container">
-  <div class="alert alert-one" *ngIf="firstTimeVisitor && currentStep === 'language'">
-    <span class="alert-text">Language menu / Nyelvválasztás</span>
-    <span class="alert-icon"><i class="fa-solid fa-arrow-right"></i></span>
-    <span class="alert-button" (click)="continueTutorial('theme')"><i class="fa-solid fa-circle-check"></i></span>
+  <div class="menu-toggle">
+    <i class="fa-solid fa-circle-chevron-down" id="hamburger-menu" (click)="toggleMenu()"></i>
   </div>
-  <app-language-selector></app-language-selector>
-  <div class="vertical-line"></div>
-  <app-theme></app-theme>
-  <div class="alert alert-two" *ngIf="firstTimeVisitor && currentStep === 'theme'">
-    <span class="alert-text">Theme&nbsp;menu&nbsp;/&nbsp;Témaválasztás</span>
-    <span class="alert-icon"><i class="fa-solid fa-arrow-up"></i></span>
-    <span class="alert-button" (click)="continueTutorial('contact')"><i class="fa-solid fa-circle-check"></i></span>
-  </div>
-  <div class="vertical-line"></div>
-  <div class="contact-menu-container">
-    <i routerLink="/contact" class="fa-solid fa-envelope fa-2xl"></i>
-  </div>
-  <div class="alert alert-three" *ngIf="firstTimeVisitor && currentStep === 'contact'">
-    <span class="alert-text">Contact&nbsp;/&nbsp;Kapcsolat</span>
-    <span class="alert-icon"><i class="fa-solid fa-arrow-up"></i></span>
-    <span class="alert-button" (click)="finishTutorial()"><i class="fa-solid fa-circle-check"></i></span>
+  <div class="menu-options" [ngClass]="{'small-menu-visible' : menuVisible}">
+    <app-theme></app-theme>
+    <div class="vertical-line"></div>
+    <app-language-selector></app-language-selector>
+    <div class="vertical-line"></div>
+    <div class="contact-menu-container menu-item">
+      <i routerLink="/contact" class="fa-solid fa-envelope fa-2xl"></i>
+    </div>
   </div>
 </div>
