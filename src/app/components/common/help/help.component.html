@@ -7,7 +7,7 @@
         <div *ngIf="help.type === HelpTypeEnum.text">
           <span *transloco="let t, read:'help'">{{t(help.content)}}</span>
         </div>
-        <div class="thumbnail-container" *ngIf="help.type === HelpTypeEnum.image">
+        <div class="thumbnail-container" *ngIf="help.type === HelpTypeEnum.image && help.used">
           <img
             (click)="showImage(help.content, help.xColor)"
             class="thumbnail"
