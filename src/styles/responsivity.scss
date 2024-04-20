@@ -236,7 +236,7 @@
       @include help-in-columns;
 
       .clue-image {
-        width: 450px;
+        max-width: 450px;
       }
     }
 
@@ -292,7 +292,7 @@
       @include help-in-rows;
 
       .clue-image {
-        width: 550px;
+        max-width: 550px;
       }
     }
 
