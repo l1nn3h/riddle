@@ -2,7 +2,7 @@
   {
     "id": 1,
     "topic": "bookFilm",
-    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350082/riddles/hot_ckufmn.jpg",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1713726743/riddles/red_uxiiel.jpg",
     "solutions": ["the devil wears prada",  "devil wears prada", "az ördög pradát visel", "ördög pradát visel", "az ördög pradat visel", "ördög pradat visel"],
     "help": [
       {
@@ -32,7 +32,7 @@
   {
     "id": 2,
     "topic": "science",
-    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350081/riddles/cat_be8iwd.jpg",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1713726168/riddles/cat_htxsnq.jpg",
     "solutions": ["schrödinger", "schrodinger", "schrödinger's cat", "schrodinger's cat", "schrödinger cat", "schrodinger cat", "schrödinger macskája","schrödinger macska", "erwin schrödinger", "erwin schrodinger"],
     "help": [
       {
@@ -61,7 +61,7 @@
   {
     "id": 3,
     "topic": "film",
-    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350082/riddles/court_rvpbeg.jpg",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1713724669/riddles/back_zus5yp.jpg",
     "solutions": ["the devil's advocate", "devil's advocate", "az ördög ügyvédje", "ördög ügyvédje"],
     "help": [
       {
@@ -91,7 +91,7 @@
   {
     "id": 4,
     "topic": "music",
-    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350082/riddles/men_paxcz1.jpg",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1713720460/riddles/line_qotblp.jpg",
     "solutions": ["slipknot"],
     "help": [
       {
@@ -121,7 +121,7 @@
   {
     "id": 5,
     "topic": "foodDrink",
-    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350083/riddles/snack_o9yfm6.jpg",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1713717268/riddles/food_vdl9hk.jpg",
     "solutions": ["kitkat", "kit kat"],
     "help": [
       {
@@ -150,7 +150,7 @@
   {
     "id": 6,
     "topic": "science",
-    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350081/riddles/flags_ya7lac.jpg",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1713717026/riddles/sky_mdrbj2.jpg",
     "solutions": ["marie curie", "madame curie", "marie skłodowska","marie sklodowska"],
     "help": [
       {
@@ -179,12 +179,12 @@
   {
     "id": 7,
     "topic": "science",
-    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350081/riddles/characters_tgp1cr.jpg",
-    "solutions": ["impostor syndrome", "imposztor szindróma"],
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1713697653/riddles/trophy_mwsytd.jpg",
+    "solutions": ["impostor syndrome", "imposter syndrome", "imposztor szindróma"],
     "help": [
       {
         "index": 0,
-        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713605017/riddle_clues/amongus_ytn95y.png",
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713643025/riddle_clues/secret_su5mga.jpg",
         "used": false,
         "typeText": "image",
         "xColor": "white",
@@ -192,9 +192,10 @@
       },
       {
         "index": 1,
-        "content": "doubtfulTwo",
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713643765/riddle_clues/fear_o8ysgj.jpg",
         "used": false,
-        "typeText": "text",
+        "typeText": "image",
+        "xColor": "black",
         "type": null
       },
       {
@@ -209,7 +210,7 @@
   {
     "id": 8,
     "topic": "character",
-    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350082/riddles/handy_eeassq.jpg",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1713715736/riddles/Untitled_kv2d0x.jpg",
     "solutions": ["mario", "super mario"],
     "help": [
       {
@@ -239,7 +240,7 @@
   {
     "id": 9,
     "topic": "series",
-    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350082/riddles/chaos_j6luir.jpg",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1713715278/riddles/rocks_dapjcn.jpg",
     "solutions": ["the big bang theory", "big bang theory", "agymenők"],
     "help": [
       {
@@ -269,7 +270,7 @@
   {
     "id": 10,
     "topic": "villain",
-    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350083/riddles/people_w2t26c.jpg",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1713713446/riddles/maths_xba2hy.jpg",
     "solutions": ["charles manson"],
     "help": [
       {
@@ -298,7 +299,7 @@
   {
     "id": 11,
     "topic": "bookFilm",
-    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350081/riddles/garden_mrerpx.jpg",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1713711995/riddles/house_mrdlsp.jpg",
     "solutions": ["the shining", "shining", "ragyogás", "a ragyogás"],
     "help": [
       {
@@ -328,7 +329,7 @@
   {
     "id": 12,
     "topic": "music",
-    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350083/riddles/river_mxycd4.jpg",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1713710773/riddles/city_reb4tr.jpg",
     "solutions": ["the blue danube waltz", "blue danube waltz", "kék duna keringő"],
     "help": [
       {
@@ -358,7 +359,7 @@
   {
     "id": 13,
     "topic": "series",
-    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350082/riddles/faces_epgm10.jpg",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1713710212/riddles/many_dks9jy.jpg",
     "solutions": ["doctor who", "ki vagy, doki?", "ki vagy, doki", "ki vagy doki"],
     "help": [
       {
@@ -388,7 +389,7 @@
   {
     "id": 14,
     "topic": "music",
-    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350083/riddles/royalty_lttism.jpg",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1713709661/riddles/songs_ga9kun.jpg",
     "solutions": ["queen"],
     "help": [
       {
@@ -419,7 +420,7 @@
   {
     "id": 15,
     "topic": "villain",
-    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350083/riddles/seven_joel8z.jpg",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1713708614/riddles/collection_oqgbtb.jpg",
     "solutions": ["voldemort"],
     "help": [
       {
@@ -449,7 +450,7 @@
   {
     "id": 16,
     "topic": "film",
-    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350081/riddles/cartoon_nk37ld.jpg",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1713707406/riddles/tale_f2p6hj.jpg",
     "solutions": ["shrek"],
     "help": [
       {
@@ -479,7 +480,7 @@
   {
     "id": 17,
     "topic": "film",
-    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350083/riddles/red_v60ma2.jpg",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1713704255/riddles/pc_d6xfil.jpg",
     "solutions": ["matrix",  "the matrix", "mátrix"],
     "help": [
       {
@@ -510,7 +511,7 @@
   {
     "id": 18,
     "topic": "music",
-    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350082/riddles/end_y9eaqv.jpg",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1713703038/riddles/blue_b6kroq.jpg",
     "solutions": ["nirvana"],
     "help": [
       {
@@ -539,7 +540,7 @@
   {
     "id": 19,
     "topic": "series",
-    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350081/riddles/fruit_ryulkb.jpg",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1713702618/riddles/change_b4v7hy.jpg",
     "solutions": ["orange is the new black", "narancs az új fekete", "a narancs az új fekete"],
     "help": [
       {
@@ -569,7 +570,7 @@
   {
     "id": 20,
     "topic": "villain",
-    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350082/riddles/happykid_gqjre7.jpg",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1713702209/riddles/friend_iwqf3a.jpg",
     "solutions": ["pennywise"],
     "help": [
       {
@@ -630,7 +631,7 @@
   {
     "id": 22,
     "topic": "game",
-    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706350081/riddles/films_uzfdp6.jpg",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1713698570/riddles/screaming_wdlefi.jpg",
     "solutions": ["angry birds"],
     "help": [
       {
@@ -661,7 +662,7 @@
   {
     "id": 23,
     "topic": "film",
-    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706382092/riddles/green_ttsagv.jpg",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1713698293/riddles/clearing_acuax5.jpg",
     "solutions": ["jumanji"],
     "help": [
       {
@@ -691,7 +692,7 @@
   {
     "id": 24,
     "topic": "film",
-    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1706444038/riddles/travel_ioto00.jpg",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1713697944/riddles/journey_yisalm.jpg",
     "solutions": ["final destination", "végső állomás"],
     "help": [
       {
@@ -713,6 +714,188 @@
       {
         "index": 2,
         "content": "travelSolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "topic": "children",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1713696992/riddles/animals_r317yj.jpg",
+    "solutions": ["winnie-the-pooh", "winnie the pooh", "micimackó"],
+    "help": [
+      {
+        "index": 0,
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713633045/riddle_clues/jar_ju3slo.jpg",
+        "used": false,
+        "typeText": "image",
+        "xColor": "black",
+        "type": null
+      },
+      {
+        "index": 0,
+        "content": "animalsOne",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "animalsSolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "topic": "series",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1713696619/riddles/items_mgsabb.jpg",
+    "solutions": ["friends", "jóbarátok"],
+    "help": [
+      {
+        "index": 0,
+        "content": "/assets/clues/audio/theme_song.mp3",
+        "used": false,
+        "typeText": "sound",
+        "type": null
+      },
+      {
+        "index": 1,
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713692550/riddle_clues/young_mdfdma.jpg",
+        "used": false,
+        "typeText": "image",
+        "xColor": "black",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "collageSolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "topic": "children",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1713695645/riddles/bachelors_czatg3.jpg",
+    "solutions": ["lion king", "the lion king", "oroszlánkirály", "az oroszlánkirály"],
+    "help": [
+      {
+        "index": 0,
+        "content": "/assets/clues/audio/the_tokens.mp3",
+        "used": false,
+        "typeText": "sound",
+        "type": null
+      },
+      {
+        "index": 1,
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713647870/riddle_clues/bestfriends_xutarh.jpg",
+        "used": false,
+        "typeText": "image",
+        "xColor": "black",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "buddiesSolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "topic": "character",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1713695062/riddles/shadows_jvpkq3.jpg",
+    "solutions": ["sherlock holmes", "sherlock"],
+    "help": [
+      {
+        "index": 0,
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713649417/riddle_clues/hat_jhshcg.jpg",
+        "used": false,
+        "typeText": "image",
+        "xColor": "black",
+        "type": null
+      },
+      {
+        "index": 1,
+        "content": "shadowOne",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "shadowSolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "topic": "children",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1713694696/riddles/boat_nnmtbs.jpg",
+    "solutions": ["little mermaid", "the little mermaid", "a kis hableány", "kis hableány"],
+    "help": [
+      {
+        "index": 0,
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713683429/riddle_clues/bikini_eiavyt.jpg",
+        "used": false,
+        "typeText": "image",
+        "xColor": "black",
+        "type": null
+      },
+      {
+        "index": 1,
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713683434/riddle_clues/drag_ibrgjc.jpg",
+        "used": false,
+        "typeText": "image",
+        "xColor": "black",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "boatSolution",
+        "used": false,
+        "typeText": "text",
+        "type": null
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "topic": "film",
+    "image": "https://res.cloudinary.com/l1nn3h/image/upload/v1713694314/riddles/crime_qanek9.jpg",
+    "solutions": ["the usual suspects", "usual suspects", "közönséges bűnözők"],
+    "help": [
+      {
+        "index": 0,
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713690490/riddle_clues/cane_ciciwe.jpg",
+        "used": false,
+        "typeText": "image",
+        "xColor": "black",
+        "type": null
+      },
+      {
+        "index": 1,
+        "content": "https://res.cloudinary.com/l1nn3h/image/upload/v1713690484/riddle_clues/man_yp7ror.jpg",
+        "used": false,
+        "typeText": "image",
+        "xColor": "white",
+        "type": null
+      },
+      {
+        "index": 2,
+        "content": "crimeSolution",
         "used": false,
         "typeText": "text",
         "type": null

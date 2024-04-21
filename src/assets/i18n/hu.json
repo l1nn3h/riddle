@@ -42,7 +42,8 @@
     "mythological": "Legendás lény",
     "foodDrink": "Étel / Ital",
     "character": "Karakter",
-    "game": "Játék"
+    "game": "Játék",
+    "children": "Mese"
   },
   "help": {
     "dummySolution": "dummySolution",
@@ -88,6 +89,14 @@
     "butterflySolution": "Pillangóhatás",
     "filmsSolution": "Angry birds",
     "jungleSolution": "Jumanji",
-    "travelSolution": "Végső állomás"
+    "travelSolution": "Végső állomás",
+    "animalsOne": "Róbert Gida",
+    "animalsSolution": "Micimackó",
+    "collageSolution": "Jóbarátok",
+    "buddiesSolution": "Az oroszlánkirály",
+    "shadowOne": "Arthur Conan Doyle",
+    "shadowSolution": "Sherlock Holmes",
+    "boatSolution": "A kis hableány",
+    "crimeSolution": "Közönséges bűnözők"
   }
 }

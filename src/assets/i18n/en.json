@@ -44,7 +44,8 @@
     "mythological": "Mythological creature",
     "foodDrink": "Food / Drink",
     "character": "Character",
-    "game": "Game"
+    "game": "Game",
+    "children": "Children's stories"
   },
   "help": {
     "dummySolution": "dummySolution",
@@ -90,6 +91,14 @@
     "butterflySolution": "Butterfly effect",
     "filmsSolution": "Angry birds",
     "jungleSolution": "Jumanji",
-    "travelSolution": "Final Destination"
+    "travelSolution": "Final Destination",
+    "animalsOne": "Christopher Robin",
+    "animalsSolution": "Winnie-the-Pooh",
+    "collageSolution": "Friends",
+    "buddiesSolution": "The Lion King",
+    "shadowOne": "Arthur Conan Doyle",
+    "shadowSolution": "Sherlock Holmes",
+    "boatSolution": "The Little Mermaid",
+    "crimeSolution": "The Usual Suspects"
   }
 }
