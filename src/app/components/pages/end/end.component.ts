@@ -15,7 +15,7 @@ export class EndComponent {
   constructor(private riddleService: RiddleService, private router: Router) {
     if (this.riddleService.checkForSavedGame()) {
       const stats = this.riddleService.getEndGameStats();
-      if (stats.allRiddles == stats.solvedRiddles + stats.failedRiddles) {
+      if (stats.gameFinished) {
         this.endStats = stats;
       } else {
         this.router.navigate(['error']).then();

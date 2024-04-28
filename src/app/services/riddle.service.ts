@@ -189,6 +189,7 @@ export class RiddleService {
   public getEndGameStats(): EndGameStatsModel {
     const game: StorageModel = this.storageService.getEncryptedItem('game');
     return {
+      gameFinished: game.currentRiddleIndex == game.riddleOrder.length,
       allRiddles: game.riddleOrder.length,
       solvedRiddles: game.riddleOrder.length - game.cluesUsed.filter(clue => clue.isSolution).length,
       failedRiddles: game.cluesUsed.filter(clue => clue.isSolution).length,

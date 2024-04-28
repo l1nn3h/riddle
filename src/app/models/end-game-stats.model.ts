@@ -1,4 +1,5 @@
 export interface EndGameStatsModel {
+  gameFinished: boolean;
   allRiddles: number;
   solvedRiddles: number;
   failedRiddles: number;
