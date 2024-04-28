@@ -38,7 +38,7 @@
       </form>
     </div>
     <div class="message-sent-container" *ngIf="confirmedEmail && confirmedEmail.emailSent">
-      <p>{{t("thanks")}}{{confirmedEmail.name}}!</p>
+      <h2>{{t("thanks")}}{{confirmedEmail.name}}!</h2>
     </div>
     <div class="message-sent-container" *ngIf="error">
       <h2>{{t("error")}}</h2>
