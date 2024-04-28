@@ -1,28 +1,25 @@
-import { Component } from '@angular/core';
-import {SavedGameStatsModel} from '../../../models/saved-game-stats-model';
+import {Component} from '@angular/core';
 import {RiddleService} from '../../../services/riddle.service';
 import {Router} from '@angular/router';
+import {EndGameStatsModel} from '../../../models/end-game-stats.model';
 
 @Component({
-  selector: 'app-end',
-  templateUrl: './end.component.html',
-  styleUrls: ['./end.component.scss']
-})
+             selector: 'app-end',
+             templateUrl: './end.component.html',
+             styleUrls: ['./end.component.scss'],
+           })
 export class EndComponent {
 
-  savedGameStats: SavedGameStatsModel;
+  endStats: EndGameStatsModel;
 
   constructor(private riddleService: RiddleService, private router: Router) {
     if (this.riddleService.checkForSavedGame()) {
-      const stats = this.riddleService.getSavedGameStats();
-      if (stats.allRiddles == stats.solvedRiddles) {
-        this.savedGameStats = stats;
-        console.log(stats);
+      const stats = this.riddleService.getEndGameStats();
+      if (stats.allRiddles == stats.solvedRiddles + stats.failedRiddles) {
+        this.endStats = stats;
+      } else {
+        this.router.navigate(['error']).then();
       }
     }
-  }
-
-  public navigateToWelcome(): void {
-    this.router.navigate(['']).then();
   }
 }

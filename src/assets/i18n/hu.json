@@ -16,11 +16,22 @@
     "continueGame": "Játék folytatása"
   },
   "endPage": {
-    "congrats": "Gratuálok, a játék végére értél!",
-    "solved": "Megoldva:",
-    "clues": "Felhasznált segítség:",
-    "solutions": "Felfedett megoldás:",
-    "points": "Pontszám: "
+    "congrats": "Gratulálok, a játék végére értél!",
+    "solved": " ",
+    "solvedMiddle": " feladványt oldottál meg ",
+    "solvedEnd": " pontért.",
+    "noHelp": " ",
+    "noHelpEnd": " megoldásra segítség nélkül jöttél rá!",
+    "oneClue": "Egy kis segítségre volt szükséged ",
+    "oneClueEnd": " feladvány megoldásához.",
+    "bothClues": "Mindkét segítséget megnézted ",
+    "bothCluesEnd": " feladványnál.",
+    "noClues": "Ráadásul mindezt segítség nélkül!",
+    "failedRiddles": " feladvány fogott ki rajtad.",
+    "thanks": "Köszi a játékot!"
+  },
+  "errorPage": {
+    "backToWelcome": "Vigyél vissza a játékhoz!"
   },
   "solution": {
     "inputLabel": "Megfejtés: ",

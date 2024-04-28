@@ -1,3 +1,14 @@
-<p>
-  error works!
-</p>
+<div class="error-container">
+  <div class="error-content" *transloco="let t, read:'errorPage'">
+    <div class="error-image-container">
+      <img
+        class="error-image"
+        src="https://res.cloudinary.com/l1nn3h/image/upload/v1714161251/riddles/error_omaadj.jpg"
+        alt="detective looking at 404 sign"
+      >
+    </div>
+    <div class="error-button-container">
+      <button class="button" (click)="navigateToWelcome()">{{t("backToWelcome")}}</button>
+    </div>
+  </div>
+</div>

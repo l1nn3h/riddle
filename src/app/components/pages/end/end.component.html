@@ -1,29 +1,75 @@
-<div class="end-container">
-  <div class="end-content" *ngIf="!savedGameStats">
+<div
+  class="end-container"
+  *transloco="let t, read:'endPage'"
+>
+  <div
+    class="end-content"
+    *ngIf="endStats"
+  >
     <div class="end-text-container">
-      <div class="end-error">
-        <h1>Oh no, something went wrong</h1>
-        <button class="button" (click)="navigateToWelcome()">Back to the game</button>
-      </div>
-    </div>
-
-  </div>
-<!--  TODO styling-->
-  <div class="end-content" *ngIf="savedGameStats">
-    <div class="end-text-container">
-      <div class="end-stats" *transloco="let t, read:'endPage'">
+      <div class="end-title">
         <h1>{{t("congrats")}}</h1>
-        <p>{{t("solved")}} {{savedGameStats.solvedRiddles}} / {{savedGameStats.allRiddles}}</p>
-        <p>{{t("clues")}} {{savedGameStats.cluesUsed}}</p>
-        <p>{{t("solutions")}} {{savedGameStats.solutionsUsed}}</p>
-        <p>{{t("points")}} {{savedGameStats.points}} / {{savedGameStats.allRiddles * 3}}</p>
-        <button class="button" (click)="navigateToWelcome()">Back to the game</button>
+      </div>
+      <div class="end-image-container">
+        <img
+          src="https://res.cloudinary.com/l1nn3h/image/upload/v1714218221/riddles/end3_besh2q.png"
+          alt="celebration"
+          class="end-image"
+        >
+      </div>
+      <div class="end-text-container">
+        <div class="end-stats">
+          <p>
+            {{t("solved")}}
+            <span class="end-stat end-stat-positive">{{endStats.solvedRiddles}}</span>
+            {{t("solvedMiddle")}}
+            <span class="end-stat end-stat-positive">{{endStats.points}}</span>
+            {{t("solvedEnd")}}
+            <br>
+            <span *ngIf="endStats.riddlesSolvedWithBothClues + endStats.riddlesSolvedWithOneClue">
+            <span *ngIf="endStats.solvedRiddles > endStats.riddlesSolvedWithOneClue + endStats.riddlesSolvedWithBothClues">
+              {{t("noHelp")}}
+              <span class="end-stat end-stat-positive">
+                {{endStats.solvedRiddles - endStats.riddlesSolvedWithOneClue - endStats.riddlesSolvedWithBothClues}}
+              </span>
+              {{t("noHelpEnd")}}
+              <br>
+            </span>
+            <span *ngIf="endStats.riddlesSolvedWithOneClue">
+              {{t("oneClue")}}
+              <span class="end-stat end-stat-neutral">
+                {{endStats.riddlesSolvedWithOneClue}}
+              </span>
+              {{t("oneClueEnd")}}
+              <br>
+            </span>
+            <span *ngIf="endStats.riddlesSolvedWithBothClues">
+              {{t("bothClues")}}
+              <span class="end-stat end-stat-neutral">
+                {{endStats.riddlesSolvedWithBothClues}}
+              </span>
+              {{t("bothCluesEnd")}}
+              <br>
+            </span>
+          </span>
+            <span *ngIf="endStats.riddlesSolvedWithBothClues + endStats.riddlesSolvedWithOneClue == 0">
+            {{t("noClues")}}
+              <br>
+          </span>
+            <span *ngIf="endStats.failedRiddles > 0">
+            <span class="end-stat end-stat-negative">
+                {{endStats.failedRiddles}}
+              </span>
+              {{t("failedRiddles")}}
+              <br>
+          </span>
+          </p>
+        </div>
+        <div class="end-title">
+          <h1>{{t("thanks")}}</h1>
+        </div>
       </div>
     </div>
-
   </div>
-
-
-
 </div>
 

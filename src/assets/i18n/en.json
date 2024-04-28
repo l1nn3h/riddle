@@ -17,10 +17,21 @@
   },
   "endPage": {
     "congrats": "Congrats, you beat the game!",
-    "solved": "Solved Riddles:",
-    "clues": "Clues revealed:",
-    "solutions": "Solutions revealed:",
-    "points": "Points: "
+    "solved": "You solved ",
+    "solvedMiddle": "riddles for a total of",
+    "solvedEnd": "points.",
+    "noHelp": "You didn't need any help to figure out ",
+    "noHelpEnd": " riddles, well done!",
+    "oneClue": "You peeked at a clue to reach ",
+    "oneClueEnd": " solutions.",
+    "bothClues": "Both clues were needed for ",
+    "bothCluesEnd": " riddles.",
+    "noClues": "You didn't even need any clues! How awesome is that?",
+    "failedRiddles": " riddles were out of your league.",
+    "thanks": "Thank you for playing!"
+  },
+  "errorPage": {
+    "backToWelcome": "Get me out of here!"
   },
   "solution": {
     "inputLabel": "Solution: ",

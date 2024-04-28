@@ -11,10 +11,10 @@
 }
 
 @mixin theme-colors($background, $font, $box, $accent, $line, $alert) {
-  .riddle-container,.welcome-container, .end-container, .contact-container {
+  .riddle-container,.welcome-container, .end-container, .contact-container, .error-container {
     background-color: $background;
     color: $font;
-    .box, .welcome-content, .end-content, .contact-content {
+    .box, .welcome-content, .end-content, .contact-content, .error-content {
       background-color: $box;
     }
 

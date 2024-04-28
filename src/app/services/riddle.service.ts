@@ -5,17 +5,18 @@ import {StorageService} from './storage.service';
 import {CheckedSolutionInputModel} from '../models/checked-solution-input-model';
 import {RevealedClueModel} from '../models/revealed-clue-model';
 import {SavedGameStatsModel} from '../models/saved-game-stats-model';
-import riddleList from '../../assets/riddles.json';
-
+import {EndGameStatsModel} from '../models/end-game-stats.model';
 //short list used for testing
 // import riddleList from '../../assets/dummy.json';
+// import riddleList from '../../assets/benched.json';
+import riddleList from '../../assets/riddles.json';
 
 @Injectable({
               providedIn: 'root',
             })
 export class RiddleService {
 
-  // TODO set to true for prod
+  //true for prod
   private isShuffled: boolean = true;
   private riddles: RiddleModel[] = [];
   private shuffledRiddles: RiddleModel[];
@@ -59,7 +60,7 @@ export class RiddleService {
         //   orderList.push(riddle.id);
         // });
 
-        //reverse order
+        //reverse order for testing new riddles
         this.riddles.reverse().forEach((riddle: RiddleModel) => {
           orderList.push(riddle.id);
         });
@@ -183,6 +184,30 @@ export class RiddleService {
       solutionsUsed: game.cluesUsed.filter(clue => clue.isSolution).length,
       points: this.calculatePoints(game)
     };
+  }
+
+  public getEndGameStats(): EndGameStatsModel {
+    const game: StorageModel = this.storageService.getEncryptedItem('game');
+    return {
+      allRiddles: game.riddleOrder.length,
+      solvedRiddles: game.riddleOrder.length - game.cluesUsed.filter(clue => clue.isSolution).length,
+      failedRiddles: game.cluesUsed.filter(clue => clue.isSolution).length,
+      riddlesSolvedWithOneClue: this.countRiddlesSolvedWithOneClue(game),
+      riddlesSolvedWithBothClues: this.countRiddlesSolvedWithBothClues(game),
+      points: this.calculatePoints(game),
+    };
+  }
+
+  private countRiddlesSolvedWithOneClue(game: StorageModel): number {
+    const solutionRiddleIds = game.cluesUsed.filter(clue => clue.isSolution).map(c => c.riddleId);
+    let clueListWithoutSolutions = game.cluesUsed.filter(clue => !solutionRiddleIds.includes(clue.riddleId));
+    return clueListWithoutSolutions.length - (this.countRiddlesSolvedWithBothClues(game) * 2);
+  }
+
+  private countRiddlesSolvedWithBothClues(game: StorageModel): number {
+    const solutionRiddleIds = game.cluesUsed.filter(clue => clue.isSolution).map(c => c.riddleId);
+    let clueListWithoutSolutions = game.cluesUsed.filter(clue => !solutionRiddleIds.includes(clue.riddleId));
+    return clueListWithoutSolutions.length - new Set(clueListWithoutSolutions.map(c => c.riddleId)).size;
   }
 
   private calculatePoints(game: StorageModel): number {
