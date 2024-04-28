@@ -31,7 +31,7 @@
     "thanks": "Köszi a játékot!"
   },
   "errorPage": {
-    "backToWelcome": "Vigyél vissza a játékhoz!"
+    "backToWelcome": "Vissza a játékhoz"
   },
   "solution": {
     "inputLabel": "Megfejtés: ",
@@ -42,6 +42,19 @@
   "progress": {
     "solved": "Megoldva: ",
     "points": "Pontszám: "
+  },
+  "contactPage" : {
+    "title": "Kapcsolat",
+    "text": "Kérdésed van? Megosztanád a véleményed? Van egy jó feladvány ötleted? Írd meg a fejlesztőnek!",
+    "nameLabel": "Név",
+    "nameError": "Túl rövid név!",
+    "emailLabel": "Email",
+    "emailError": "Érvénytelen email!",
+    "messageLabel": "Üzenet",
+    "messageError": "Túl rövid üzenet!",
+    "submit": "Küldés",
+    "thanks": "Köszönöm az üzeneted, ",
+    "error": "Nem sikerült elküldeni az üzenetet. Kérlek próbáld meg később!"
   },
   "riddleTitle": {
     "music": "Zene",

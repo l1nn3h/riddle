@@ -31,7 +31,7 @@
     "thanks": "Thank you for playing!"
   },
   "errorPage": {
-    "backToWelcome": "Get me out of here!"
+    "backToWelcome": "Back to the game"
   },
   "solution": {
     "inputLabel": "Solution: ",
@@ -43,6 +43,19 @@
   "progress": {
     "solved": "Solved: ",
     "points": "Points: "
+  },
+  "contactPage" : {
+    "title": "Contact",
+    "text": "Should you have any questions, feedback or riddle suggestions, please send a message to the developer!",
+    "nameLabel": "Name",
+    "nameError": "Name is too short!",
+    "emailLabel": "Email",
+    "emailError": "Email is invalid!",
+    "messageLabel": "Message",
+    "messageError": "Message is invalid!",
+    "submit": "Submit",
+    "thanks": "Thank you for your message, ",
+    "error": "Your message could not be sent. Please try again later!"
   },
   "riddleTitle": {
     "music": "Music",
